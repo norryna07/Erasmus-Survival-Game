@@ -9,6 +9,8 @@
 4. [Gameplay](#gameplay)
 5. [Side quests](#side-quests)
 6. [Endings](#endings)
+7. [Implementation](/implementation.md)
+8. [Diagram](/diagram.md)
 
 ## Overview
 
