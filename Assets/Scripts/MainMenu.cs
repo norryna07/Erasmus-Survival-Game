@@ -35,7 +35,7 @@ public class MainMenu : MonoBehaviour
     public void NewGame()
     {
         // move to second scene
-        SceneManager.LoadScene("");
+        SceneManager.LoadScene("CharacterSelection");
     }
 
     public void ResumeGame()
