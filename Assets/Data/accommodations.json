@@ -161,6 +161,10 @@
         {
             "name":"Poland",
             "multiplicationFactor": 1.00
+        },
+        {
+            "name":"Romania",
+            "multiplicationFactor": 1.30
         }
     ]
 }

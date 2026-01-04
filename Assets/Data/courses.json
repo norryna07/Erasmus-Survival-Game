@@ -1,0 +1,2038 @@
+{
+    "courses": [
+        {
+            "courses_id": "ce_0",
+            "englishName": "Data Structures and Algorithms",
+            "major": "Computer Engineering",
+            "translations": {
+                "Greece": "Δομές Δεδομένων και Αλγόριθμοι",
+                "Bulgaria": "Структури от данни и алгоритми",
+                "Armenia": "Տվյալների կառուցվածքներ և ալգորիթմներ",
+                "Turkey": "Veri Yapıları ve Algoritmalar",
+                "Spain": "Estructuras de Datos y Algoritmos",
+                "Italy": "Strutture Dati e Algoritmi",
+                "Austria": "Datenstrukturen und Algorithmen",
+                "France": "Structures de Données et Algorithmes",
+                "Portugal": "Estruturas de Dados e Algoritmos",
+                "Poland": "Struktury Danych i Algorytmy",
+                "Romania": "Structuri de Date și Algoritmi"
+            }
+        },
+        {
+            "courses_id": "ce_1",
+            "englishName": "Operating Systems",
+            "major": "Computer Engineering",
+            "translations": {
+                "Greece": "Λειτουργικά Συστήματα",
+                "Bulgaria": "Операционни системи",
+                "Armenia": "Օպերացիոն համակարգեր",
+                "Turkey": "İşletim Sistemleri",
+                "Spain": "Sistemas Operativos",
+                "Italy": "Sistemi Operativi",
+                "Austria": "Betriebssysteme",
+                "France": "Systèmes d’Exploitation",
+                "Portugal": "Sistemas Operativos",
+                "Poland": "Systemy Operacyjne",
+                "Romania": "Sisteme de Operare"
+            }
+        },
+        {
+            "courses_id": "ce_2",
+            "englishName": "Computer Architecture",
+            "major": "Computer Engineering",
+            "translations": {
+                "Greece": "Αρχιτεκτονική Υπολογιστών",
+                "Bulgaria": "Архитектура на компютърните системи",
+                "Armenia": "Համակարգչային ճարտարապետություն",
+                "Turkey": "Bilgisayar Mimarisi",
+                "Spain": "Arquitectura de Computadores",
+                "Italy": "Architettura degli Elaboratori",
+                "Austria": "Rechnerarchitektur",
+                "France": "Architecture des Ordinateurs",
+                "Portugal": "Arquitetura de Computadores",
+                "Poland": "Architektura Komputerów",
+                "Romania": "Arhitectura Calculatoarelor"
+            }
+        },
+        {
+            "courses_id": "ce_3",
+            "englishName": "Databases",
+            "major": "Computer Engineering",
+            "translations": {
+                "Greece": "Βάσεις Δεδομένων",
+                "Bulgaria": "Бази данни",
+                "Armenia": "Տվյալների բազաներ",
+                "Turkey": "Veritabanları",
+                "Spain": "Bases de Datos",
+                "Italy": "Basi di Dati",
+                "Austria": "Datenbanken",
+                "France": "Bases de Données",
+                "Portugal": "Bases de Dados",
+                "Poland": "Bazy Danych",
+                "Romania": "Baze de Date"
+            }
+        },
+        {
+            "courses_id": "ce_4",
+            "englishName": "Software Engineering",
+            "major": "Computer Engineering",
+            "translations": {
+                "Greece": "Τεχνολογία Λογισμικού",
+                "Bulgaria": "Софтуерно инженерство",
+                "Armenia": "Ծրագրային ինժեներիա",
+                "Turkey": "Yazılım Mühendisliği",
+                "Spain": "Ingeniería del Software",
+                "Italy": "Ingegneria del Software",
+                "Austria": "Softwaretechnik",
+                "France": "Génie Logiciel",
+                "Portugal": "Engenharia de Software",
+                "Poland": "Inżynieria Oprogramowania",
+                "Romania": "Ingineria Programării"
+            }
+        },
+        {
+            "courses_id": "ce_5",
+            "englishName": "Embedded Systems",
+            "major": "Computer Engineering",
+            "translations": {
+                "Greece": "Ενσωματωμένα Συστήματα",
+                "Bulgaria": "Вградени системи",
+                "Armenia": "Ներդրված համակարգեր",
+                "Turkey": "Gömülü Sistemler",
+                "Spain": "Sistemas Empotrados",
+                "Italy": "Sistemi Embedded",
+                "Austria": "Eingebettete Systeme",
+                "France": "Systèmes Embarqués",
+                "Portugal": "Sistemas Embebidos",
+                "Poland": "Systemy Wbudowane",
+                "Romania": "Sisteme dedicate"
+            }
+        },
+        {
+            "courses_id": "ce_6",
+            "englishName": "Digital Systems Design",
+            "major": "Computer Engineering",
+            "translations": {
+                "Greece": "Σχεδίαση Ψηφιακών Συστημάτων",
+                "Bulgaria": "Проектиране на цифрови системи",
+                "Armenia": "Թվային համակարգերի նախագծում",
+                "Turkey": "Dijital Sistem Tasarımı",
+                "Spain": "Diseño de Sistemas Digitales",
+                "Italy": "Progettazione di Sistemi Digitali",
+                "Austria": "Entwurf Digitaler Systeme",
+                "France": "Conception de Systèmes Numériques",
+                "Portugal": "Projeto de Sistemas Digitais",
+                "Poland": "Projektowanie Systemów Cyfrowych",
+                "Romania": "Proiectarea Sistemelor Digitale"
+            }
+        },
+        {
+            "courses_id": "ce_7",
+            "englishName": "Object-Oriented Programming",
+            "major": "Computer Engineering",
+            "translations": {
+                "Greece": "Αντικειμενοστραφής Προγραμματισμός",
+                "Bulgaria": "Обектно-ориентирано програмиране",
+                "Armenia": "Օբյեկտակենտրոն ծրագրավորում",
+                "Turkey": "Nesne Yönelimli Programlama",
+                "Spain": "Programación Orientada a Objetos",
+                "Italy": "Programmazione a Oggetti",
+                "Austria": "Objektorientierte Programmierung",
+                "France": "Programmation Orientée Objet",
+                "Portugal": "Programação Orientada a Objetos",
+                "Poland": "Programowanie Obiektowe",
+                "Romania": "Programare Orientată pe Obiecte"
+            }
+        },
+        {
+            "courses_id": "ce_8",
+            "englishName": "Web Technologies",
+            "major": "Computer Engineering",
+            "translations": {
+                "Greece": "Τεχνολογίες Ιστού",
+                "Bulgaria": "Уеб технологии",
+                "Armenia": "Վեբ տեխնոլոգիաներ",
+                "Turkey": "Web Teknolojileri",
+                "Spain": "Tecnologías Web",
+                "Italy": "Tecnologie Web",
+                "Austria": "Webtechnologien",
+                "France": "Technologies Web",
+                "Portugal": "Tecnologias Web",
+                "Poland": "Technologie Webowe",
+                "Romania": "Tehnologii Web"
+            }
+        },
+        {
+            "courses_id": "ce_9",
+            "englishName": "Computer Networks",
+            "major": "Computer Engineering",
+            "translations": {
+                "Greece": "Δίκτυα Υπολογιστών",
+                "Bulgaria": "Компютърни мрежи",
+                "Armenia": "Համակարգչային ցանցեր",
+                "Turkey": "Bilgisayar Ağları",
+                "Spain": "Redes de Computadores",
+                "Italy": "Reti di Calcolatori",
+                "Austria": "Rechnernetze",
+                "France": "Réseaux Informatiques",
+                "Portugal": "Redes de Computadores",
+                "Poland": "Sieci Komputerowe",
+                "Romania": "Rețele de Calculatoare"
+            }
+        },
+        {
+            "courses_id": "me_0",
+            "englishName": "Engineering Mechanics",
+            "major": "Mechanical Engineering",
+            "translations": {
+                "Greece": "Μηχανική",
+                "Bulgaria": "Техническа механика",
+                "Armenia": "Ինժեներական մեխանիկա",
+                "Turkey": "Mühendislik Mekaniği",
+                "Spain": "Mecánica de la Ingeniería",
+                "Italy": "Meccanica Applicata",
+                "Austria": "Technische Mechanik",
+                "France": "Mécanique Générale",
+                "Portugal": "Mecânica de Engenharia",
+                "Poland": "Mechanika Techniczna",
+                "Romania": "Mecanică"
+            }
+        },
+        {
+            "courses_id": "me_1",
+            "englishName": "Strength of Materials",
+            "major": "Mechanical Engineering",
+            "translations": {
+                "Greece": "Αντοχή Υλικών",
+                "Bulgaria": "Съпротивление на материалите",
+                "Armenia": "Նյութերի դիմադրություն",
+                "Turkey": "Mukavemet",
+                "Spain": "Resistencia de Materiales",
+                "Italy": "Scienza delle Costruzioni",
+                "Austria": "Festigkeitslehre",
+                "France": "Résistance des Matériaux",
+                "Portugal": "Resistência dos Materiais",
+                "Poland": "Wytrzymałość Materiałów",
+                "Romania": "Rezistența Materialelor"
+            }
+        },
+        {
+            "courses_id": "me_2",
+            "englishName": "Thermodynamics",
+            "major": "Mechanical Engineering",
+            "translations": {
+                "Greece": "Θερμοδυναμική",
+                "Bulgaria": "Термодинамика",
+                "Armenia": "Թերմոդինամիկա",
+                "Turkey": "Termodinamik",
+                "Spain": "Termodinámica",
+                "Italy": "Termodinamica",
+                "Austria": "Thermodynamik",
+                "France": "Thermodynamique",
+                "Portugal": "Termodinâmica",
+                "Poland": "Termodynamika",
+                "Romania": "Termodinamică"
+            }
+        },
+        {
+            "courses_id": "me_3",
+            "englishName": "Fluid Mechanics",
+            "major": "Mechanical Engineering",
+            "translations": {
+                "Greece": "Μηχανική Ρευστών",
+                "Bulgaria": "Механика на флуидите",
+                "Armenia": "Հեղուկների մեխանիկա",
+                "Turkey": "Akışkanlar Mekaniği",
+                "Spain": "Mecánica de Fluidos",
+                "Italy": "Meccanica dei Fluidi",
+                "Austria": "Strömungsmechanik",
+                "France": "Mécanique des Fluides",
+                "Portugal": "Mecânica dos Fluidos",
+                "Poland": "Mechanika Płynów",
+                "Romania": "Mecanica Fluidelor"
+            }
+        },
+        {
+            "courses_id": "me_4",
+            "englishName": "Materials Science",
+            "major": "Mechanical Engineering",
+            "translations": {
+                "Greece": "Επιστήμη Υλικών",
+                "Bulgaria": "Материалознание",
+                "Armenia": "Նյութագիտություն",
+                "Turkey": "Malzeme Bilimi",
+                "Spain": "Ciencia de los Materiales",
+                "Italy": "Scienza dei Materiali",
+                "Austria": "Werkstoffkunde",
+                "France": "Science des Matériaux",
+                "Portugal": "Ciência dos Materiais",
+                "Poland": "Inżynieria Materiałowa",
+                "Romania": "Știința Materialelor"
+            }
+        },
+        {
+            "courses_id": "me_5",
+            "englishName": "Manufacturing Processes",
+            "major": "Mechanical Engineering",
+            "translations": {
+                "Greece": "Τεχνολογία Κατεργασιών",
+                "Bulgaria": "Производствени процеси",
+                "Armenia": "Արտադրական գործընթացներ",
+                "Turkey": "İmalat Süreçleri",
+                "Spain": "Procesos de Fabricación",
+                "Italy": "Tecnologie di Produzione",
+                "Austria": "Fertigungstechnik",
+                "France": "Procédés de Fabrication",
+                "Portugal": "Processos de Fabricação",
+                "Poland": "Procesy Wytwarzania",
+                "Romania": "Procese de Fabricație"
+            }
+        },
+        {
+            "courses_id": "me_6",
+            "englishName": "Machine Elements",
+            "major": "Mechanical Engineering",
+            "translations": {
+                "Greece": "Στοιχεία Μηχανών",
+                "Bulgaria": "Машинни елементи",
+                "Armenia": "Մեքենաների տարրեր",
+                "Turkey": "Makine Elemanları",
+                "Spain": "Elementos de Máquinas",
+                "Italy": "Elementi di Macchine",
+                "Austria": "Maschinenelemente",
+                "France": "Éléments de Machines",
+                "Portugal": "Elementos de Máquinas",
+                "Poland": "Elementy Maszyn",
+                "Romania": "Organe de Mașini"
+            }
+        },
+        {
+            "courses_id": "me_7",
+            "englishName": "Heat Transfer",
+            "major": "Mechanical Engineering",
+            "translations": {
+                "Greece": "Μεταφορά Θερμότητας",
+                "Bulgaria": "Топлообмен",
+                "Armenia": "Ջերմափոխանակություն",
+                "Turkey": "Isı Transferi",
+                "Spain": "Transferencia de Calor",
+                "Italy": "Trasmissione del Calore",
+                "Austria": "Wärmeübertragung",
+                "France": "Transferts Thermiques",
+                "Portugal": "Transferência de Calor",
+                "Poland": "Wymiana Ciepła",
+                "Romania": "Transfer de Căldură"
+            }
+        },
+        {
+            "courses_id": "me_8",
+            "englishName": "Control Systems",
+            "major": "Mechanical Engineering",
+            "translations": {
+                "Greece": "Συστήματα Ελέγχου",
+                "Bulgaria": "Системи за управление",
+                "Armenia": "Կառավարման համակարգեր",
+                "Turkey": "Kontrol Sistemleri",
+                "Spain": "Sistemas de Control",
+                "Italy": "Sistemi di Controllo",
+                "Austria": "Regelungstechnik",
+                "France": "Systèmes de Contrôle",
+                "Portugal": "Sistemas de Controlo",
+                "Poland": "Systemy Sterowania",
+                "Romania": "Sisteme de Control"
+            }
+        },
+        {
+            "courses_id": "me_9",
+            "englishName": "Computer-Aided Design (CAD)",
+            "major": "Mechanical Engineering",
+            "translations": {
+                "Greece": "Σχεδίαση με Υπολογιστή",
+                "Bulgaria": "Проектиране с помощта на компютър",
+                "Armenia": "Համակարգչային նախագծում",
+                "Turkey": "Bilgisayar Destekli Tasarım",
+                "Spain": "Diseño Asistido por Computador",
+                "Italy": "Disegno Assistito dal Computer",
+                "Austria": "Computerunterstütztes Konstruieren",
+                "France": "Conception Assistée par Ordinateur",
+                "Portugal": "Desenho Assistido por Computador",
+                "Poland": "Projektowanie Wspomagane Komputerowo",
+                "Romania": "Proiectare Asistată de Calculator"
+            }
+        },
+        {
+            "courses_id": "med_0",
+            "englishName": "Human Anatomy",
+            "major": "Medicine",
+            "translations": {
+                "Greece": "Ανατομία του Ανθρώπου",
+                "Bulgaria": "Анатомия на човека",
+                "Armenia": "Մարդու անատոմիա",
+                "Turkey": "İnsan Anatomisi",
+                "Spain": "Anatomía Humana",
+                "Italy": "Anatomia Umana",
+                "Austria": "Anatomie",
+                "France": "Anatomie Humaine",
+                "Portugal": "Anatomia Humana",
+                "Poland": "Anatomia Człowieka",
+                "Romania": "Anatomie Umană"
+            }
+        },
+        {
+            "courses_id": "med_1",
+            "englishName": "Medical Physiology",
+            "major": "Medicine",
+            "translations": {
+                "Greece": "Ιατρική Φυσιολογία",
+                "Bulgaria": "Медицинска физиология",
+                "Armenia": "Բժշկական ֆիզիոլոգիա",
+                "Turkey": "Tıbbi Fizyoloji",
+                "Spain": "Fisiología Médica",
+                "Italy": "Fisiologia Medica",
+                "Austria": "Medizinische Physiologie",
+                "France": "Physiologie Médicale",
+                "Portugal": "Fisiologia Médica",
+                "Poland": "Fizjologia Medyczna",
+                "Romania": "Fiziologie Medicală"
+            }
+        },
+        {
+            "courses_id": "med_2",
+            "englishName": "Histology",
+            "major": "Medicine",
+            "translations": {
+                "Greece": "Ιστολογία",
+                "Bulgaria": "Хистология",
+                "Armenia": "Հիստոլոգիա",
+                "Turkey": "Histoloji",
+                "Spain": "Histología",
+                "Italy": "Istologia",
+                "Austria": "Histologie",
+                "France": "Histologie",
+                "Portugal": "Histologia",
+                "Poland": "Histologia",
+                "Romania": "Histologie"
+            }
+        },
+        {
+            "courses_id": "med_2",
+            "englishName": "Histology",
+            "major": "Medicine",
+            "translations": {
+                "Greece": "Ιστολογία",
+                "Bulgaria": "Хистология",
+                "Armenia": "Հիստոլոգիա",
+                "Turkey": "Histoloji",
+                "Spain": "Histología",
+                "Italy": "Istologia",
+                "Austria": "Histologie",
+                "France": "Histologie",
+                "Portugal": "Histologia",
+                "Poland": "Histologia",
+                "Romania": "Histologie"
+            }
+        },
+        {
+            "courses_id": "med_3",
+            "englishName": "Biochemistry",
+            "major": "Medicine",
+            "translations": {
+                "Greece": "Βιοχημεία",
+                "Bulgaria": "Биохимия",
+                "Armenia": "Կենսաքիմիա",
+                "Turkey": "Biyokimya",
+                "Spain": "Bioquímica",
+                "Italy": "Biochimica",
+                "Austria": "Biochemie",
+                "France": "Biochimie",
+                "Portugal": "Bioquímica",
+                "Poland": "Biochemia",
+                "Romania": "Biochimie"
+            }
+        },
+        {
+            "courses_id": "med_3",
+            "englishName": "Biochemistry",
+            "major": "Medicine",
+            "translations": {
+                "Greece": "Βιοχημεία",
+                "Bulgaria": "Биохимия",
+                "Armenia": "Կենսաքիմիա",
+                "Turkey": "Biyokimya",
+                "Spain": "Bioquímica",
+                "Italy": "Biochimica",
+                "Austria": "Biochemie",
+                "France": "Biochimie",
+                "Portugal": "Bioquímica",
+                "Poland": "Biochemia",
+                "Romania": "Biochimie"
+            }
+        },
+        {
+            "courses_id": "med_4",
+            "englishName": "Medical Genetics",
+            "major": "Medicine",
+            "translations": {
+                "Greece": "Ιατρική Γενετική",
+                "Bulgaria": "Медицинска генетика",
+                "Armenia": "Բժշկական գենետիկա",
+                "Turkey": "Tıbbi Genetik",
+                "Spain": "Genética Médica",
+                "Italy": "Genetica Medica",
+                "Austria": "Medizinische Genetik",
+                "France": "Génétique Médicale",
+                "Portugal": "Genética Médica",
+                "Poland": "Genetyka Medyczna",
+                "Romania": "Genetică Medicală"
+            }
+        },
+        {
+            "courses_id": "med_5",
+            "englishName": "Microbiology",
+            "major": "Medicine",
+            "translations": {
+                "Greece": "Μικροβιολογία",
+                "Bulgaria": "Микробиология",
+                "Armenia": "Մանրէաբանություն",
+                "Turkey": "Mikrobiyoloji",
+                "Spain": "Microbiología",
+                "Italy": "Microbiologia",
+                "Austria": "Mikrobiologie",
+                "France": "Microbiologie",
+                "Portugal": "Microbiologia",
+                "Poland": "Mikrobiologia",
+                "Romania": "Microbiologie"
+            }
+        },
+        {
+            "courses_id": "med_6",
+            "englishName": "Immunology",
+            "major": "Medicine",
+            "translations": {
+                "Greece": "Ανοσολογία",
+                "Bulgaria": "Имунология",
+                "Armenia": "Իմունոլոգիա",
+                "Turkey": "İmmünoloji",
+                "Spain": "Inmunología",
+                "Italy": "Immunologia",
+                "Austria": "Immunologie",
+                "France": "Immunologie",
+                "Portugal": "Imunologia",
+                "Poland": "Immunologia",
+                "Romania": "Imunologie"
+            }
+        },
+        {
+            "courses_id": "med_7",
+            "englishName": "Pathophysiology",
+            "major": "Medicine",
+            "translations": {
+                "Greece": "Παθοφυσιολογία",
+                "Bulgaria": "Патофизиология",
+                "Armenia": "Պաթոֆիզիոլոգիա",
+                "Turkey": "Patofizyoloji",
+                "Spain": "Fisiopatología",
+                "Italy": "Fisiopatologia",
+                "Austria": "Pathophysiologie",
+                "France": "Physiopathologie",
+                "Portugal": "Fisiopatologia",
+                "Poland": "Patofizjologia",
+                "Romania": "Fiziopatologie"
+            }
+        },
+        {
+            "courses_id": "med_7",
+            "englishName": "Pathophysiology",
+            "major": "Medicine",
+            "translations": {
+                "Greece": "Παθοφυσιολογία",
+                "Bulgaria": "Патофизиология",
+                "Armenia": "Պաթոֆիզիոլոգիա",
+                "Turkey": "Patofizyoloji",
+                "Spain": "Fisiopatología",
+                "Italy": "Fisiopatologia",
+                "Austria": "Pathophysiologie",
+                "France": "Physiopathologie",
+                "Portugal": "Fisiopatologia",
+                "Poland": "Patofizjologia",
+                "Romania": "Fiziopatologie"
+            }
+        },
+        {
+            "courses_id": "med_8",
+            "englishName": "Medical Ethics",
+            "major": "Medicine",
+            "translations": {
+                "Greece": "Ιατρική Ηθική",
+                "Bulgaria": "Медицинска етика",
+                "Armenia": "Բժշկական էթիկա",
+                "Turkey": "Tıbbi Etik",
+                "Spain": "Ética Médica",
+                "Italy": "Etica Medica",
+                "Austria": "Medizinische Ethik",
+                "France": "Éthique Médicale",
+                "Portugal": "Ética Médica",
+                "Poland": "Etyka Medyczna",
+                "Romania": "Etică Medicală"
+            }
+        },
+        {
+            "courses_id": "med_9",
+            "englishName": "Clinical Skills and Patient Communication",
+            "major": "Medicine",
+            "translations": {
+                "Greece": "Κλινικές Δεξιότητες και Επικοινωνία με Ασθενείς",
+                "Bulgaria": "Клинични умения и комуникация с пациенти",
+                "Armenia": "Կլինիկական հմտություններ և հիվանդների հաղորդակցություն",
+                "Turkey": "Klinik Beceriler ve Hasta İletişimi",
+                "Spain": "Habilidades Clínicas y Comunicación con el Paciente",
+                "Italy": "Abilità Cliniche e Comunicazione con il Paziente",
+                "Austria": "Klinische Fähigkeiten und Patientenkommunikation",
+                "France": "Compétences Cliniques et Communication Patient",
+                "Portugal": "Competências Clínicas e Comunicação com o Doente",
+                "Poland": "Umiejętności Kliniczne i Komunikacja z Pacjentem",
+                "Romania": "Abilități Clinice și Comunicare cu Pacientul"
+            }
+        },
+        {
+            "courses_id": "ph_0",
+            "englishName": "Introduction to Public Health",
+            "major": "Public Health",
+            "translations": {
+                "Greece": "Εισαγωγή στη Δημόσια Υγεία",
+                "Bulgaria": "Въведение в общественото здраве",
+                "Armenia": "Ներածություն հանրային առողջությանը",
+                "Turkey": "Halk Sağlığına Giriş",
+                "Spain": "Introducción a la Salud Pública",
+                "Italy": "Introduzione alla Sanità Pubblica",
+                "Austria": "Einführung in die Public Health",
+                "France": "Introduction à la Santé Publique",
+                "Portugal": "Introdução à Saúde Pública",
+                "Poland": "Wprowadzenie do Zdrowia Publicznego",
+                "Romania": "Introducere în Sănătate Publică"
+            }
+        },
+        {
+            "courses_id": "ph_1",
+            "englishName": "Epidemiology",
+            "major": "Public Health",
+            "translations": {
+                "Greece": "Επιδημιολογία",
+                "Bulgaria": "Епидемиология",
+                "Armenia": "Համաճարակաբանություն",
+                "Turkey": "Epidemiyoloji",
+                "Spain": "Epidemiología",
+                "Italy": "Epidemiologia",
+                "Austria": "Epidemiologie",
+                "France": "Épidémiologie",
+                "Portugal": "Epidemiologia",
+                "Poland": "Epidemiologia",
+                "Romania": "Epidemiologie"
+            }
+        },
+        {
+            "courses_id": "ph_2",
+            "englishName": "Biostatistics",
+            "major": "Public Health",
+            "translations": {
+                "Greece": "Βιοστατιστική",
+                "Bulgaria": "Биостатистика",
+                "Armenia": "Կենսավիճակագրություն",
+                "Turkey": "Biyoistatistik",
+                "Spain": "Bioestadística",
+                "Italy": "Biostatistica",
+                "Austria": "Biostatistik",
+                "France": "Biostatistique",
+                "Portugal": "Bioestatística",
+                "Poland": "Biostatystyka",
+                "Romania": "Biostatistică"
+            }
+        },
+        {
+            "courses_id": "ph_3",
+            "englishName": "Environmental Health",
+            "major": "Public Health",
+            "translations": {
+                "Greece": "Περιβαλλοντική Υγεία",
+                "Bulgaria": "Околна среда и здраве",
+                "Armenia": "Շրջակա միջավայրի առողջություն",
+                "Turkey": "Çevre Sağlığı",
+                "Spain": "Salud Ambiental",
+                "Italy": "Igiene Ambientale",
+                "Austria": "Umweltgesundheit",
+                "France": "Santé Environnementale",
+                "Portugal": "Saúde Ambiental",
+                "Poland": "Zdrowie Środowiskowe",
+                "Romania": "Sănătate de Mediu"
+            }
+        },
+        {
+            "courses_id": "ph_4",
+            "englishName": "Health Policy and Management",
+            "major": "Public Health",
+            "translations": {
+                "Greece": "Πολιτική και Διοίκηση Υγείας",
+                "Bulgaria": "Здравна политика и управление",
+                "Armenia": "Առողջապահական քաղաքականություն և կառավարում",
+                "Turkey": "Sağlık Politikası ve Yönetimi",
+                "Spain": "Política y Gestión Sanitaria",
+                "Italy": "Politica e Gestione Sanitaria",
+                "Austria": "Gesundheitspolitik und Management",
+                "France": "Politique et Gestion de la Santé",
+                "Portugal": "Política e Gestão da Saúde",
+                "Poland": "Polityka i Zarządzanie Zdrowiem",
+                "Romania": "Politici și Management în Sănătate"
+            }
+        },
+        {
+            "courses_id": "ph_5",
+            "englishName": "Health Promotion and Disease Prevention",
+            "major": "Public Health",
+            "translations": {
+                "Greece": "Προαγωγή Υγείας και Πρόληψη Νοσημάτων",
+                "Bulgaria": "Промоция на здравето и превенция",
+                "Armenia": "Առողջության խթանում և հիվանդությունների կանխարգելում",
+                "Turkey": "Sağlığın Geliştirilmesi ve Hastalıkların Önlenmesi",
+                "Spain": "Promoción de la Salud y Prevención de Enfermedades",
+                "Italy": "Promozione della Salute e Prevenzione",
+                "Austria": "Gesundheitsförderung und Prävention",
+                "France": "Promotion de la Santé et Prévention",
+                "Portugal": "Promoção da Saúde e Prevenção",
+                "Poland": "Promocja Zdrowia i Profilaktyka",
+                "Romania": "Promovarea Sănătății și Prevenția Bolilor"
+            }
+        },
+        {
+            "courses_id": "ph_6",
+            "englishName": "Global Health",
+            "major": "Public Health",
+            "translations": {
+                "Greece": "Παγκόσμια Υγεία",
+                "Bulgaria": "Глобално здраве",
+                "Armenia": "Գլոբալ առողջություն",
+                "Turkey": "Küresel Sağlık",
+                "Spain": "Salud Global",
+                "Italy": "Salute Globale",
+                "Austria": "Globale Gesundheit",
+                "France": "Santé Mondiale",
+                "Portugal": "Saúde Global",
+                "Poland": "Zdrowie Globalne",
+                "Romania": "Sănătate Globală"
+            }
+        },
+        {
+            "courses_id": "ph_7",
+            "englishName": "Social Determinants of Health",
+            "major": "Public Health",
+            "translations": {
+                "Greece": "Κοινωνικοί Προσδιοριστές της Υγείας",
+                "Bulgaria": "Социални детерминанти на здравето",
+                "Armenia": "Առողջության սոցիալական գործոններ",
+                "Turkey": "Sağlığın Sosyal Belirleyicileri",
+                "Spain": "Determinantes Sociales de la Salud",
+                "Italy": "Determinanti Sociali della Salute",
+                "Austria": "Soziale Determinanten der Gesundheit",
+                "France": "Déterminants Sociaux de la Santé",
+                "Portugal": "Determinantes Sociais da Saúde",
+                "Poland": "Społeczne Uwarunkowania Zdrowia",
+                "Romania": "Determinanți Sociali ai Sănătății"
+            }
+        },
+        {
+            "courses_id": "ph_8",
+            "englishName": "Occupational Health and Safety",
+            "major": "Public Health",
+            "translations": {
+                "Greece": "Υγεία και Ασφάλεια στην Εργασία",
+                "Bulgaria": "Здраве и безопасност при работа",
+                "Armenia": "Աշխատանքային առողջություն և անվտանգություն",
+                "Turkey": "İş Sağlığı ve Güvenliği",
+                "Spain": "Salud y Seguridad Laboral",
+                "Italy": "Medicina del Lavoro",
+                "Austria": "Arbeits- und Gesundheitsschutz",
+                "France": "Santé et Sécurité au Travail",
+                "Portugal": "Saúde e Segurança no Trabalho",
+                "Poland": "Bezpieczeństwo i Higiena Pracy",
+                "Romania": "Sănătate și Securitate în Muncă"
+            }
+        },
+        {
+            "courses_id": "ph_9",
+            "englishName": "Research Methods in Public Health",
+            "major": "Public Health",
+            "translations": {
+                "Greece": "Μέθοδοι Έρευνας στη Δημόσια Υγεία",
+                "Bulgaria": "Методи за изследване в общественото здраве",
+                "Armenia": "Հետազոտական մեթոդներ հանրային առողջությունում",
+                "Turkey": "Halk Sağlığında Araştırma Yöntemleri",
+                "Spain": "Métodos de Investigación en Salud Pública",
+                "Italy": "Metodi di Ricerca in Sanità Pubblica",
+                "Austria": "Forschungsmethoden im Public Health",
+                "France": "Méthodes de Recherche en Santé Publique",
+                "Portugal": "Métodos de Investigação em Saúde Pública",
+                "Poland": "Metody Badań w Zdrowiu Publicznym",
+                "Romania": "Metode de Cercetare în Sănătate Publică"
+            }
+        },
+        {
+            "courses_id": "lin_0",
+            "englishName": "Introduction to Linguistics",
+            "major": "Linguistics",
+            "translations": {
+                "Greece": "Εισαγωγή στη Γλωσσολογία",
+                "Bulgaria": "Въведение в лингвистиката",
+                "Armenia": "Լեզվաբանության ներածություն",
+                "Turkey": "Dilbilime Giriş",
+                "Spain": "Introducción a la Lingüística",
+                "Italy": "Introduzione alla Linguistica",
+                "Austria": "Einführung in die Linguistik",
+                "France": "Introduction à la Linguistique",
+                "Portugal": "Introdução à Linguística",
+                "Poland": "Wprowadzenie do Językoznawstwa",
+                "Romania": "Introducere în Lingvistică"
+            }
+        },
+        {
+            "courses_id": "lin_1",
+            "englishName": "Phonetics and Phonology",
+            "major": "Linguistics",
+            "translations": {
+                "Greece": "Φωνητική και Φωνολογία",
+                "Bulgaria": "Фонетика и фонология",
+                "Armenia": "Հնչյունաբանություն և հնչյունաբանություն",
+                "Turkey": "Fonetik ve Fonoloji",
+                "Spain": "Fonética y Fonología",
+                "Italy": "Fonetica e Fonologia",
+                "Austria": "Phonetik und Phonologie",
+                "France": "Phonétique et Phonologie",
+                "Portugal": "Fonética e Fonologia",
+                "Poland": "Fonetyka i Fonologia",
+                "Romania": "Fonetică și Fonologie"
+            }
+        },
+        {
+            "courses_id": "lin_2",
+            "englishName": "Morphology",
+            "major": "Linguistics",
+            "translations": {
+                "Greece": "Μορφολογία",
+                "Bulgaria": "Морфология",
+                "Armenia": "Բառաձևաբանություն",
+                "Turkey": "Morfoloji",
+                "Spain": "Morfología",
+                "Italy": "Morfologia",
+                "Austria": "Morphologie",
+                "France": "Morphologie",
+                "Portugal": "Morfologia",
+                "Poland": "Morfologia",
+                "Romania": "Morfologie"
+            }
+        },
+        {
+            "courses_id": "lin_3",
+            "englishName": "Syntax",
+            "major": "Linguistics",
+            "translations": {
+                "Greece": "Σύνταξη",
+                "Bulgaria": "Синтаксис",
+                "Armenia": "Շարահյուսություն",
+                "Turkey": "Sözdizimi",
+                "Spain": "Sintaxis",
+                "Italy": "Sintassi",
+                "Austria": "Syntax",
+                "France": "Syntaxe",
+                "Portugal": "Sintaxe",
+                "Poland": "Składnia",
+                "Romania": "Sintaxă"
+            }
+        },
+        {
+            "courses_id": "lin_4",
+            "englishName": "Semantics",
+            "major": "Linguistics",
+            "translations": {
+                "Greece": "Σημασιολογία",
+                "Bulgaria": "Семантика",
+                "Armenia": "Իմաստաբանություն",
+                "Turkey": "Anlambilim",
+                "Spain": "Semántica",
+                "Italy": "Semantica",
+                "Austria": "Semantik",
+                "France": "Sémantique",
+                "Portugal": "Semântica",
+                "Poland": "Semantyka",
+                "Romania": "Semantică"
+            }
+        },
+        {
+            "courses_id": "lin_5",
+            "englishName": "Pragmatics",
+            "major": "Linguistics",
+            "translations": {
+                "Greece": "Πραγματολογία",
+                "Bulgaria": "Прагматика",
+                "Armenia": "Գործառույթաբանություն",
+                "Turkey": "Edimbilim",
+                "Spain": "Pragmática",
+                "Italy": "Pragmatica",
+                "Austria": "Pragmatik",
+                "France": "Pragmatique",
+                "Portugal": "Pragmática",
+                "Poland": "Pragmatyka",
+                "Romania": "Pragmatică"
+            }
+        },
+        {
+            "courses_id": "lin_6",
+            "englishName": "Sociolinguistics",
+            "major": "Linguistics",
+            "translations": {
+                "Greece": "Κοινωνιογλωσσολογία",
+                "Bulgaria": "Социолингвистика",
+                "Armenia": "Սոցիոլեզվաբանություն",
+                "Turkey": "Toplumdilbilim",
+                "Spain": "Sociolingüística",
+                "Italy": "Sociolinguistica",
+                "Austria": "Soziolinguistik",
+                "France": "Sociolinguistique",
+                "Portugal": "Sociolinguística",
+                "Poland": "Socjolingwistyka",
+                "Romania": "Sociolingvistică"
+            }
+        },
+        {
+            "courses_id": "lin_7",
+            "englishName": "Psycholinguistics",
+            "major": "Linguistics",
+            "translations": {
+                "Greece": "Ψυχογλωσσολογία",
+                "Bulgaria": "Психолингвистика",
+                "Armenia": "Հոգեբանական լեզվաբանություն",
+                "Turkey": "Psikodilbilim",
+                "Spain": "Psicolingüística",
+                "Italy": "Psicolinguistica",
+                "Austria": "Psycholinguistik",
+                "France": "Psycholinguistique",
+                "Portugal": "Psicolinguística",
+                "Poland": "Psycholingwistyka",
+                "Romania": "Psiholingvistică"
+            }
+        },
+        {
+            "courses_id": "lin_8",
+            "englishName": "Historical Linguistics",
+            "major": "Linguistics",
+            "translations": {
+                "Greece": "Ιστορική Γλωσσολογία",
+                "Bulgaria": "Историческа лингвистика",
+                "Armenia": "Պատմական լեզվաբանություն",
+                "Turkey": "Tarihsel Dilbilim",
+                "Spain": "Lingüística Histórica",
+                "Italy": "Linguistica Storica",
+                "Austria": "Historische Linguistik",
+                "France": "Linguistique Historique",
+                "Portugal": "Linguística Histórica",
+                "Poland": "Językoznawstwo Historyczne",
+                "Romania": "Lingvistică Istorică"
+            }
+        },
+        {
+            "courses_id": "lin_9",
+            "englishName": "Applied Linguistics",
+            "major": "Linguistics",
+            "translations": {
+                "Greece": "Εφαρμοσμένη Γλωσσολογία",
+                "Bulgaria": "Приложна лингвистика",
+                "Armenia": "Կիրառական լեզվաբանություն",
+                "Turkey": "Uygulamalı Dilbilim",
+                "Spain": "Lingüística Aplicada",
+                "Italy": "Linguistica Applicata",
+                "Austria": "Angewandte Linguistik",
+                "France": "Linguistique Appliquée",
+                "Portugal": "Linguística Aplicada",
+                "Poland": "Lingwistyka Stosowana",
+                "Romania": "Lingvistică Aplicată"
+            }
+        },
+        {
+            "courses_id": "ti_0",
+            "englishName": "Introduction to Translation Studies",
+            "major": "Translation and Interpreting",
+            "translations": {
+                "Greece": "Εισαγωγή στις Σπουδές Μετάφρασης",
+                "Bulgaria": "Въведение в преводаческите изследвания",
+                "Armenia": "Ներածություն թարգմանության ուսումնասիրության մեջ",
+                "Turkey": "Çeviri Çalışmalarına Giriş",
+                "Spain": "Introducción a los Estudios de Traducción",
+                "Italy": "Introduzione agli Studi sulla Traduzione",
+                "Austria": "Einführung in die Übersetzungswissenschaft",
+                "France": "Introduction aux Études de Traduction",
+                "Portugal": "Introdução aos Estudos de Tradução",
+                "Poland": "Wprowadzenie do Studiów nad Tłumaczeniem",
+                "Romania": "Introducere în Studii de Traducere"
+            }
+        },
+        {
+            "courses_id": "ti_1",
+            "englishName": "Practical Translation I",
+            "major": "Translation and Interpreting",
+            "translations": {
+                "Greece": "Πρακτική Μετάφραση I",
+                "Bulgaria": "Практически превод I",
+                "Armenia": "Տարածքային թարգմանություն I",
+                "Turkey": "Pratik Çeviri I",
+                "Spain": "Traducción Práctica I",
+                "Italy": "Traduzione Pratica I",
+                "Austria": "Praktische Übersetzung I",
+                "France": "Traduction Pratique I",
+                "Portugal": "Tradução Prática I",
+                "Poland": "Tłumaczenie Praktyczne I",
+                "Romania": "Traducere Practică I"
+            }
+        },
+        {
+            "courses_id": "ti_2",
+            "englishName": "Practical Translation II",
+            "major": "Translation and Interpreting",
+            "translations": {
+                "Greece": "Πρακτική Μετάφραση II",
+                "Bulgaria": "Практически превод II",
+                "Armenia": "Տարածքային թարգմանություն II",
+                "Turkey": "Pratik Çeviri II",
+                "Spain": "Traducción Práctica II",
+                "Italy": "Traduzione Pratica II",
+                "Austria": "Praktische Übersetzung II",
+                "France": "Traduction Pratique II",
+                "Portugal": "Tradução Prática II",
+                "Poland": "Tłumaczenie Praktyczne II",
+                "Romania": "Traducere Practică II"
+            }
+        },
+        {
+            "courses_id": "ti_3",
+            "englishName": "Introduction to Interpreting",
+            "major": "Translation and Interpreting",
+            "translations": {
+                "Greece": "Εισαγωγή στη Διερμηνεία",
+                "Bulgaria": "Въведение в устния превод",
+                "Armenia": "Ներածություն թարգմանչական գործին",
+                "Turkey": "Tercümeye Giriş",
+                "Spain": "Introducción a la Interpretación",
+                "Italy": "Introduzione all’Interpretariato",
+                "Austria": "Einführung in das Dolmetschen",
+                "France": "Introduction à l’Interprétation",
+                "Portugal": "Introdução à Interpretação",
+                "Poland": "Wprowadzenie do Tłumaczenia Ustnego",
+                "Romania": "Introducere în Interpretare"
+            }
+        },
+        {
+            "courses_id": "ti_4",
+            "englishName": "Consecutive Interpreting",
+            "major": "Translation and Interpreting",
+            "translations": {
+                "Greece": "Διαδοχική Διερμηνεία",
+                "Bulgaria": "Последователно превеждане",
+                "Armenia": "Համակարգային թարգմանություն",
+                "Turkey": "Ardıl Çeviri",
+                "Spain": "Interpretación Consecutiva",
+                "Italy": "Interpretazione Consecutiva",
+                "Austria": "Konsekutivdolmetschen",
+                "France": "Interprétation Consécutive",
+                "Portugal": "Interpretação Consecutiva",
+                "Poland": "Tłumaczenie Konsekutywne",
+                "Romania": "Interpretare Consecutivă"
+            }
+        },
+        {
+            "courses_id": "ti_5",
+            "englishName": "Simultaneous Interpreting",
+            "major": "Translation and Interpreting",
+            "translations": {
+                "Greece": "Ταυτόχρονη Διερμηνεία",
+                "Bulgaria": "Симултанен превод",
+                "Armenia": "Միաժամանակյա թարգմանություն",
+                "Turkey": "Simültane Çeviri",
+                "Spain": "Interpretación Simultánea",
+                "Italy": "Interpretazione Simultanea",
+                "Austria": "Simultandolmetschen",
+                "France": "Interprétation Simultanée",
+                "Portugal": "Interpretação Simultânea",
+                "Poland": "Tłumaczenie Symultaniczne",
+                "Romania": "Interpretare Simultană"
+            }
+        },
+        {
+            "courses_id": "ti_6",
+            "englishName": "Translation of Literary Texts",
+            "major": "Translation and Interpreting",
+            "translations": {
+                "Greece": "Μετάφραση Λογοτεχνικών Κειμένων",
+                "Bulgaria": "Превод на литературни текстове",
+                "Armenia": "Գրական տեքստերի թարգմանություն",
+                "Turkey": "Edebi Metinlerin Çevirisi",
+                "Spain": "Traducción de Textos Literarios",
+                "Italy": "Traduzione di Testi Letterari",
+                "Austria": "Übersetzung Literarischer Texte",
+                "France": "Traduction de Textes Littéraires",
+                "Portugal": "Tradução de Textos Literários",
+                "Poland": "Tłumaczenie Tekstów Literackich",
+                "Romania": "Traducerea Textelor Literare"
+            }
+        },
+        {
+            "courses_id": "ti_7",
+            "englishName": "Technical Translation",
+            "major": "Translation and Interpreting",
+            "translations": {
+                "Greece": "Τεχνική Μετάφραση",
+                "Bulgaria": "Технически превод",
+                "Armenia": "Տեխնիկական թարգմանություն",
+                "Turkey": "Teknik Çeviri",
+                "Spain": "Traducción Técnica",
+                "Italy": "Traduzione Tecnica",
+                "Austria": "Technische Übersetzung",
+                "France": "Traduction Technique",
+                "Portugal": "Tradução Técnica",
+                "Poland": "Tłumaczenie Techniczne",
+                "Romania": "Traducere Tehnică"
+            }
+        },
+        {
+            "courses_id": "ti_8",
+            "englishName": "Translation Project Management",
+            "major": "Translation and Interpreting",
+            "translations": {
+                "Greece": "Διαχείριση Έργων Μετάφρασης",
+                "Bulgaria": "Управление на преводачески проекти",
+                "Armenia": "Թարգմանական նախագծերի կառավարում",
+                "Turkey": "Çeviri Proje Yönetimi",
+                "Spain": "Gestión de Proyectos de Traducción",
+                "Italy": "Gestione dei Progetti di Traduzione",
+                "Austria": "Übersetzungsprojektmanagement",
+                "France": "Gestion de Projets de Traduction",
+                "Portugal": "Gestão de Projetos de Tradução",
+                "Poland": "Zarządzanie Projektami Tłumaczeniowymi",
+                "Romania": "Managementul Proiectelor de Traducere"
+            }
+        },
+        {
+            "courses_id": "ti_9",
+            "englishName": "Intercultural Communication",
+            "major": "Translation and Interpreting",
+            "translations": {
+                "Greece": "Διαπολιτισμική Επικοινωνία",
+                "Bulgaria": "Междукултурна комуникация",
+                "Armenia": "Միջմշակութային հաղորդակցություն",
+                "Turkey": "Kültürlerarası İletişim",
+                "Spain": "Comunicación Intercultural",
+                "Italy": "Comunicazione Interculturale",
+                "Austria": "Interkulturelle Kommunikation",
+                "France": "Communication Interculturelle",
+                "Portugal": "Comunicação Intercultural",
+                "Poland": "Komunikacja Międzykulturowa",
+                "Romania": "Comunicare Interculturală"
+            }
+        },
+        {
+            "courses_id": "his_0",
+            "englishName": "European History: 19th Century",
+            "major": "History",
+            "translations": {
+                "Greece": "Ιστορία της Ευρώπης: 19ος Αιώνας",
+                "Bulgaria": "Европейска история: XIX век",
+                "Armenia": "Եվրոպական պատմություն. XIX դար",
+                "Turkey": "Avrupa Tarihi: 19. Yüzyıl",
+                "Spain": "Historia de Europa: Siglo XIX",
+                "Italy": "Storia Europea: XIX Secolo",
+                "Austria": "Europäische Geschichte: 19. Jahrhundert",
+                "France": "Histoire de l'Europe: XIXe siècle",
+                "Portugal": "História Europeia: Século XIX",
+                "Poland": "Historia Europy: XIX wiek",
+                "Romania": "Istoria Europei: Secolul XIX"
+            }
+        },
+        {
+            "courses_id": "his_1",
+            "englishName": "World Wars and Global Conflicts",
+            "major": "History",
+            "translations": {
+                "Greece": "Παγκόσμιοι Πόλεμοι και Παγκόσμιες Συγκρούσεις",
+                "Bulgaria": "Световни войни и глобални конфликти",
+                "Armenia": "Աշխարհային պատերազմներ և համաշխարհային կոնֆլիկտներ",
+                "Turkey": "Dünya Savaşları ve Küresel Çatışmalar",
+                "Spain": "Guerras Mundiales y Conflictos Globales",
+                "Italy": "Guerre Mondiali e Conflitti Globali",
+                "Austria": "Weltkriege und Globale Konflikte",
+                "France": "Guerres Mondiales et Conflits Globaux",
+                "Portugal": "Guerras Mundiais e Conflitos Globais",
+                "Poland": "Wojny Światowe i Konflikty Globalne",
+                "Romania": "Războaiele Mondiale și Conflicte Globale"
+            }
+        },
+        {
+            "courses_id": "his_2",
+            "englishName": "History of Eastern Europe",
+            "major": "History",
+            "translations": {
+                "Greece": "Ιστορία της Ανατολικής Ευρώπης",
+                "Bulgaria": "История на Източна Европа",
+                "Armenia": "Արևելյան Եվրոպայի պատմություն",
+                "Turkey": "Doğu Avrupa Tarihi",
+                "Spain": "Historia de Europa del Este",
+                "Italy": "Storia dell'Europa Orientale",
+                "Austria": "Geschichte Osteuropas",
+                "France": "Histoire de l'Europe de l'Est",
+                "Portugal": "História da Europa Oriental",
+                "Poland": "Historia Europy Wschodniej",
+                "Romania": "Istoria Europei de Est"
+            }
+        },
+        {
+            "courses_id": "his_3",
+            "englishName": "Ancient Civilizations",
+            "major": "History",
+            "translations": {
+                "Greece": "Αρχαίοι Πολιτισμοί",
+                "Bulgaria": "Древни цивилизации",
+                "Armenia": "Հին քաղաքակրթություններ",
+                "Turkey": "Antik Uygarlıklar",
+                "Spain": "Civilizaciones Antiguas",
+                "Italy": "Civiltà Antiche",
+                "Austria": "Alte Zivilisationen",
+                "France": "Civilisations Anciennes",
+                "Portugal": "Civilizações Antigas",
+                "Poland": "Starożytne Cywilizacje",
+                "Romania": "Civilizații Antice"
+            }
+        },
+        {
+            "courses_id": "his_4",
+            "englishName": "Medieval History",
+            "major": "History",
+            "translations": {
+                "Greece": "Μεσαιωνική Ιστορία",
+                "Bulgaria": "Средновековна история",
+                "Armenia": "Միջնադարյան պատմություն",
+                "Turkey": "Ortaçağ Tarihi",
+                "Spain": "Historia Medieval",
+                "Italy": "Storia Medievale",
+                "Austria": "Mittelalterliche Geschichte",
+                "France": "Histoire Médiévale",
+                "Portugal": "História Medieval",
+                "Poland": "Historia Średniowiecza",
+                "Romania": "Istorie Medievală"
+            }
+        },
+        {
+            "courses_id": "his_5",
+            "englishName": "History of Science and Technology",
+            "major": "History",
+            "translations": {
+                "Greece": "Ιστορία της Επιστήμης και της Τεχνολογίας",
+                "Bulgaria": "История на науката и технологиите",
+                "Armenia": "Գիտության և տեխնոլոգիաների պատմություն",
+                "Turkey": "Bilim ve Teknoloji Tarihi",
+                "Spain": "Historia de la Ciencia y la Tecnología",
+                "Italy": "Storia della Scienza e della Tecnologia",
+                "Austria": "Geschichte von Wissenschaft und Technologie",
+                "France": "Histoire des Sciences et Technologies",
+                "Portugal": "História da Ciência e Tecnologia",
+                "Poland": "Historia Nauki i Techniki",
+                "Romania": "Istoria Științei și Tehnologiei"
+            }
+        },
+        {
+            "courses_id": "his_6",
+            "englishName": "Modern Political History",
+            "major": "History",
+            "translations": {
+                "Greece": "Σύγχρονη Πολιτική Ιστορία",
+                "Bulgaria": "Модерна политическа история",
+                "Armenia": "Ժամանակակից քաղաքական պատմություն",
+                "Turkey": "Modern Siyasi Tarih",
+                "Spain": "Historia Política Moderna",
+                "Italy": "Storia Politica Moderna",
+                "Austria": "Moderne Politische Geschichte",
+                "France": "Histoire Politique Moderne",
+                "Portugal": "História Política Moderna",
+                "Poland": "Nowożytna Historia Polityczna",
+                "Romania": "Istorie Politică Modernă"
+            }
+        },
+        {
+            "courses_id": "his_7",
+            "englishName": "Cultural History",
+            "major": "History",
+            "translations": {
+                "Greece": "Πολιτιστική Ιστορία",
+                "Bulgaria": "Културна история",
+                "Armenia": "Մշակութային պատմություն",
+                "Turkey": "Kültürel Tarih",
+                "Spain": "Historia Cultural",
+                "Italy": "Storia Culturale",
+                "Austria": "Kulturgeschichte",
+                "France": "Histoire Culturelle",
+                "Portugal": "História Cultural",
+                "Poland": "Historia Kultury",
+                "Romania": "Istorie Culturală"
+            }
+        },
+        {
+            "courses_id": "his_8",
+            "englishName": "History of International Relations",
+            "major": "History",
+            "translations": {
+                "Greece": "Ιστορία των Διεθνών Σχέσεων",
+                "Bulgaria": "История на международните отношения",
+                "Armenia": "Միջազգային հարաբերությունների պատմություն",
+                "Turkey": "Uluslararası İlişkiler Tarihi",
+                "Spain": "Historia de las Relaciones Internacionales",
+                "Italy": "Storia delle Relazioni Internazionali",
+                "Austria": "Geschichte der Internationalen Beziehungen",
+                "France": "Histoire des Relations Internationales",
+                "Portugal": "História das Relações Internacionais",
+                "Poland": "Historia Stosunków Międzynarodowych",
+                "Romania": "Istoria Relațiilor Internaționale"
+            }
+        },
+        {
+            "courses_id": "his_9",
+            "englishName": "Historical Research Methods",
+            "major": "History",
+            "translations": {
+                "Greece": "Μέθοδοι Ιστορικής Έρευνας",
+                "Bulgaria": "Методи на историческо изследване",
+                "Armenia": "Պատմական հետազոտության մեթոդներ",
+                "Turkey": "Tarih Araştırma Yöntemleri",
+                "Spain": "Métodos de Investigación Histórica",
+                "Italy": "Metodi di Ricerca Storica",
+                "Austria": "Historische Forschungsmethoden",
+                "France": "Méthodes de Recherche Historique",
+                "Portugal": "Métodos de Investigação Histórica",
+                "Poland": "Metody Badań Historycznych",
+                "Romania": "Metode de Cercetare Istorică"
+            }
+        },
+        {
+            "courses_id": "ir_0",
+            "englishName": "International Political Theory",
+            "major": "International Relations",
+            "translations": {
+                "Greece": "Διεθνής Πολιτική Θεωρία",
+                "Bulgaria": "Международна политическа теория",
+                "Armenia": "Միջազգային քաղաքական տեսություն",
+                "Turkey": "Uluslararası Siyasi Teori",
+                "Spain": "Teoría Política Internacional",
+                "Italy": "Teoria Politica Internazionale",
+                "Austria": "Internationale Politische Theorie",
+                "France": "Théorie Politique Internationale",
+                "Portugal": "Teoria Política Internacional",
+                "Poland": "Międzynarodowa Teoria Polityczna",
+                "Romania": "Teorie Politică Internațională"
+            }
+        },
+        {
+            "courses_id": "ir_1",
+            "englishName": "Diplomacy and Negotiation",
+            "major": "International Relations",
+            "translations": {
+                "Greece": "Διπλωματία και Διαπραγμάτευση",
+                "Bulgaria": "Дипломация и преговори",
+                "Armenia": "Դիվանագիտություն և բանակցություններ",
+                "Turkey": "Diplomasi ve Müzakere",
+                "Spain": "Diplomacia y Negociación",
+                "Italy": "Diplomazia e Negoziazione",
+                "Austria": "Diplomatie und Verhandlung",
+                "France": "Diplomatie et Négociation",
+                "Portugal": "Diplomacia e Negociação",
+                "Poland": "Dyplomacja i Negocjacje",
+                "Romania": "Diplomație și Negociere"
+            }
+        },
+        {
+            "courses_id": "ir_2",
+            "englishName": "International Law",
+            "major": "International Relations",
+            "translations": {
+                "Greece": "Διεθνές Δίκαιο",
+                "Bulgaria": "Международно право",
+                "Armenia": "Միջազգային իրավունք",
+                "Turkey": "Uluslararası Hukuk",
+                "Spain": "Derecho Internacional",
+                "Italy": "Diritto Internazionale",
+                "Austria": "Internationales Recht",
+                "France": "Droit International",
+                "Portugal": "Direito Internacional",
+                "Poland": "Prawo Międzynarodowe",
+                "Romania": "Drept Internațional"
+            }
+        },
+        {
+            "courses_id": "ir_3",
+            "englishName": "Global Security Studies",
+            "major": "International Relations",
+            "translations": {
+                "Greece": "Μελέτες Παγκόσμιας Ασφάλειας",
+                "Bulgaria": "Глобални изследвания по сигурността",
+                "Armenia": "Աշխարհային անվտանգության ուսումնասիրություն",
+                "Turkey": "Küresel Güvenlik Çalışmaları",
+                "Spain": "Estudios de Seguridad Global",
+                "Italy": "Studi sulla Sicurezza Globale",
+                "Austria": "Globale Sicherheitsstudien",
+                "France": "Études de Sécurité Globale",
+                "Portugal": "Estudos de Segurança Global",
+                "Poland": "Globalne Studia Bezpieczeństwa",
+                "Romania": "Studii de Securitate Globală"
+            }
+        },
+        {
+            "courses_id": "ir_4",
+            "englishName": "International Organizations",
+            "major": "International Relations",
+            "translations": {
+                "Greece": "Διεθνείς Οργανισμοί",
+                "Bulgaria": "Международни организации",
+                "Armenia": "Միջազգային կազմակերպություններ",
+                "Turkey": "Uluslararası Örgütler",
+                "Spain": "Organizaciones Internacionales",
+                "Italy": "Organizzazioni Internazionali",
+                "Austria": "Internationale Organisationen",
+                "France": "Organisations Internationales",
+                "Portugal": "Organizações Internacionais",
+                "Poland": "Organizacje Międzynarodowe",
+                "Romania": "Organizații Internaționale"
+            }
+        },
+        {
+            "courses_id": "ir_5",
+            "englishName": "International Political Economy",
+            "major": "International Relations",
+            "translations": {
+                "Greece": "Διεθνής Πολιτική Οικονομία",
+                "Bulgaria": "Международна политическа икономия",
+                "Armenia": "Միջազգային քաղաքական տնտեսագիտություն",
+                "Turkey": "Uluslararası Politik Ekonomi",
+                "Spain": "Economía Política Internacional",
+                "Italy": "Economia Politica Internazionale",
+                "Austria": "Internationale Politische Ökonomie",
+                "France": "Économie Politique Internationale",
+                "Portugal": "Economia Política Internacional",
+                "Poland": "Międzynarodowa Ekonomia Polityczna",
+                "Romania": "Economie Politică Internațională"
+            }
+        },
+        {
+            "courses_id": "ir_6",
+            "englishName": "Conflict Resolution and Peace Studies",
+            "major": "International Relations",
+            "translations": {
+                "Greece": "Επίλυση Συγκρούσεων και Σπουδές Ειρήνης",
+                "Bulgaria": "Разрешаване на конфликти и мирни изследвания",
+                "Armenia": "Խաղաղության և կոնֆլիկտների ուսումնասիրություն",
+                "Turkey": "Çatışma Çözümü ve Barış Çalışmaları",
+                "Spain": "Resolución de Conflictos y Estudios de Paz",
+                "Italy": "Risoluzione dei Conflitti e Studi sulla Pace",
+                "Austria": "Konfliktlösung und Friedensstudien",
+                "France": "Résolution des Conflits et Études de Paix",
+                "Portugal": "Resolução de Conflitos e Estudos de Paz",
+                "Poland": "Rozwiązywanie Konfliktów i Studia nad Pokojem",
+                "Romania": "Rezolvarea Conflictelor și Studii pentru Pace"
+            }
+        },
+        {
+            "courses_id": "ir_7",
+            "englishName": "Foreign Policy Analysis",
+            "major": "International Relations",
+            "translations": {
+                "Greece": "Ανάλυση Εξωτερικής Πολιτικής",
+                "Bulgaria": "Анализ на външната политика",
+                "Armenia": "Արտաքին քաղաքականության վերլուծություն",
+                "Turkey": "Dış Politika Analizi",
+                "Spain": "Análisis de Política Exterior",
+                "Italy": "Analisi della Politica Estera",
+                "Austria": "Analyse der Außenpolitik",
+                "France": "Analyse de la Politique Étrangère",
+                "Portugal": "Análise de Política Externa",
+                "Poland": "Analiza Polityki Zagranicznej",
+                "Romania": "Analiza Politicii Externe"
+            }
+        },
+        {
+            "courses_id": "ir_8",
+            "englishName": "Regional Studies",
+            "major": "International Relations",
+            "translations": {
+                "Greece": "Περιφερειακές Σπουδές",
+                "Bulgaria": "Регионални изследвания",
+                "Armenia": "Մարզային ուսումնասիրություններ",
+                "Turkey": "Bölgesel Çalışmalar",
+                "Spain": "Estudios Regionales",
+                "Italy": "Studi Regionali",
+                "Austria": "Regionale Studien",
+                "France": "Études Régionales",
+                "Portugal": "Estudos Regionais",
+                "Poland": "Studia Regionalne",
+                "Romania": "Studii Regionale"
+            }
+        },
+        {
+            "courses_id": "ir_9",
+            "englishName": "Global Governance",
+            "major": "International Relations",
+            "translations": {
+                "Greece": "Παγκόσμια Διακυβέρνηση",
+                "Bulgaria": "Глобално управление",
+                "Armenia": "Աշխարհային կառավարում",
+                "Turkey": "Küresel Yönetişim",
+                "Spain": "Gobernanza Global",
+                "Italy": "Governance Globale",
+                "Austria": "Globale Governance",
+                "France": "Gouvernance Globale",
+                "Portugal": "Governança Global",
+                "Poland": "Globalne Zarządzanie",
+                "Romania": "Guvernanță Globală"
+            }
+        },
+        {
+            "courses_id": "tur_0",
+            "englishName": "Tourism Management",
+            "major": "Tourism",
+            "translations": {
+                "Greece": "Διοίκηση Τουρισμού",
+                "Bulgaria": "Управление на туризма",
+                "Armenia": "Տուրիզմի կառավարում",
+                "Turkey": "Turizm Yönetimi",
+                "Spain": "Gestión Turística",
+                "Italy": "Gestione del Turismo",
+                "Austria": "Tourismusmanagement",
+                "France": "Gestion du Tourisme",
+                "Portugal": "Gestão do Turismo",
+                "Poland": "Zarządzanie Turystyką",
+                "Romania": "Managementul Turismului"
+            }
+        },
+        {
+            "courses_id": "tur_1",
+            "englishName": "Sustainable Tourism",
+            "major": "Tourism",
+            "translations": {
+                "Greece": "Βιώσιμος Τουρισμός",
+                "Bulgaria": "Устойчив туризъм",
+                "Armenia": "Թվային զբոսաշրջություն",
+                "Turkey": "Sürdürülebilir Turizm",
+                "Spain": "Turismo Sostenible",
+                "Italy": "Turismo Sostenibile",
+                "Austria": "Nachhaltiger Tourismus",
+                "France": "Tourisme Durable",
+                "Portugal": "Turismo Sustentável",
+                "Poland": "Turystyka Zrównoważona",
+                "Romania": "Turism Durabil"
+            }
+        },
+        {
+            "courses_id": "tur_2",
+            "englishName": "Hospitality and Hotel Management",
+            "major": "Tourism",
+            "translations": {
+                "Greece": "Φιλοξενία και Διοίκηση Ξενοδοχείων",
+                "Bulgaria": "Хотелиерство и управление на хотели",
+                "Armenia": "Հյուրասիրություն և հյուրանոցի կառավարում",
+                "Turkey": "Konaklama ve Otel Yönetimi",
+                "Spain": "Hospitalidad y Gestión Hotelera",
+                "Italy": "Ospitalità e Gestione Alberghiera",
+                "Austria": "Gastgewerbe und Hotelmanagement",
+                "France": "Hôtellerie et Gestion Hôtelière",
+                "Portugal": "Hospitalidade e Gestão Hoteleira",
+                "Poland": "Hotelarstwo i Zarządzanie Hotelem",
+                "Romania": "Ospitalitate și Management Hotelier"
+            }
+        },
+        {
+            "courses_id": "tur_3",
+            "englishName": "Cultural Tourism",
+            "major": "Tourism",
+            "translations": {
+                "Greece": "Πολιτιστικός Τουρισμός",
+                "Bulgaria": "Културен туризъм",
+                "Armenia": "Մշակութային զբոսաշրջություն",
+                "Turkey": "Kültürel Turizm",
+                "Spain": "Turismo Cultural",
+                "Italy": "Turismo Culturale",
+                "Austria": "Kultureller Tourismus",
+                "France": "Tourisme Culturel",
+                "Portugal": "Turismo Cultural",
+                "Poland": "Turystyka Kulturowa",
+                "Romania": "Turism Cultural"
+            }
+        },
+        {
+            "courses_id": "tur_4",
+            "englishName": "Tourism Marketing",
+            "major": "Tourism",
+            "translations": {
+                "Greece": "Μάρκετινγκ Τουρισμού",
+                "Bulgaria": "Маркетинг на туризма",
+                "Armenia": "Տուրիզմի մարքեթինգ",
+                "Turkey": "Turizm Pazarlaması",
+                "Spain": "Marketing Turístico",
+                "Italy": "Marketing Turistico",
+                "Austria": "Tourismusmarketing",
+                "France": "Marketing du Tourisme",
+                "Portugal": "Marketing Turístico",
+                "Poland": "Marketing Turystyczny",
+                "Romania": "Marketing Turistic"
+            }
+        },
+        {
+            "courses_id": "tur_5",
+            "englishName": "Event and Conference Management",
+            "major": "Tourism",
+            "translations": {
+                "Greece": "Διοίκηση Εκδηλώσεων και Συνεδρίων",
+                "Bulgaria": "Управление на събития и конференции",
+                "Armenia": "Միջոցառումների և կոնֆերանսների կառավարում",
+                "Turkey": "Etkinlik ve Konferans Yönetimi",
+                "Spain": "Gestión de Eventos y Conferencias",
+                "Italy": "Gestione di Eventi e Conferenze",
+                "Austria": "Event- und Konferenzmanagement",
+                "France": "Gestion des Événements et Conférences",
+                "Portugal": "Gestão de Eventos e Conferências",
+                "Poland": "Zarządzanie Wydarzeniami i Konferencjami",
+                "Romania": "Management Evenimente și Conferințe"
+            }
+        },
+        {
+            "courses_id": "tur_6",
+            "englishName": "Tourism Economics",
+            "major": "Tourism",
+            "translations": {
+                "Greece": "Οικονομικά Τουρισμού",
+                "Bulgaria": "Икономика на туризма",
+                "Armenia": "Տուրիզմի տնտեսագիտություն",
+                "Turkey": "Turizm Ekonomisi",
+                "Spain": "Economía del Turismo",
+                "Italy": "Economia del Turismo",
+                "Austria": "Tourismusökonomie",
+                "France": "Économie du Tourisme",
+                "Portugal": "Economia do Turismo",
+                "Poland": "Ekonomia Turystyki",
+                "Romania": "Economia Turismului"
+            }
+        },
+        {
+            "courses_id": "tur_7",
+            "englishName": "Sustainable Destination Planning",
+            "major": "Tourism",
+            "translations": {
+                "Greece": "Σχεδιασμός Βιώσιμων Προορισμών",
+                "Bulgaria": "Планиране на устойчиви дестинации",
+                "Armenia": "Տնտեսական կայուն ուղղությունների պլանավորում",
+                "Turkey": "Sürdürülebilir Destinasyon Planlaması",
+                "Spain": "Planificación de Destinos Sostenibles",
+                "Italy": "Pianificazione di Destinazioni Sostenibili",
+                "Austria": "Planung nachhaltiger Reiseziele",
+                "France": "Planification de Destinations Durables",
+                "Portugal": "Planeamento de Destinos Sustentáveis",
+                "Poland": "Planowanie Zrównoważonych Destynacji",
+                "Romania": "Planificarea Destinațiilor Durabile"
+            }
+        },
+        {
+            "courses_id": "tur_8",
+            "englishName": "Tourism Law and Policy",
+            "major": "Tourism",
+            "translations": {
+                "Greece": "Νόμος και Πολιτική Τουρισμού",
+                "Bulgaria": "Право и политика на туризма",
+                "Armenia": "Տուրիզմի իրավունքի և քաղաքականության դասընթաց",
+                "Turkey": "Turizm Hukuku ve Politikası",
+                "Spain": "Derecho y Política del Turismo",
+                "Italy": "Diritto e Politiche del Turismo",
+                "Austria": "Tourismusrecht und Politik",
+                "France": "Droit et Politique du Tourisme",
+                "Portugal": "Lei e Política do Turismo",
+                "Poland": "Prawo i Polityka Turystyczna",
+                "Romania": "Drept și Politică Turistică"
+            }
+        },
+        {
+            "courses_id": "tur_9",
+            "englishName": "Digital Tourism and Marketing",
+            "major": "Tourism",
+            "translations": {
+                "Greece": "Ψηφιακός Τουρισμός και Μάρκετινγκ",
+                "Bulgaria": "Дигитален туризъм и маркетинг",
+                "Armenia": "Թվային տուրիզմ և մարքեթինգ",
+                "Turkey": "Dijital Turizm ve Pazarlama",
+                "Spain": "Turismo Digital y Marketing",
+                "Italy": "Turismo Digitale e Marketing",
+                "Austria": "Digitaler Tourismus und Marketing",
+                "France": "Tourisme Numérique et Marketing",
+                "Portugal": "Turismo Digital e Marketing",
+                "Poland": "Turystyka Cyfrowa i Marketing",
+                "Romania": "Turism Digital și Marketing"
+            }
+        },
+        {
+            "courses_id": "mar_0",
+            "englishName": "Consumer Behavior",
+            "major": "Marketing",
+            "translations": {
+                "Greece": "Συμπεριφορά Καταναλωτή",
+                "Bulgaria": "Поведение на потребителя",
+                "Armenia": "Կանխորդության վարքագիծ",
+                "Turkey": "Tüketici Davranışı",
+                "Spain": "Comportamiento del Consumidor",
+                "Italy": "Comportamento del Consumatore",
+                "Austria": "Konsumentenverhalten",
+                "France": "Comportement du Consommateur",
+                "Portugal": "Comportamento do Consumidor",
+                "Poland": "Zachowania Konsumentów",
+                "Romania": "Comportamentul Consumatorului"
+            }
+        },
+        {
+            "courses_id": "mar_1",
+            "englishName": "Digital Marketing",
+            "major": "Marketing",
+            "translations": {
+                "Greece": "Ψηφιακό Μάρκετινγκ",
+                "Bulgaria": "Дигитален маркетинг",
+                "Armenia": "Թվային մարքեթինգ",
+                "Turkey": "Dijital Pazarlama",
+                "Spain": "Marketing Digital",
+                "Italy": "Marketing Digitale",
+                "Austria": "Digitales Marketing",
+                "France": "Marketing Digital",
+                "Portugal": "Marketing Digital",
+                "Poland": "Marketing Cyfrowy",
+                "Romania": "Marketing Digital"
+            }
+        },
+        {
+            "courses_id": "mar_2",
+            "englishName": "Brand Management",
+            "major": "Marketing",
+            "translations": {
+                "Greece": "Διαχείριση Μάρκας",
+                "Bulgaria": "Управление на бранд",
+                "Armenia": "Բրենդի կառավարում",
+                "Turkey": "Marka Yönetimi",
+                "Spain": "Gestión de Marca",
+                "Italy": "Gestione del Marchio",
+                "Austria": "Markenmanagement",
+                "France": "Gestion de Marque",
+                "Portugal": "Gestão de Marca",
+                "Poland": "Zarządzanie Marką",
+                "Romania": "Managementul Brandului"
+            }
+        },
+        {
+            "courses_id": "mar_3",
+            "englishName": "Marketing Research",
+            "major": "Marketing",
+            "translations": {
+                "Greece": "Έρευνα Αγοράς",
+                "Bulgaria": "Маркетингови изследвания",
+                "Armenia": "Մարքեթինգի հետազոտություն",
+                "Turkey": "Pazarlama Araştırması",
+                "Spain": "Investigación de Marketing",
+                "Italy": "Ricerca di Marketing",
+                "Austria": "Marktforschung",
+                "France": "Recherche Marketing",
+                "Portugal": "Pesquisa de Marketing",
+                "Poland": "Badania Marketingowe",
+                "Romania": "Cercetare de Marketing"
+            }
+        },
+        {
+            "courses_id": "mar_4",
+            "englishName": "Social Media Marketing",
+            "major": "Marketing",
+            "translations": {
+                "Greece": "Μάρκετινγκ Μέσω Κοινωνικών Δικτύων",
+                "Bulgaria": "Маркетинг в социалните медии",
+                "Armenia": "Սոցիալական ցանցերի մարքեթինգ",
+                "Turkey": "Sosyal Medya Pazarlaması",
+                "Spain": "Marketing en Redes Sociales",
+                "Italy": "Marketing sui Social Media",
+                "Austria": "Social Media Marketing",
+                "France": "Marketing sur les Réseaux Sociaux",
+                "Portugal": "Marketing em Redes Sociais",
+                "Poland": "Marketing w Mediach Społecznościowych",
+                "Romania": "Marketing pe Rețelele Sociale"
+            }
+        },
+        {
+            "courses_id": "mar_5",
+            "englishName": "International Marketing",
+            "major": "Marketing",
+            "translations": {
+                "Greece": "Διεθνές Μάρκετινγκ",
+                "Bulgaria": "Международен маркетинг",
+                "Armenia": "Միջազգային մարքեթինգ",
+                "Turkey": "Uluslararası Pazarlama",
+                "Spain": "Marketing Internacional",
+                "Italy": "Marketing Internazionale",
+                "Austria": "Internationales Marketing",
+                "France": "Marketing International",
+                "Portugal": "Marketing Internacional",
+                "Poland": "Marketing Międzynarodowy",
+                "Romania": "Marketing Internațional"
+            }
+        },
+        {
+            "courses_id": "mar_6",
+            "englishName": "Advertising and Promotion",
+            "major": "Marketing",
+            "translations": {
+                "Greece": "Διαφήμιση και Προώθηση",
+                "Bulgaria": "Реклама и промоция",
+                "Armenia": "Գովազդ և խթանում",
+                "Turkey": "Reklam ve Tanıtım",
+                "Spain": "Publicidad y Promoción",
+                "Italy": "Pubblicità e Promozione",
+                "Austria": "Werbung und Promotion",
+                "France": "Publicité et Promotion",
+                "Portugal": "Publicidade e Promoção",
+                "Poland": "Reklama i Promocja",
+                "Romania": "Publicitate și Promovare"
+            }
+        },
+        {
+            "courses_id": "mar_7",
+            "englishName": "Marketing Analytics",
+            "major": "Marketing",
+            "translations": {
+                "Greece": "Αναλυτική Μάρκετινγκ",
+                "Bulgaria": "Маркетингов анализ",
+                "Armenia": "Մարքեթինգի վերլուծություն",
+                "Turkey": "Pazarlama Analitiği",
+                "Spain": "Analítica de Marketing",
+                "Italy": "Analisi di Marketing",
+                "Austria": "Marketing-Analyse",
+                "France": "Analyse Marketing",
+                "Portugal": "Análise de Marketing",
+                "Poland": "Analiza Marketingowa",
+                "Romania": "Analiza Marketingului"
+            }
+        },
+        {
+            "courses_id": "mar_8",
+            "englishName": "Retail Marketing",
+            "major": "Marketing",
+            "translations": {
+                "Greece": "Μάρκετινγκ Λιανικής",
+                "Bulgaria": "Маркетинг на дребно",
+                "Armenia": "Մանրածախ մարքեթինգ",
+                "Turkey": "Perakende Pazarlama",
+                "Spain": "Marketing Minorista",
+                "Italy": "Marketing al Dettaglio",
+                "Austria": "Einzelhandelsmarketing",
+                "France": "Marketing de Détail",
+                "Portugal": "Marketing de Retalho",
+                "Poland": "Marketing Detaliczny",
+                "Romania": "Marketing în Retail"
+            }
+        },
+        {
+            "courses_id": "mar_9",
+            "englishName": "Marketing Strategy",
+            "major": "Marketing",
+            "translations": {
+                "Greece": "Στρατηγική Μάρκετινγκ",
+                "Bulgaria": "Маркетингова стратегия",
+                "Armenia": "Մարքեթինգի ռազմավարություն",
+                "Turkey": "Pazarlama Stratejisi",
+                "Spain": "Estrategia de Marketing",
+                "Italy": "Strategia di Marketing",
+                "Austria": "Marketingstrategie",
+                "France": "Stratégie Marketing",
+                "Portugal": "Estratégia de Marketing",
+                "Poland": "Strategia Marketingowa",
+                "Romania": "Strategie de Marketing"
+            }
+        },
+        {
+            "courses_id": "ba_0",
+            "englishName": "Principles of Management",
+            "major": "Business Administration",
+            "translations": {
+                "Greece": "Αρχές Διοίκησης",
+                "Bulgaria": "Принципи на управление",
+                "Armenia": "Կառավարման սկզբունքներ",
+                "Turkey": "Yönetim Prensipleri",
+                "Spain": "Principios de Gestión",
+                "Italy": "Principi di Gestione",
+                "Austria": "Grundsätze des Managements",
+                "France": "Principes de Gestion",
+                "Portugal": "Princípios de Gestão",
+                "Poland": "Zasady Zarządzania",
+                "Romania": "Principiile Managementului"
+            }
+        },
+        {
+            "courses_id": "ba_1",
+            "englishName": "Organizational Behavior",
+            "major": "Business Administration",
+            "translations": {
+                "Greece": "Συμπεριφορά Οργανισμού",
+                "Bulgaria": "Организационно поведение",
+                "Armenia": "Կազմակերպչական վարքագիծ",
+                "Turkey": "Örgütsel Davranış",
+                "Spain": "Comportamiento Organizacional",
+                "Italy": "Comportamento Organizzativo",
+                "Austria": "Organisationsverhalten",
+                "France": "Comportement Organisationnel",
+                "Portugal": "Comportamento Organizacional",
+                "Poland": "Zachowania Organizacyjne",
+                "Romania": "Comportamentul Organizațional"
+            }
+        },
+        {
+            "courses_id": "ba_2",
+            "englishName": "Financial Accounting",
+            "major": "Business Administration",
+            "translations": {
+                "Greece": "Χρηματοοικονομική Λογιστική",
+                "Bulgaria": "Финансово счетоводство",
+                "Armenia": "Ֆինանսական հաշվապահություն",
+                "Turkey": "Finansal Muhasebe",
+                "Spain": "Contabilidad Financiera",
+                "Italy": "Contabilità Finanziaria",
+                "Austria": "Finanzbuchhaltung",
+                "France": "Comptabilité Financière",
+                "Portugal": "Contabilidade Financeira",
+                "Poland": "Rachunkowość Finansowa",
+                "Romania": "Contabilitate Financiară"
+            }
+        },
+        {
+            "courses_id": "ba_3",
+            "englishName": "Managerial Accounting",
+            "major": "Business Administration",
+            "translations": {
+                "Greece": "Διοικητική Λογιστική",
+                "Bulgaria": "Управленско счетоводство",
+                "Armenia": "Տնօրինական հաշվապահություն",
+                "Turkey": "Yönetim Muhasebesi",
+                "Spain": "Contabilidad Gerencial",
+                "Italy": "Contabilità Manageriale",
+                "Austria": "Managementbuchhaltung",
+                "France": "Comptabilité de Gestion",
+                "Portugal": "Contabilidade de Gestão",
+                "Poland": "Rachunkowość Zarządcza",
+                "Romania": "Contabilitate Managerială"
+            }
+        },
+        {
+            "courses_id": "ba_4",
+            "englishName": "Operations Management",
+            "major": "Business Administration",
+            "translations": {
+                "Greece": "Διοίκηση Επιχειρησιακών Λειτουργιών",
+                "Bulgaria": "Управление на операциите",
+                "Armenia": "Օպերացիոն կառավարման դասընթաց",
+                "Turkey": "Operasyon Yönetimi",
+                "Spain": "Gestión de Operaciones",
+                "Italy": "Gestione delle Operazioni",
+                "Austria": "Operations Management",
+                "France": "Gestion des Opérations",
+                "Portugal": "Gestão de Operações",
+                "Poland": "Zarządzanie Operacjami",
+                "Romania": "Managementul Operațiunilor"
+            }
+        },
+        {
+            "courses_id": "ba_5",
+            "englishName": "Business Strategy",
+            "major": "Business Administration",
+            "translations": {
+                "Greece": "Στρατηγική Επιχειρήσεων",
+                "Bulgaria": "Бизнес стратегия",
+                "Armenia": "Բիզնես ռազմավարություն",
+                "Turkey": "İşletme Stratejisi",
+                "Spain": "Estrategia Empresarial",
+                "Italy": "Strategia Aziendale",
+                "Austria": "Geschäftsstrategie",
+                "France": "Stratégie d'Entreprise",
+                "Portugal": "Estratégia Empresarial",
+                "Poland": "Strategia Biznesowa",
+                "Romania": "Strategie de Afaceri"
+            }
+        },
+        {
+            "courses_id": "ba_6",
+            "englishName": "Entrepreneurship and Innovation",
+            "major": "Business Administration",
+            "translations": {
+                "Greece": "Επιχειρηματικότητα και Καινοτομία",
+                "Bulgaria": "Предприемачество и иновации",
+                "Armenia": "Նախաձեռնողականություն և նորարարություն",
+                "Turkey": "Girişimcilik ve İnovasyon",
+                "Spain": "Emprendimiento e Innovación",
+                "Italy": "Imprenditorialità e Innovazione",
+                "Austria": "Unternehmertum und Innovation",
+                "France": "Entrepreneuriat et Innovation",
+                "Portugal": "Empreendedorismo e Inovação",
+                "Poland": "Przedsiębiorczość i Innowacje",
+                "Romania": "Antreprenoriat și Inovare"
+            }
+        },
+        {
+            "courses_id": "ba_7",
+            "englishName": "International Business",
+            "major": "Business Administration",
+            "translations": {
+                "Greece": "Διεθνείς Επιχειρήσεις",
+                "Bulgaria": "Международен бизнес",
+                "Armenia": "Միջազգային բիզնես",
+                "Turkey": "Uluslararası İşletme",
+                "Spain": "Negocios Internacionales",
+                "Italy": "Business Internazionale",
+                "Austria": "Internationales Business",
+                "France": "Affaires Internationales",
+                "Portugal": "Negócios Internacionais",
+                "Poland": "Biznes Międzynarodowy",
+                "Romania": "Afaceri Internaționale"
+            }
+        },
+        {
+            "courses_id": "ba_8",
+            "englishName": "Human Resource Management",
+            "major": "Business Administration",
+            "translations": {
+                "Greece": "Διοίκηση Ανθρώπινων Πόρων",
+                "Bulgaria": "Управление на човешките ресурси",
+                "Armenia": "Մարդկային ռեսուրսների կառավարում",
+                "Turkey": "İnsan Kaynakları Yönetimi",
+                "Spain": "Gestión de Recursos Humanos",
+                "Italy": "Gestione delle Risorse Umane",
+                "Austria": "Personalmanagement",
+                "France": "Gestion des Ressources Humaines",
+                "Portugal": "Gestão de Recursos Humanos",
+                "Poland": "Zarządzanie Zasobami Ludzkimi",
+                "Romania": "Managementul Resurselor Umane"
+            }
+        },
+        {
+            "courses_id": "ba_9",
+            "englishName": "Business Ethics",
+            "major": "Business Administration",
+            "translations": {
+                "Greece": "Επιχειρηματική Ηθική",
+                "Bulgaria": "Бизнес етика",
+                "Armenia": "Բիզնես էթիկա",
+                "Turkey": "İş Ahlakı",
+                "Spain": "Ética Empresarial",
+                "Italy": "Etica Aziendale",
+                "Austria": "Unternehmensethik",
+                "France": "Éthique des Affaires",
+                "Portugal": "Ética Empresarial",
+                "Poland": "Etyka Biznesu",
+                "Romania": "Etică în Afaceri"
+            }
+        }
+    ]
+}
