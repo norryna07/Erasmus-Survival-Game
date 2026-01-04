@@ -1,0 +1,500 @@
+{
+    "CVoptions": [
+        {
+            "name": "email",
+            "options": [
+                {
+                    "text": "firstname.lastname@gmail.com",
+                    "score": 10,
+                    "major": []
+                }, 
+                {
+                    "text": "firstname@gmail.com",
+                    "score": 8,
+                    "major": []
+                }, 
+                {
+                    "text": "coolguy123@gmail.com",
+                    "score": 6,
+                    "major": []
+                },
+                {
+                    "text": "partyanimal99@yahoo.com",
+                    "score": 4,
+                    "major": []
+                },
+                {
+                    "text": "sexybitch69@hotmail.com",
+                    "score": 2,
+                    "major": []
+                }
+            ]
+        }, 
+        {
+            "name": "skills",
+            "options": [
+                {
+                    "text": "C#, Unity, Git, Algorithms",
+                    "score": 10,
+                    "major": ["Computer Engineering"]
+                },
+                {
+                    "text": "Python, Web Development, Database Basics",
+                    "score": 7,
+                    "major": ["Computer Engineering"]
+                },
+                {
+                    "text": "Microsoft Office, Basic HTML",
+                    "score": 4,
+                    "major": ["Computer Engineering"]
+                },
+                {
+                    "text": "Cooking, Painting, Basic French",
+                    "score": 2,
+                    "major": ["Computer Engineering"]
+                },
+                {
+                    "text": "CAD, SolidWorks, MATLAB, Design Thinking",
+                    "score": 10,
+                    "major": ["Mechanical Engineering"]
+                },
+                {
+                    "text": "3D Printing, PLC Programming",
+                    "score": 7,
+                    "major": ["Mechanical Engineering"]
+                },
+                {
+                    "text": "Microsoft Office, Basic Mechanics",
+                    "score": 4,
+                    "major": ["Mechanical Engineering"]
+                },
+                {
+                    "text": "Singing, Graphic Design, Basic Spanish",
+                    "score": 2,
+                    "major": ["Mechanical Engineering"]
+                },
+                {
+                    "text": "Anatomy, Laboratory Techniques, Patient Care",
+                    "score": 10,
+                    "major": ["Medicine"]
+                },
+                {
+                    "text": "Medical Research, First Aid, Data Analysis",
+                    "score": 7,
+                    "major": ["Medicine"]
+                },
+                {
+                    "text": "General Biology, Basic Documentation",
+                    "score": 4,
+                    "major": ["Medicine"]
+                },
+                {
+                    "text": "Marketing, Photography, Excel",
+                    "score": 2,
+                    "major": ["Medicine"]
+                },
+                {
+                    "text": "Epidemiology, Data Analysis, Health Policies",
+                    "score": 10,
+                    "major": ["Public Health"]
+                },
+                {
+                    "text": "Community Work, Report Writing",
+                    "score": 7,
+                    "major": ["Public Health"]
+                },
+                {
+                    "text": "General Health Knowledge, Microsoft Office",
+                    "score": 4,
+                    "major": ["Public Health"]
+                },
+                {
+                    "text": "Photoshop, Basic Guitar, Travel Planning",
+                    "score": 2,
+                    "major": ["Public Health"]
+                },
+                {
+                    "text": "Phonetics, Syntax Analysis, Research",
+                    "score": 10,
+                    "major": ["Linguistics"]
+                },
+                {
+                    "text": "Translation, Text Analysis",
+                    "score": 7,
+                    "major": ["Linguistics"]
+                },
+                {
+                    "text": "General Writing, Vocabulary",
+                    "score": 4,
+                    "major": ["Linguistics"]
+                },
+                {
+                    "text": "Java, CAD, First Aid",
+                    "score": 2,
+                    "major": ["Linguistics"]
+                },
+                {
+                    "text": "CAT Tools, Multilingual Translation, Accuracy",
+                    "score": 10,
+                    "major": ["Translation and Interpreting"]
+                },
+                {
+                    "text": "Proofreading, Cultural Knowledge",
+                    "score": 7,
+                    "major": ["Translation and Interpreting"]
+                },
+                {
+                    "text": "Basic Vocabulary, General Writing",
+                    "score": 4,
+                    "major": ["Translation and Interpreting"]
+                },
+                {
+                    "text": "Programming, Welding, Cooking",
+                    "score": 2,
+                    "major": ["Translation and Interpreting"]
+                },
+                {
+                    "text": "Archival Research, Critical Writing, Presentation",
+                    "score": 10,
+                    "major": ["History"]
+                },
+                {
+                    "text": "Essay Writing, Data Interpretation",
+                    "score": 7,
+                    "major": ["History"]
+                },
+                {
+                    "text": "Basic History Knowledge, Note-taking",
+                    "score": 4,
+                    "major": ["History"]
+                },
+                {
+                    "text": "Python, Marketing, Swimming",
+                    "score": 2,
+                    "major": ["History"]
+                },
+                {
+                    "text": "Diplomacy, Policy Analysis, Negotiation",
+                    "score": 10,
+                    "major": ["International Relations"]
+                },
+                {
+                    "text": "Public Speaking, Research",
+                    "score": 7,
+                    "major": ["International Relations"]
+                },
+                {
+                    "text": "Basic Writing, General Knowledge",
+                    "score": 4,
+                    "major": ["International Relations"]
+                },
+                {
+                    "text": "CAD, Cooking, Painting",
+                    "score": 2,
+                    "major": ["International Relations"]
+                },
+                {
+                    "text": "Customer Service, Event Planning, Foreign Languages",
+                    "score": 10,
+                    "major": ["Tourism"]
+                },
+                {
+                    "text": "Basic Marketing, Presentation",
+                    "score": 7,
+                    "major": ["Tourism"]
+                },
+                {
+                    "text": "General Knowledge, Note-taking",
+                    "score": 4,
+                    "major": ["Tourism"]
+                },
+                {
+                    "text": "Programming, Research, Anatomy",
+                    "score": 2,
+                    "major": ["Tourism"]
+                },
+                {
+                    "text": "SEO, Social Media Management, Branding",
+                    "score": 10,
+                    "major": ["Marketing"]
+                },
+                {
+                    "text": "Analytics, Content Creation",
+                    "score": 7,
+                    "major": ["Marketing"]
+                },
+                {
+                    "text": "Basic Design, Writing",
+                    "score": 4,
+                    "major": ["Marketing"]
+                },
+                {
+                    "text": "First Aid, CAD, Phonetics",
+                    "score": 2,
+                    "major": ["Marketing"]
+                },
+                {
+                    "text": "Excel, Finance, Leadership, Project Management",
+                    "score": 10,
+                    "major": ["Business Administration"]
+                },
+                {
+                    "text": "Customer Relations, Report Writing",
+                    "score": 7,
+                    "major": ["Business Administration"]
+                },
+                {
+                    "text": "General Office Skills, Note-taking",
+                    "score": 4,
+                    "major": ["Business Administration"]
+                },
+                {
+                    "text": "Painting, Guitar, Biology",
+                    "score": 2,
+                    "major": ["Business Administration"]
+                }
+            ]
+        },
+        {
+            "name": "highschool",
+            "options": [
+                {
+                    "text": "Technical High School 'Leonardo da Vinci' - Final Grade: 9.8/10",
+                    "score": 10,
+                    "major": []
+                },
+                {
+                    "text": "Science & Language High School 'Copernicus' - Final Grade: 9.0/10",
+                    "score": 8,
+                    "major": []
+                },
+                {
+                    "text": "General High School 'Central' - Final Grade: 8.0/10",
+                    "score": 6,
+                    "major": []
+                },
+                {
+                    "text": "Local Public High School 'Riverside' - Final Grade: 7.0/10",
+                    "score": 4,
+                    "major": []
+                },
+                {
+                    "text": "Art & Music High School 'Harmony' - Final Grade: 6.0/10",
+                    "score": 2,
+                    "major": []
+                }
+            ]
+        },
+        {
+            "name": "averageGrade",
+            "options": [
+                {
+                    "text": "Average grade: 9.5/10",
+                    "score": 10,
+                    "major": []
+                },
+                {
+                    "text": "Average grade: 8.5/10",
+                    "score": 8,
+                    "major": []
+                },
+                {
+                    "text": "Average grade: 7/10",
+                    "score": 6,
+                    "major": []
+                },
+                {
+                    "text": "Average grade: 6/10, 1 resits",
+                    "score": 4,
+                    "major": []
+                },
+                {
+                    "text": "Average grade: 6/10, 5 resits",
+                    "score": 2,
+                    "major": []
+                }
+            ]
+        },
+        {
+            "name": "personalProjects",
+            "options": [
+                {
+                    "text": "Developed a Unity game with multiplayer features on GitHub",
+                    "score": 10,
+                    "major": ["Computer Engineering"]
+                },
+                {
+                    "text": "Created a personal website using HTML, CSS, and JS",
+                    "score": 7,
+                    "major": ["Computer Engineering"]
+                },
+                {
+                    "text": "Built a simple calculator app",
+                    "score": 4,
+                    "major": ["Computer Engineering"]
+                },
+                {
+                    "text": "Made a scrapbook of favorite movies",
+                    "score": 2,
+                    "major": ["Computer Engineering"]
+                },
+                {
+                    "text": "Designed and 3D printed a functional robotic arm”",
+                    "score": 10,
+                    "major": ["Mechanical Engineering"]
+                },
+                {
+                    "text": "Built a small RC car for hobby project",
+                    "score": 7,
+                    "major": ["Mechanical Engineering"]
+                },
+                {
+                    "text": "Made a mechanical pencil model",
+                    "score": 4,
+                    "major": ["Mechanical Engineering"]
+                },
+                {
+                    "text": "Knitted a scarf for a friend",
+                    "score": 2,
+                    "major": ["Mechanical Engineering"]
+                },
+                {
+                    "text": "Organized a local health awareness campaign",
+                    "score": 10,
+                    "major": ["Medicine", "Public Health"]
+                },
+                {
+                    "text": "Volunteered in a small lab project analyzing samples",
+                    "score": 7,
+                    "major": ["Medicine", "Public Health"]
+                },
+                {
+                    "text": "Wrote a biology blog post",
+                    "score": 4,
+                    "major": ["Medicine", "Public Health"]
+                },
+                {
+                    "text": "Built a LEGO model of a hospital",
+                    "score": 2,
+                    "major": ["Medicine", "Public Health"]
+                },
+                {
+                    "text": "Epidemiology, Data Analysis, Health Policies",
+                    "score": 10,
+                    "major": "Public Health"
+                },
+                {
+                    "text": "Translated a short story into 3 languages and published online",
+                    "score": 10,
+                    "major": ["Linguistics", "Translation and Interpreting"]
+                },
+                {
+                    "text": "Created a personal language learning blog",
+                    "score": 7,
+                    "major": ["Linguistics", "Translation and Interpreting"]
+                },
+                {
+                    "text": "Translated some basic phrases for friends",
+                    "score": 4,
+                    "major": ["Linguistics", "Translation and Interpreting"]
+                },
+                {
+                    "text": "Designed a comic book in English",
+                    "score": 2,
+                    "major": ["Linguistics", "Translation and Interpreting"]
+                },
+                {
+                    "text": "Research paper on local history published in student journal",
+                    "score": 10,
+                    "major": ["History"]
+                },
+                {
+                    "text": "Curated a small exhibition for a school museum",
+                    "score": 7,
+                    "major": ["History"]
+                },
+                {
+                    "text": "Wrote a history essay for fun",
+                    "score": 4,
+                    "major": ["History"]
+                },
+                {
+                    "text": "Created a timeline for a fantasy novel",
+                    "score": 2,
+                    "major": ["History"]
+                },
+                {
+                    "text": "Organized a mock UN conference at school",
+                    "score": 10,
+                    "major": ["International Relations"]
+                },
+                {
+                    "text": "Volunteered in local community diplomacy events",
+                    "score": 7,
+                    "major": ["International Relations"]
+                },
+                {
+                    "text": "Wrote essays about current events",
+                    "score": 4,
+                    "major": ["International Relations"]
+                },
+                {
+                    "text": "Made a blog about travel destinations",
+                    "score": 2,
+                    "major": ["International Relations"]
+                },
+                {
+                    "text": "Created a marketing campaign for a local business",
+                    "score": 10,
+                    "major": ["Tourism", "Marketing", "Business Administration"]
+                },
+                {
+                    "text": "Designed a small website to promote an event",
+                    "score": 7,
+                    "major": ["Tourism", "Marketing", "Business Administration"]
+                },
+                {
+                    "text": "Planned a personal trip with budget report",
+                    "score": 4,
+                    "major": ["Tourism", "Marketing", "Business Administration"]
+                },
+                {
+                    "text": "Started a small YouTube vlog about makeup",
+                    "score": 2,
+                    "major": ["Tourism", "Marketing", "Business Administration"]
+                }
+            ]
+        }, 
+        {
+            "name": "volunteering", 
+            "options": [
+                {
+                    "text": "Organized a local charity event benefiting underprivileged children",
+                    "score": 10,
+                    "major": []
+                },
+                {
+                    "text": "Volunteered regularly at a community center or hospital",
+                    "score": 8,
+                    "major": []
+                },
+                {
+                    "text": "Participated in a school-based environmental or social project",
+                    "score": 6,
+                    "major": []
+                },
+                {
+                    "text": "Helped a friend with a personal project or small fundraiser",
+                    "score": 4,
+                    "major": []
+                },
+                {
+                    "text": "I don’t have any volunteering experience / I don’t care about this",
+                    "score": 2,
+                    "major": []
+                }
+            ]
+        }
+    ]
+}
+
