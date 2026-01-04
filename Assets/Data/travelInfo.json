@@ -1,0 +1,2209 @@
+{
+    "travelInfos": [
+        {
+            "originCountry": "United Kingdom",
+            "erasmusCountry": "Greece",
+            "method": "Plane",
+            "price": 250,
+            "timeHours": 4.0
+        },
+        {
+            "originCountry": "United Kingdom",
+            "erasmusCountry": "Greece",
+            "method": "Bus + Ferry",
+            "price": 150,
+            "timeHours": 36.0
+        },
+        {
+            "originCountry": "United Kingdom",
+            "erasmusCountry": "Greece",
+            "method": "Train + Ferry",
+            "price": 180,
+            "timeHours": 40.0
+        },
+        {
+            "originCountry": "United Kingdom",
+            "erasmusCountry": "Bulgaria",
+            "method": "Plane",
+            "price": 180,
+            "timeHours": 3.5
+        },
+        {
+            "originCountry": "United Kingdom",
+            "erasmusCountry": "Bulgaria",
+            "method": "Train + Bus",
+            "price": 120,
+            "timeHours": 28.0
+        },
+        {
+            "originCountry": "United Kingdom",
+            "erasmusCountry": "Bulgaria",
+            "method": "Bus",
+            "price": 100,
+            "timeHours": 32.0
+        },
+        {
+            "originCountry": "United Kingdom",
+            "erasmusCountry": "Armenia",
+            "method": "Plane",
+            "price": 400,
+            "timeHours": 6.0
+        },
+        {
+            "originCountry": "United Kingdom",
+            "erasmusCountry": "Armenia",
+            "method": "Plane + Train",
+            "price": 350,
+            "timeHours": 12.0
+        },
+        {
+            "originCountry": "United Kingdom",
+            "erasmusCountry": "Armenia",
+            "method": "Bus + Train + Ferry",
+            "price": 300,
+            "timeHours": 48.0
+        },
+        {
+            "originCountry": "United Kingdom",
+            "erasmusCountry": "Turkey",
+            "method": "Plane",
+            "price": 200,
+            "timeHours": 4.0
+        },
+        {
+            "originCountry": "United Kingdom",
+            "erasmusCountry": "Turkey",
+            "method": "Plane + Train",
+            "price": 170,
+            "timeHours": 10.0
+        },
+        {
+            "originCountry": "United Kingdom",
+            "erasmusCountry": "Turkey",
+            "method": "Bus + Train",
+            "price": 140,
+            "timeHours": 36.0
+        },
+        {
+            "originCountry": "United Kingdom",
+            "erasmusCountry": "Spain",
+            "method": "Plane",
+            "price": 120,
+            "timeHours": 2.5
+        },
+        {
+            "originCountry": "United Kingdom",
+            "erasmusCountry": "Spain",
+            "method": "Bus",
+            "price": 80,
+            "timeHours": 24.0
+        },
+        {
+            "originCountry": "United Kingdom",
+            "erasmusCountry": "Spain",
+            "method": "Train + Ferry",
+            "price": 100,
+            "timeHours": 30.0
+        },
+        {
+            "originCountry": "United Kingdom",
+            "erasmusCountry": "Italy",
+            "method": "Plane",
+            "price": 150,
+            "timeHours": 3.0
+        },
+        {
+            "originCountry": "United Kingdom",
+            "erasmusCountry": "Italy",
+            "method": "Train + Ferry",
+            "price": 120,
+            "timeHours": 20.0
+        },
+        {
+            "originCountry": "United Kingdom",
+            "erasmusCountry": "Italy",
+            "method": "Bus",
+            "price": 100,
+            "timeHours": 28.0
+        },
+        {
+            "originCountry": "United Kingdom",
+            "erasmusCountry": "Austria",
+            "method": "Plane",
+            "price": 130,
+            "timeHours": 2.0
+        },
+        {
+            "originCountry": "United Kingdom",
+            "erasmusCountry": "Austria",
+            "method": "Train",
+            "price": 110,
+            "timeHours": 12.0
+        },
+        {
+            "originCountry": "United Kingdom",
+            "erasmusCountry": "Austria",
+            "method": "Bus",
+            "price": 90,
+            "timeHours": 16.0
+        },
+        {
+            "originCountry": "United Kingdom",
+            "erasmusCountry": "France",
+            "method": "Train (Eurostar)",
+            "price": 100,
+            "timeHours": 2.0
+        },
+        {
+            "originCountry": "United Kingdom",
+            "erasmusCountry": "France",
+            "method": "Plane",
+            "price": 120,
+            "timeHours": 1.5
+        },
+        {
+            "originCountry": "United Kingdom",
+            "erasmusCountry": "France",
+            "method": "Bus",
+            "price": 60,
+            "timeHours": 7.0
+        },
+        {
+            "originCountry": "United Kingdom",
+            "erasmusCountry": "Portugal",
+            "method": "Plane",
+            "price": 180,
+            "timeHours": 3.0
+        },
+        {
+            "originCountry": "United Kingdom",
+            "erasmusCountry": "Portugal",
+            "method": "Bus",
+            "price": 120,
+            "timeHours": 30.0
+        },
+        {
+            "originCountry": "United Kingdom",
+            "erasmusCountry": "Portugal",
+            "method": "Train + Ferry",
+            "price": 140,
+            "timeHours": 32.0
+        },
+        {
+            "originCountry": "United Kingdom",
+            "erasmusCountry": "Poland",
+            "method": "Plane",
+            "price": 140,
+            "timeHours": 2.5
+        },
+        {
+            "originCountry": "United Kingdom",
+            "erasmusCountry": "Poland",
+            "method": "Train + Bus",
+            "price": 120,
+            "timeHours": 16.0
+        },
+        {
+            "originCountry": "United Kingdom",
+            "erasmusCountry": "Poland",
+            "method": "Bus",
+            "price": 100,
+            "timeHours": 20.0
+        },
+        {
+            "originCountry": "United Kingdom",
+            "erasmusCountry": "Romania",
+            "method": "Plane",
+            "price": 170,
+            "timeHours": 3.0
+        },
+        {
+            "originCountry": "United Kingdom",
+            "erasmusCountry": "Romania",
+            "method": "Train + Bus",
+            "price": 150,
+            "timeHours": 24.0
+        },
+        {
+            "originCountry": "United Kingdom",
+            "erasmusCountry": "Romania",
+            "method": "Bus",
+            "price": 130,
+            "timeHours": 28.0
+        },
+        {
+            "originCountry": "Romania",
+            "erasmusCountry": "Greece",
+            "method": "Plane",
+            "price": 120,
+            "timeHours": 2.0
+        },
+        {
+            "originCountry": "Romania",
+            "erasmusCountry": "Greece",
+            "method": "Bus",
+            "price": 80,
+            "timeHours": 12.0
+        },
+        {
+            "originCountry": "Romania",
+            "erasmusCountry": "Greece",
+            "method": "Train + Bus",
+            "price": 90,
+            "timeHours": 14.0
+        },
+        {
+            "originCountry": "Romania",
+            "erasmusCountry": "Bulgaria",
+            "method": "Train",
+            "price": 30,
+            "timeHours": 6.0
+        },
+        {
+            "originCountry": "Romania",
+            "erasmusCountry": "Bulgaria",
+            "method": "Bus",
+            "price": 25,
+            "timeHours": 7.0
+        },
+        {
+            "originCountry": "Romania",
+            "erasmusCountry": "Bulgaria",
+            "method": "Plane",
+            "price": 80,
+            "timeHours": 1.5
+        },
+        {
+            "originCountry": "Romania",
+            "erasmusCountry": "Armenia",
+            "method": "Plane",
+            "price": 250,
+            "timeHours": 4.5
+        },
+        {
+            "originCountry": "Romania",
+            "erasmusCountry": "Armenia",
+            "method": "Plane + Train",
+            "price": 220,
+            "timeHours": 10.0
+        },
+        {
+            "originCountry": "Romania",
+            "erasmusCountry": "Armenia",
+            "method": "Bus + Train",
+            "price": 180,
+            "timeHours": 40.0
+        },
+        {
+            "originCountry": "Romania",
+            "erasmusCountry": "Turkey",
+            "method": "Plane",
+            "price": 180,
+            "timeHours": 3.0
+        },
+        {
+            "originCountry": "Romania",
+            "erasmusCountry": "Turkey",
+            "method": "Bus + Train",
+            "price": 120,
+            "timeHours": 20.0
+        },
+        {
+            "originCountry": "Romania",
+            "erasmusCountry": "Turkey",
+            "method": "Train + Bus",
+            "price": 140,
+            "timeHours": 22.0
+        },
+        {
+            "originCountry": "Romania",
+            "erasmusCountry": "Spain",
+            "method": "Plane",
+            "price": 200,
+            "timeHours": 4.0
+        },
+        {
+            "originCountry": "Romania",
+            "erasmusCountry": "Spain",
+            "method": "Train + Bus",
+            "price": 150,
+            "timeHours": 36.0
+        },
+        {
+            "originCountry": "Romania",
+            "erasmusCountry": "Spain",
+            "method": "Bus",
+            "price": 120,
+            "timeHours": 40.0
+        },
+        {
+            "originCountry": "Romania",
+            "erasmusCountry": "Italy",
+            "method": "Plane",
+            "price": 180,
+            "timeHours": 3.0
+        },
+        {
+            "originCountry": "Romania",
+            "erasmusCountry": "Italy",
+            "method": "Train + Bus",
+            "price": 140,
+            "timeHours": 20.0
+        },
+        {
+            "originCountry": "Romania",
+            "erasmusCountry": "Italy",
+            "method": "Bus",
+            "price": 120,
+            "timeHours": 24.0
+        },
+        {
+            "originCountry": "Romania",
+            "erasmusCountry": "Austria",
+            "method": "Plane",
+            "price": 130,
+            "timeHours": 2.0
+        },
+        {
+            "originCountry": "Romania",
+            "erasmusCountry": "Austria",
+            "method": "Train",
+            "price": 90,
+            "timeHours": 12.0
+        },
+        {
+            "originCountry": "Romania",
+            "erasmusCountry": "Austria",
+            "method": "Bus",
+            "price": 80,
+            "timeHours": 16.0
+        },
+        {
+            "originCountry": "Romania",
+            "erasmusCountry": "France",
+            "method": "Plane",
+            "price": 160,
+            "timeHours": 3.0
+        },
+        {
+            "originCountry": "Romania",
+            "erasmusCountry": "France",
+            "method": "Train + Bus",
+            "price": 120,
+            "timeHours": 20.0
+        },
+        {
+            "originCountry": "Romania",
+            "erasmusCountry": "France",
+            "method": "Bus",
+            "price": 100,
+            "timeHours": 24.0
+        },
+        {
+            "originCountry": "Romania",
+            "erasmusCountry": "Portugal",
+            "method": "Plane",
+            "price": 200,
+            "timeHours": 4.0
+        },
+        {
+            "originCountry": "Romania",
+            "erasmusCountry": "Portugal",
+            "method": "Train + Bus",
+            "price": 160,
+            "timeHours": 36.0
+        },
+        {
+            "originCountry": "Romania",
+            "erasmusCountry": "Portugal",
+            "method": "Bus",
+            "price": 140,
+            "timeHours": 40.0
+        },
+        {
+            "originCountry": "Romania",
+            "erasmusCountry": "Poland",
+            "method": "Plane",
+            "price": 130,
+            "timeHours": 2.5
+        },
+        {
+            "originCountry": "Romania",
+            "erasmusCountry": "Poland",
+            "method": "Train",
+            "price": 80,
+            "timeHours": 12.0
+        },
+        {
+            "originCountry": "Romania",
+            "erasmusCountry": "Poland",
+            "method": "Bus",
+            "price": 70,
+            "timeHours": 14.0
+        },
+        {
+            "originCountry": "Netherlands",
+            "erasmusCountry": "Greece",
+            "method": "Plane",
+            "price": 180,
+            "timeHours": 3.0
+        },
+        {
+            "originCountry": "Netherlands",
+            "erasmusCountry": "Greece",
+            "method": "Train + Ferry",
+            "price": 150,
+            "timeHours": 28.0
+        },
+        {
+            "originCountry": "Netherlands",
+            "erasmusCountry": "Greece",
+            "method": "Bus + Ferry",
+            "price": 140,
+            "timeHours": 32.0
+        },
+        {
+            "originCountry": "Netherlands",
+            "erasmusCountry": "Bulgaria",
+            "method": "Plane",
+            "price": 150,
+            "timeHours": 2.5
+        },
+        {
+            "originCountry": "Netherlands",
+            "erasmusCountry": "Bulgaria",
+            "method": "Train + Bus",
+            "price": 120,
+            "timeHours": 20.0
+        },
+        {
+            "originCountry": "Netherlands",
+            "erasmusCountry": "Bulgaria",
+            "method": "Bus",
+            "price": 100,
+            "timeHours": 24.0
+        },
+        {
+            "originCountry": "Netherlands",
+            "erasmusCountry": "Armenia",
+            "method": "Plane",
+            "price": 350,
+            "timeHours": 5.0
+        },
+        {
+            "originCountry": "Netherlands",
+            "erasmusCountry": "Armenia",
+            "method": "Plane + Train",
+            "price": 320,
+            "timeHours": 12.0
+        },
+        {
+            "originCountry": "Netherlands",
+            "erasmusCountry": "Armenia",
+            "method": "Bus + Train",
+            "price": 280,
+            "timeHours": 48.0
+        },
+        {
+            "originCountry": "Netherlands",
+            "erasmusCountry": "Turkey",
+            "method": "Plane",
+            "price": 200,
+            "timeHours": 3.5
+        },
+        {
+            "originCountry": "Netherlands",
+            "erasmusCountry": "Turkey",
+            "method": "Bus + Train",
+            "price": 150,
+            "timeHours": 28.0
+        },
+        {
+            "originCountry": "Netherlands",
+            "erasmusCountry": "Turkey",
+            "method": "Train + Bus",
+            "price": 160,
+            "timeHours": 30.0
+        },
+        {
+            "originCountry": "Netherlands",
+            "erasmusCountry": "Spain",
+            "method": "Plane",
+            "price": 120,
+            "timeHours": 2.5
+        },
+        {
+            "originCountry": "Netherlands",
+            "erasmusCountry": "Spain",
+            "method": "Bus",
+            "price": 80,
+            "timeHours": 24.0
+        },
+        {
+            "originCountry": "Netherlands",
+            "erasmusCountry": "Spain",
+            "method": "Train + Ferry",
+            "price": 100,
+            "timeHours": 28.0
+        },
+        {
+            "originCountry": "Netherlands",
+            "erasmusCountry": "Italy",
+            "method": "Plane",
+            "price": 150,
+            "timeHours": 3.0
+        },
+        {
+            "originCountry": "Netherlands",
+            "erasmusCountry": "Italy",
+            "method": "Train + Ferry",
+            "price": 120,
+            "timeHours": 20.0
+        },
+        {
+            "originCountry": "Netherlands",
+            "erasmusCountry": "Italy",
+            "method": "Bus",
+            "price": 100,
+            "timeHours": 24.0
+        },
+        {
+            "originCountry": "Netherlands",
+            "erasmusCountry": "Austria",
+            "method": "Plane",
+            "price": 130,
+            "timeHours": 2.0
+        },
+        {
+            "originCountry": "Netherlands",
+            "erasmusCountry": "Austria",
+            "method": "Train",
+            "price": 100,
+            "timeHours": 12.0
+        },
+        {
+            "originCountry": "Netherlands",
+            "erasmusCountry": "Austria",
+            "method": "Bus",
+            "price": 80,
+            "timeHours": 16.0
+        },
+        {
+            "originCountry": "Netherlands",
+            "erasmusCountry": "France",
+            "method": "Plane",
+            "price": 120,
+            "timeHours": 2.0
+        },
+        {
+            "originCountry": "Netherlands",
+            "erasmusCountry": "France",
+            "method": "Train",
+            "price": 100,
+            "timeHours": 3.5
+        },
+        {
+            "originCountry": "Netherlands",
+            "erasmusCountry": "France",
+            "method": "Bus",
+            "price": 60,
+            "timeHours": 8.0
+        },
+        {
+            "originCountry": "Netherlands",
+            "erasmusCountry": "Portugal",
+            "method": "Plane",
+            "price": 180,
+            "timeHours": 3.0
+        },
+        {
+            "originCountry": "Netherlands",
+            "erasmusCountry": "Portugal",
+            "method": "Bus",
+            "price": 140,
+            "timeHours": 32.0
+        },
+        {
+            "originCountry": "Netherlands",
+            "erasmusCountry": "Portugal",
+            "method": "Train + Ferry",
+            "price": 160,
+            "timeHours": 36.0
+        },
+        {
+            "originCountry": "Netherlands",
+            "erasmusCountry": "Poland",
+            "method": "Plane",
+            "price": 120,
+            "timeHours": 2.0
+        },
+        {
+            "originCountry": "Netherlands",
+            "erasmusCountry": "Poland",
+            "method": "Train",
+            "price": 90,
+            "timeHours": 10.0
+        },
+        {
+            "originCountry": "Netherlands",
+            "erasmusCountry": "Poland",
+            "method": "Bus",
+            "price": 70,
+            "timeHours": 14.0
+        },
+        {
+            "originCountry": "Netherlands",
+            "erasmusCountry": "Romania",
+            "method": "Plane",
+            "price": 150,
+            "timeHours": 3.0
+        },
+        {
+            "originCountry": "Netherlands",
+            "erasmusCountry": "Romania",
+            "method": "Train + Bus",
+            "price": 120,
+            "timeHours": 20.0
+        },
+        {
+            "originCountry": "Netherlands",
+            "erasmusCountry": "Romania",
+            "method": "Bus",
+            "price": 100,
+            "timeHours": 24.0
+        },
+        {
+            "originCountry": "Sweden",
+            "erasmusCountry": "Greece",
+            "method": "Plane",
+            "price": 200,
+            "timeHours": 3.5
+        },
+        {
+            "originCountry": "Sweden",
+            "erasmusCountry": "Greece",
+            "method": "Train + Ferry",
+            "price": 180,
+            "timeHours": 32.0
+        },
+        {
+            "originCountry": "Sweden",
+            "erasmusCountry": "Greece",
+            "method": "Bus + Ferry",
+            "price": 160,
+            "timeHours": 36.0
+        },
+        {
+            "originCountry": "Sweden",
+            "erasmusCountry": "Bulgaria",
+            "method": "Plane",
+            "price": 170,
+            "timeHours": 3.0
+        },
+        {
+            "originCountry": "Sweden",
+            "erasmusCountry": "Bulgaria",
+            "method": "Train + Bus",
+            "price": 140,
+            "timeHours": 24.0
+        },
+        {
+            "originCountry": "Sweden",
+            "erasmusCountry": "Bulgaria",
+            "method": "Bus",
+            "price": 120,
+            "timeHours": 28.0
+        },
+        {
+            "originCountry": "Sweden",
+            "erasmusCountry": "Armenia",
+            "method": "Plane",
+            "price": 380,
+            "timeHours": 5.5
+        },
+        {
+            "originCountry": "Sweden",
+            "erasmusCountry": "Armenia",
+            "method": "Plane + Train",
+            "price": 350,
+            "timeHours": 12.0
+        },
+        {
+            "originCountry": "Sweden",
+            "erasmusCountry": "Armenia",
+            "method": "Bus + Train",
+            "price": 300,
+            "timeHours": 50.0
+        },
+        {
+            "originCountry": "Sweden",
+            "erasmusCountry": "Turkey",
+            "method": "Plane",
+            "price": 220,
+            "timeHours": 4.0
+        },
+        {
+            "originCountry": "Sweden",
+            "erasmusCountry": "Turkey",
+            "method": "Train + Bus",
+            "price": 180,
+            "timeHours": 30.0
+        },
+        {
+            "originCountry": "Sweden",
+            "erasmusCountry": "Turkey",
+            "method": "Bus + Train",
+            "price": 170,
+            "timeHours": 32.0
+        },
+        {
+            "originCountry": "Sweden",
+            "erasmusCountry": "Spain",
+            "method": "Plane",
+            "price": 180,
+            "timeHours": 3.5
+        },
+        {
+            "originCountry": "Sweden",
+            "erasmusCountry": "Spain",
+            "method": "Bus",
+            "price": 130,
+            "timeHours": 36.0
+        },
+        {
+            "originCountry": "Sweden",
+            "erasmusCountry": "Spain",
+            "method": "Train + Ferry",
+            "price": 150,
+            "timeHours": 40.0
+        },
+        {
+            "originCountry": "Sweden",
+            "erasmusCountry": "Italy",
+            "method": "Plane",
+            "price": 200,
+            "timeHours": 3.0
+        },
+        {
+            "originCountry": "Sweden",
+            "erasmusCountry": "Italy",
+            "method": "Train + Ferry",
+            "price": 160,
+            "timeHours": 24.0
+        },
+        {
+            "originCountry": "Sweden",
+            "erasmusCountry": "Italy",
+            "method": "Bus",
+            "price": 140,
+            "timeHours": 28.0
+        },
+        {
+            "originCountry": "Sweden",
+            "erasmusCountry": "Austria",
+            "method": "Plane",
+            "price": 160,
+            "timeHours": 2.5
+        },
+        {
+            "originCountry": "Sweden",
+            "erasmusCountry": "Austria",
+            "method": "Train",
+            "price": 120,
+            "timeHours": 12.0
+        },
+        {
+            "originCountry": "Sweden",
+            "erasmusCountry": "Austria",
+            "method": "Bus",
+            "price": 100,
+            "timeHours": 16.0
+        },
+        {
+            "originCountry": "Sweden",
+            "erasmusCountry": "France",
+            "method": "Plane",
+            "price": 150,
+            "timeHours": 2.5
+        },
+        {
+            "originCountry": "Sweden",
+            "erasmusCountry": "France",
+            "method": "Train",
+            "price": 120,
+            "timeHours": 4.0
+        },
+        {
+            "originCountry": "Sweden",
+            "erasmusCountry": "France",
+            "method": "Bus",
+            "price": 80,
+            "timeHours": 10.0
+        },
+        {
+            "originCountry": "Sweden",
+            "erasmusCountry": "Portugal",
+            "method": "Plane",
+            "price": 220,
+            "timeHours": 4.0
+        },
+        {
+            "originCountry": "Sweden",
+            "erasmusCountry": "Portugal",
+            "method": "Bus",
+            "price": 160,
+            "timeHours": 38.0
+        },
+        {
+            "originCountry": "Sweden",
+            "erasmusCountry": "Portugal",
+            "method": "Train + Ferry",
+            "price": 180,
+            "timeHours": 42.0
+        },
+        {
+            "originCountry": "Sweden",
+            "erasmusCountry": "Poland",
+            "method": "Plane",
+            "price": 120,
+            "timeHours": 2.0
+        },
+        {
+            "originCountry": "Sweden",
+            "erasmusCountry": "Poland",
+            "method": "Train",
+            "price": 90,
+            "timeHours": 10.0
+        },
+        {
+            "originCountry": "Sweden",
+            "erasmusCountry": "Poland",
+            "method": "Bus",
+            "price": 70,
+            "timeHours": 12.0
+        },
+        {
+            "originCountry": "Sweden",
+            "erasmusCountry": "Romania",
+            "method": "Plane",
+            "price": 180,
+            "timeHours": 3.0
+        },
+        {
+            "originCountry": "Sweden",
+            "erasmusCountry": "Romania",
+            "method": "Train + Bus",
+            "price": 140,
+            "timeHours": 22.0
+        },
+        {
+            "originCountry": "Sweden",
+            "erasmusCountry": "Romania",
+            "method": "Bus",
+            "price": 120,
+            "timeHours": 26.0
+        },
+        {
+            "originCountry": "Ireland",
+            "erasmusCountry": "Greece",
+            "method": "Plane",
+            "price": 180,
+            "timeHours": 4.0
+        },
+        {
+            "originCountry": "Ireland",
+            "erasmusCountry": "Greece",
+            "method": "Plane + Train",
+            "price": 160,
+            "timeHours": 12.0
+        },
+        {
+            "originCountry": "Ireland",
+            "erasmusCountry": "Greece",
+            "method": "Bus + Ferry",
+            "price": 140,
+            "timeHours": 36.0
+        },
+        {
+            "originCountry": "Ireland",
+            "erasmusCountry": "Bulgaria",
+            "method": "Plane",
+            "price": 150,
+            "timeHours": 3.5
+        },
+        {
+            "originCountry": "Ireland",
+            "erasmusCountry": "Bulgaria",
+            "method": "Train + Bus",
+            "price": 120,
+            "timeHours": 24.0
+        },
+        {
+            "originCountry": "Ireland",
+            "erasmusCountry": "Bulgaria",
+            "method": "Bus",
+            "price": 100,
+            "timeHours": 28.0
+        },
+        {
+            "originCountry": "Ireland",
+            "erasmusCountry": "Armenia",
+            "method": "Plane",
+            "price": 350,
+            "timeHours": 5.5
+        },
+        {
+            "originCountry": "Ireland",
+            "erasmusCountry": "Armenia",
+            "method": "Plane + Train",
+            "price": 320,
+            "timeHours": 12.0
+        },
+        {
+            "originCountry": "Ireland",
+            "erasmusCountry": "Armenia",
+            "method": "Bus + Train",
+            "price": 300,
+            "timeHours": 50.0
+        },
+        {
+            "originCountry": "Ireland",
+            "erasmusCountry": "Turkey",
+            "method": "Plane",
+            "price": 200,
+            "timeHours": 4.0
+        },
+        {
+            "originCountry": "Ireland",
+            "erasmusCountry": "Turkey",
+            "method": "Train + Bus",
+            "price": 170,
+            "timeHours": 30.0
+        },
+        {
+            "originCountry": "Ireland",
+            "erasmusCountry": "Turkey",
+            "method": "Bus + Train",
+            "price": 160,
+            "timeHours": 32.0
+        },
+        {
+            "originCountry": "Ireland",
+            "erasmusCountry": "Spain",
+            "method": "Plane",
+            "price": 140,
+            "timeHours": 3.0
+        },
+        {
+            "originCountry": "Ireland",
+            "erasmusCountry": "Spain",
+            "method": "Bus",
+            "price": 100,
+            "timeHours": 30.0
+        },
+        {
+            "originCountry": "Ireland",
+            "erasmusCountry": "Spain",
+            "method": "Train + Ferry",
+            "price": 120,
+            "timeHours": 34.0
+        },
+        {
+            "originCountry": "Ireland",
+            "erasmusCountry": "Italy",
+            "method": "Plane",
+            "price": 150,
+            "timeHours": 3.0
+        },
+        {
+            "originCountry": "Ireland",
+            "erasmusCountry": "Italy",
+            "method": "Train + Ferry",
+            "price": 120,
+            "timeHours": 24.0
+        },
+        {
+            "originCountry": "Ireland",
+            "erasmusCountry": "Italy",
+            "method": "Bus",
+            "price": 100,
+            "timeHours": 28.0
+        },
+        {
+            "originCountry": "Ireland",
+            "erasmusCountry": "Austria",
+            "method": "Plane",
+            "price": 140,
+            "timeHours": 2.5
+        },
+        {
+            "originCountry": "Ireland",
+            "erasmusCountry": "Austria",
+            "method": "Train",
+            "price": 110,
+            "timeHours": 14.0
+        },
+        {
+            "originCountry": "Ireland",
+            "erasmusCountry": "Austria",
+            "method": "Bus",
+            "price": 90,
+            "timeHours": 18.0
+        },
+        {
+            "originCountry": "Ireland",
+            "erasmusCountry": "France",
+            "method": "Plane",
+            "price": 130,
+            "timeHours": 2.5
+        },
+        {
+            "originCountry": "Ireland",
+            "erasmusCountry": "France",
+            "method": "Train",
+            "price": 100,
+            "timeHours": 4.0
+        },
+        {
+            "originCountry": "Ireland",
+            "erasmusCountry": "France",
+            "method": "Bus",
+            "price": 70,
+            "timeHours": 10.0
+        },
+        {
+            "originCountry": "Ireland",
+            "erasmusCountry": "Portugal",
+            "method": "Plane",
+            "price": 180,
+            "timeHours": 4.0
+        },
+        {
+            "originCountry": "Ireland",
+            "erasmusCountry": "Portugal",
+            "method": "Bus",
+            "price": 140,
+            "timeHours": 38.0
+        },
+        {
+            "originCountry": "Ireland",
+            "erasmusCountry": "Portugal",
+            "method": "Train + Ferry",
+            "price": 160,
+            "timeHours": 42.0
+        },
+        {
+            "originCountry": "Ireland",
+            "erasmusCountry": "Poland",
+            "method": "Plane",
+            "price": 130,
+            "timeHours": 2.0
+        },
+        {
+            "originCountry": "Ireland",
+            "erasmusCountry": "Poland",
+            "method": "Train",
+            "price": 90,
+            "timeHours": 10.0
+        },
+        {
+            "originCountry": "Ireland",
+            "erasmusCountry": "Poland",
+            "method": "Bus",
+            "price": 70,
+            "timeHours": 12.0
+        },
+        {
+            "originCountry": "Ireland",
+            "erasmusCountry": "Romania",
+            "method": "Plane",
+            "price": 160,
+            "timeHours": 3.0
+        },
+        {
+            "originCountry": "Ireland",
+            "erasmusCountry": "Romania",
+            "method": "Train + Bus",
+            "price": 130,
+            "timeHours": 22.0
+        },
+        {
+            "originCountry": "Ireland",
+            "erasmusCountry": "Romania",
+            "method": "Bus",
+            "price": 110,
+            "timeHours": 26.0
+        },
+        {
+            "originCountry": "Germany",
+            "erasmusCountry": "Greece",
+            "method": "Plane",
+            "price": 150,
+            "timeHours": 3.0
+        },
+        {
+            "originCountry": "Germany",
+            "erasmusCountry": "Greece",
+            "method": "Train + Ferry",
+            "price": 130,
+            "timeHours": 24.0
+        },
+        {
+            "originCountry": "Germany",
+            "erasmusCountry": "Greece",
+            "method": "Bus + Ferry",
+            "price": 120,
+            "timeHours": 28.0
+        },
+        {
+            "originCountry": "Germany",
+            "erasmusCountry": "Bulgaria",
+            "method": "Plane",
+            "price": 120,
+            "timeHours": 2.5
+        },
+        {
+            "originCountry": "Germany",
+            "erasmusCountry": "Bulgaria",
+            "method": "Train + Bus",
+            "price": 90,
+            "timeHours": 14.0
+        },
+        {
+            "originCountry": "Germany",
+            "erasmusCountry": "Bulgaria",
+            "method": "Bus",
+            "price": 80,
+            "timeHours": 16.0
+        },
+        {
+            "originCountry": "Germany",
+            "erasmusCountry": "Armenia",
+            "method": "Plane",
+            "price": 320,
+            "timeHours": 4.5
+        },
+        {
+            "originCountry": "Germany",
+            "erasmusCountry": "Armenia",
+            "method": "Plane + Train",
+            "price": 300,
+            "timeHours": 10.0
+        },
+        {
+            "originCountry": "Germany",
+            "erasmusCountry": "Armenia",
+            "method": "Bus + Train",
+            "price": 280,
+            "timeHours": 48.0
+        },
+        {
+            "originCountry": "Germany",
+            "erasmusCountry": "Turkey",
+            "method": "Plane",
+            "price": 180,
+            "timeHours": 3.5
+        },
+        {
+            "originCountry": "Germany",
+            "erasmusCountry": "Turkey",
+            "method": "Train + Bus",
+            "price": 150,
+            "timeHours": 24.0
+        },
+        {
+            "originCountry": "Germany",
+            "erasmusCountry": "Turkey",
+            "method": "Bus + Train",
+            "price": 140,
+            "timeHours": 26.0
+        },
+        {
+            "originCountry": "Germany",
+            "erasmusCountry": "Spain",
+            "method": "Plane",
+            "price": 120,
+            "timeHours": 2.5
+        },
+        {
+            "originCountry": "Germany",
+            "erasmusCountry": "Spain",
+            "method": "Train + Bus",
+            "price": 90,
+            "timeHours": 18.0
+        },
+        {
+            "originCountry": "Germany",
+            "erasmusCountry": "Spain",
+            "method": "Bus",
+            "price": 80,
+            "timeHours": 20.0
+        },
+        {
+            "originCountry": "Germany",
+            "erasmusCountry": "Italy",
+            "method": "Plane",
+            "price": 130,
+            "timeHours": 2.0
+        },
+        {
+            "originCountry": "Germany",
+            "erasmusCountry": "Italy",
+            "method": "Train + Ferry",
+            "price": 110,
+            "timeHours": 16.0
+        },
+        {
+            "originCountry": "Germany",
+            "erasmusCountry": "Italy",
+            "method": "Bus",
+            "price": 100,
+            "timeHours": 20.0
+        },
+        {
+            "originCountry": "Germany",
+            "erasmusCountry": "Austria",
+            "method": "Plane",
+            "price": 80,
+            "timeHours": 1.0
+        },
+        {
+            "originCountry": "Germany",
+            "erasmusCountry": "Austria",
+            "method": "Train",
+            "price": 50,
+            "timeHours": 4.0
+        },
+        {
+            "originCountry": "Germany",
+            "erasmusCountry": "Austria",
+            "method": "Bus",
+            "price": 40,
+            "timeHours": 5.0
+        },
+        {
+            "originCountry": "Germany",
+            "erasmusCountry": "France",
+            "method": "Plane",
+            "price": 100,
+            "timeHours": 1.5
+        },
+        {
+            "originCountry": "Germany",
+            "erasmusCountry": "France",
+            "method": "Train",
+            "price": 70,
+            "timeHours": 3.5
+        },
+        {
+            "originCountry": "Germany",
+            "erasmusCountry": "France",
+            "method": "Bus",
+            "price": 50,
+            "timeHours": 6.0
+        },
+        {
+            "originCountry": "Germany",
+            "erasmusCountry": "Portugal",
+            "method": "Plane",
+            "price": 180,
+            "timeHours": 3.5
+        },
+        {
+            "originCountry": "Germany",
+            "erasmusCountry": "Portugal",
+            "method": "Bus",
+            "price": 140,
+            "timeHours": 34.0
+        },
+        {
+            "originCountry": "Germany",
+            "erasmusCountry": "Portugal",
+            "method": "Train + Ferry",
+            "price": 160,
+            "timeHours": 36.0
+        },
+        {
+            "originCountry": "Germany",
+            "erasmusCountry": "Poland",
+            "method": "Plane",
+            "price": 90,
+            "timeHours": 1.5
+        },
+        {
+            "originCountry": "Germany",
+            "erasmusCountry": "Poland",
+            "method": "Train",
+            "price": 60,
+            "timeHours": 6.0
+        },
+        {
+            "originCountry": "Germany",
+            "erasmusCountry": "Poland",
+            "method": "Bus",
+            "price": 50,
+            "timeHours": 8.0
+        },
+        {
+            "originCountry": "Germany",
+            "erasmusCountry": "Romania",
+            "method": "Plane",
+            "price": 140,
+            "timeHours": 2.5
+        },
+        {
+            "originCountry": "Germany",
+            "erasmusCountry": "Romania",
+            "method": "Train + Bus",
+            "price": 110,
+            "timeHours": 18.0
+        },
+        {
+            "originCountry": "Germany",
+            "erasmusCountry": "Romania",
+            "method": "Bus",
+            "price": 90,
+            "timeHours": 20.0
+        },
+        {
+            "originCountry": "France",
+            "erasmusCountry": "Greece",
+            "method": "Plane",
+            "price": 130,
+            "timeHours": 3.0
+        },
+        {
+            "originCountry": "France",
+            "erasmusCountry": "Greece",
+            "method": "Train + Ferry",
+            "price": 110,
+            "timeHours": 28.0
+        },
+        {
+            "originCountry": "France",
+            "erasmusCountry": "Greece",
+            "method": "Bus + Ferry",
+            "price": 100,
+            "timeHours": 32.0
+        },
+        {
+            "originCountry": "France",
+            "erasmusCountry": "Bulgaria",
+            "method": "Plane",
+            "price": 120,
+            "timeHours": 2.5
+        },
+        {
+            "originCountry": "France",
+            "erasmusCountry": "Bulgaria",
+            "method": "Train + Bus",
+            "price": 90,
+            "timeHours": 20.0
+        },
+        {
+            "originCountry": "France",
+            "erasmusCountry": "Bulgaria",
+            "method": "Bus",
+            "price": 80,
+            "timeHours": 24.0
+        },
+        {
+            "originCountry": "France",
+            "erasmusCountry": "Armenia",
+            "method": "Plane",
+            "price": 300,
+            "timeHours": 5.0
+        },
+        {
+            "originCountry": "France",
+            "erasmusCountry": "Armenia",
+            "method": "Plane + Train",
+            "price": 280,
+            "timeHours": 11.0
+        },
+        {
+            "originCountry": "France",
+            "erasmusCountry": "Armenia",
+            "method": "Bus + Train",
+            "price": 260,
+            "timeHours": 48.0
+        },
+        {
+            "originCountry": "France",
+            "erasmusCountry": "Turkey",
+            "method": "Plane",
+            "price": 160,
+            "timeHours": 3.5
+        },
+        {
+            "originCountry": "France",
+            "erasmusCountry": "Turkey",
+            "method": "Train + Bus",
+            "price": 130,
+            "timeHours": 22.0
+        },
+        {
+            "originCountry": "France",
+            "erasmusCountry": "Turkey",
+            "method": "Bus + Train",
+            "price": 120,
+            "timeHours": 26.0
+        },
+        {
+            "originCountry": "France",
+            "erasmusCountry": "Spain",
+            "method": "Plane",
+            "price": 90,
+            "timeHours": 2.0
+        },
+        {
+            "originCountry": "France",
+            "erasmusCountry": "Spain",
+            "method": "Train",
+            "price": 70,
+            "timeHours": 6.0
+        },
+        {
+            "originCountry": "France",
+            "erasmusCountry": "Spain",
+            "method": "Bus",
+            "price": 60,
+            "timeHours": 8.0
+        },
+        {
+            "originCountry": "France",
+            "erasmusCountry": "Italy",
+            "method": "Plane",
+            "price": 100,
+            "timeHours": 1.5
+        },
+        {
+            "originCountry": "France",
+            "erasmusCountry": "Italy",
+            "method": "Train",
+            "price": 70,
+            "timeHours": 4.0
+        },
+        {
+            "originCountry": "France",
+            "erasmusCountry": "Italy",
+            "method": "Bus",
+            "price": 60,
+            "timeHours": 6.0
+        },
+        {
+            "originCountry": "France",
+            "erasmusCountry": "Austria",
+            "method": "Plane",
+            "price": 80,
+            "timeHours": 1.0
+        },
+        {
+            "originCountry": "France",
+            "erasmusCountry": "Austria",
+            "method": "Train",
+            "price": 50,
+            "timeHours": 3.0
+        },
+        {
+            "originCountry": "France",
+            "erasmusCountry": "Austria",
+            "method": "Bus",
+            "price": 40,
+            "timeHours": 4.0
+        },
+        {
+            "originCountry": "France",
+            "erasmusCountry": "Portugal",
+            "method": "Plane",
+            "price": 160,
+            "timeHours": 3.5
+        },
+        {
+            "originCountry": "France",
+            "erasmusCountry": "Portugal",
+            "method": "Bus",
+            "price": 120,
+            "timeHours": 30.0
+        },
+        {
+            "originCountry": "France",
+            "erasmusCountry": "Portugal",
+            "method": "Train + Ferry",
+            "price": 140,
+            "timeHours": 34.0
+        },
+        {
+            "originCountry": "France",
+            "erasmusCountry": "Poland",
+            "method": "Plane",
+            "price": 110,
+            "timeHours": 2.0
+        },
+        {
+            "originCountry": "France",
+            "erasmusCountry": "Poland",
+            "method": "Train",
+            "price": 80,
+            "timeHours": 8.0
+        },
+        {
+            "originCountry": "France",
+            "erasmusCountry": "Poland",
+            "method": "Bus",
+            "price": 70,
+            "timeHours": 10.0
+        },
+        {
+            "originCountry": "France",
+            "erasmusCountry": "Romania",
+            "method": "Plane",
+            "price": 140,
+            "timeHours": 2.5
+        },
+        {
+            "originCountry": "France",
+            "erasmusCountry": "Romania",
+            "method": "Train + Bus",
+            "price": 110,
+            "timeHours": 18.0
+        },
+        {
+            "originCountry": "France",
+            "erasmusCountry": "Romania",
+            "method": "Bus",
+            "price": 90,
+            "timeHours": 20.0
+        },
+        {
+            "originCountry": "Poland",
+            "erasmusCountry": "Greece",
+            "method": "Plane",
+            "price": 120,
+            "timeHours": 3.0
+        },
+        {
+            "originCountry": "Poland",
+            "erasmusCountry": "Greece",
+            "method": "Train + Ferry",
+            "price": 100,
+            "timeHours": 24.0
+        },
+        {
+            "originCountry": "Poland",
+            "erasmusCountry": "Greece",
+            "method": "Bus + Ferry",
+            "price": 90,
+            "timeHours": 28.0
+        },
+        {
+            "originCountry": "Poland",
+            "erasmusCountry": "Bulgaria",
+            "method": "Plane",
+            "price": 100,
+            "timeHours": 2.0
+        },
+        {
+            "originCountry": "Poland",
+            "erasmusCountry": "Bulgaria",
+            "method": "Train + Bus",
+            "price": 70,
+            "timeHours": 14.0
+        },
+        {
+            "originCountry": "Poland",
+            "erasmusCountry": "Bulgaria",
+            "method": "Bus",
+            "price": 60,
+            "timeHours": 16.0
+        },
+        {
+            "originCountry": "Poland",
+            "erasmusCountry": "Armenia",
+            "method": "Plane",
+            "price": 280,
+            "timeHours": 5.0
+        },
+        {
+            "originCountry": "Poland",
+            "erasmusCountry": "Armenia",
+            "method": "Plane + Train",
+            "price": 260,
+            "timeHours": 11.0
+        },
+        {
+            "originCountry": "Poland",
+            "erasmusCountry": "Armenia",
+            "method": "Bus + Train",
+            "price": 240,
+            "timeHours": 48.0
+        },
+        {
+            "originCountry": "Poland",
+            "erasmusCountry": "Turkey",
+            "method": "Plane",
+            "price": 150,
+            "timeHours": 3.5
+        },
+        {
+            "originCountry": "Poland",
+            "erasmusCountry": "Turkey",
+            "method": "Train + Bus",
+            "price": 120,
+            "timeHours": 22.0
+        },
+        {
+            "originCountry": "Poland",
+            "erasmusCountry": "Turkey",
+            "method": "Bus + Train",
+            "price": 110,
+            "timeHours": 26.0
+        },
+        {
+            "originCountry": "Poland",
+            "erasmusCountry": "Spain",
+            "method": "Plane",
+            "price": 110,
+            "timeHours": 2.5
+        },
+        {
+            "originCountry": "Poland",
+            "erasmusCountry": "Spain",
+            "method": "Train + Bus",
+            "price": 80,
+            "timeHours": 18.0
+        },
+        {
+            "originCountry": "Poland",
+            "erasmusCountry": "Spain",
+            "method": "Bus",
+            "price": 70,
+            "timeHours": 20.0
+        },
+        {
+            "originCountry": "Poland",
+            "erasmusCountry": "Italy",
+            "method": "Plane",
+            "price": 120,
+            "timeHours": 2.0
+        },
+        {
+            "originCountry": "Poland",
+            "erasmusCountry": "Italy",
+            "method": "Train",
+            "price": 90,
+            "timeHours": 14.0
+        },
+        {
+            "originCountry": "Poland",
+            "erasmusCountry": "Italy",
+            "method": "Bus",
+            "price": 80,
+            "timeHours": 18.0
+        },
+        {
+            "originCountry": "Poland",
+            "erasmusCountry": "Austria",
+            "method": "Plane",
+            "price": 80,
+            "timeHours": 1.0
+        },
+        {
+            "originCountry": "Poland",
+            "erasmusCountry": "Austria",
+            "method": "Train",
+            "price": 50,
+            "timeHours": 4.0
+        },
+        {
+            "originCountry": "Poland",
+            "erasmusCountry": "Austria",
+            "method": "Bus",
+            "price": 40,
+            "timeHours": 5.0
+        },
+        {
+            "originCountry": "Poland",
+            "erasmusCountry": "France",
+            "method": "Plane",
+            "price": 100,
+            "timeHours": 1.5
+        },
+        {
+            "originCountry": "Poland",
+            "erasmusCountry": "France",
+            "method": "Train",
+            "price": 70,
+            "timeHours": 6.0
+        },
+        {
+            "originCountry": "Poland",
+            "erasmusCountry": "France",
+            "method": "Bus",
+            "price": 60,
+            "timeHours": 8.0
+        },
+        {
+            "originCountry": "Poland",
+            "erasmusCountry": "Portugal",
+            "method": "Plane",
+            "price": 160,
+            "timeHours": 3.5
+        },
+        {
+            "originCountry": "Poland",
+            "erasmusCountry": "Portugal",
+            "method": "Bus",
+            "price": 120,
+            "timeHours": 32.0
+        },
+        {
+            "originCountry": "Poland",
+            "erasmusCountry": "Portugal",
+            "method": "Train + Ferry",
+            "price": 140,
+            "timeHours": 36.0
+        },
+        {
+            "originCountry": "Poland",
+            "erasmusCountry": "Romania",
+            "method": "Plane",
+            "price": 100,
+            "timeHours": 2.0
+        },
+        {
+            "originCountry": "Poland",
+            "erasmusCountry": "Romania",
+            "method": "Train + Bus",
+            "price": 70,
+            "timeHours": 12.0
+        },
+        {
+            "originCountry": "Poland",
+            "erasmusCountry": "Romania",
+            "method": "Bus",
+            "price": 60,
+            "timeHours": 14.0
+        },
+        {
+            "originCountry": "Italy",
+            "erasmusCountry": "Greece",
+            "method": "Plane",
+            "price": 100,
+            "timeHours": 2.0
+        },
+        {
+            "originCountry": "Italy",
+            "erasmusCountry": "Greece",
+            "method": "Train + Ferry",
+            "price": 90,
+            "timeHours": 18.0
+        },
+        {
+            "originCountry": "Italy",
+            "erasmusCountry": "Greece",
+            "method": "Bus + Ferry",
+            "price": 80,
+            "timeHours": 22.0
+        },
+        {
+            "originCountry": "Italy",
+            "erasmusCountry": "Bulgaria",
+            "method": "Plane",
+            "price": 90,
+            "timeHours": 1.5
+        },
+        {
+            "originCountry": "Italy",
+            "erasmusCountry": "Bulgaria",
+            "method": "Train + Bus",
+            "price": 70,
+            "timeHours": 12.0
+        },
+        {
+            "originCountry": "Italy",
+            "erasmusCountry": "Bulgaria",
+            "method": "Bus",
+            "price": 60,
+            "timeHours": 14.0
+        },
+        {
+            "originCountry": "Italy",
+            "erasmusCountry": "Armenia",
+            "method": "Plane",
+            "price": 270,
+            "timeHours": 5.0
+        },
+        {
+            "originCountry": "Italy",
+            "erasmusCountry": "Armenia",
+            "method": "Plane + Train",
+            "price": 250,
+            "timeHours": 10.0
+        },
+        {
+            "originCountry": "Italy",
+            "erasmusCountry": "Armenia",
+            "method": "Bus + Train",
+            "price": 230,
+            "timeHours": 48.0
+        },
+        {
+            "originCountry": "Italy",
+            "erasmusCountry": "Turkey",
+            "method": "Plane",
+            "price": 140,
+            "timeHours": 3.0
+        },
+        {
+            "originCountry": "Italy",
+            "erasmusCountry": "Turkey",
+            "method": "Train + Bus",
+            "price": 110,
+            "timeHours": 20.0
+        },
+        {
+            "originCountry": "Italy",
+            "erasmusCountry": "Turkey",
+            "method": "Bus + Train",
+            "price": 100,
+            "timeHours": 24.0
+        },
+        {
+            "originCountry": "Italy",
+            "erasmusCountry": "Spain",
+            "method": "Plane",
+            "price": 100,
+            "timeHours": 2.0
+        },
+        {
+            "originCountry": "Italy",
+            "erasmusCountry": "Spain",
+            "method": "Train + Bus",
+            "price": 80,
+            "timeHours": 16.0
+        },
+        {
+            "originCountry": "Italy",
+            "erasmusCountry": "Spain",
+            "method": "Bus",
+            "price": 70,
+            "timeHours": 18.0
+        },
+        {
+            "originCountry": "Italy",
+            "erasmusCountry": "Austria",
+            "method": "Plane",
+            "price": 70,
+            "timeHours": 1.0
+        },
+        {
+            "originCountry": "Italy",
+            "erasmusCountry": "Austria",
+            "method": "Train",
+            "price": 50,
+            "timeHours": 4.0
+        },
+        {
+            "originCountry": "Italy",
+            "erasmusCountry": "Austria",
+            "method": "Bus",
+            "price": 40,
+            "timeHours": 5.0
+        },
+        {
+            "originCountry": "Italy",
+            "erasmusCountry": "France",
+            "method": "Plane",
+            "price": 90,
+            "timeHours": 1.5
+        },
+        {
+            "originCountry": "Italy",
+            "erasmusCountry": "France",
+            "method": "Train",
+            "price": 70,
+            "timeHours": 4.0
+        },
+        {
+            "originCountry": "Italy",
+            "erasmusCountry": "France",
+            "method": "Bus",
+            "price": 60,
+            "timeHours": 6.0
+        },
+        {
+            "originCountry": "Italy",
+            "erasmusCountry": "Portugal",
+            "method": "Plane",
+            "price": 160,
+            "timeHours": 3.5
+        },
+        {
+            "originCountry": "Italy",
+            "erasmusCountry": "Portugal",
+            "method": "Bus",
+            "price": 120,
+            "timeHours": 30.0
+        },
+        {
+            "originCountry": "Italy",
+            "erasmusCountry": "Portugal",
+            "method": "Train + Ferry",
+            "price": 140,
+            "timeHours": 32.0
+        },
+        {
+            "originCountry": "Italy",
+            "erasmusCountry": "Poland",
+            "method": "Plane",
+            "price": 100,
+            "timeHours": 2.0
+        },
+        {
+            "originCountry": "Italy",
+            "erasmusCountry": "Poland",
+            "method": "Train",
+            "price": 80,
+            "timeHours": 10.0
+        },
+        {
+            "originCountry": "Italy",
+            "erasmusCountry": "Poland",
+            "method": "Bus",
+            "price": 70,
+            "timeHours": 12.0
+        },
+        {
+            "originCountry": "Italy",
+            "erasmusCountry": "Romania",
+            "method": "Plane",
+            "price": 120,
+            "timeHours": 2.5
+        },
+        {
+            "originCountry": "Italy",
+            "erasmusCountry": "Romania",
+            "method": "Train + Bus",
+            "price": 90,
+            "timeHours": 16.0
+        },
+        {
+            "originCountry": "Italy",
+            "erasmusCountry": "Romania",
+            "method": "Bus",
+            "price": 80,
+            "timeHours": 18.0
+        },
+        {
+            "originCountry": "Spain",
+            "erasmusCountry": "Greece",
+            "method": "Plane",
+            "price": 110,
+            "timeHours": 3.0
+        },
+        {
+            "originCountry": "Spain",
+            "erasmusCountry": "Greece",
+            "method": "Train + Ferry",
+            "price": 90,
+            "timeHours": 26.0
+        },
+        {
+            "originCountry": "Spain",
+            "erasmusCountry": "Greece",
+            "method": "Bus + Ferry",
+            "price": 80,
+            "timeHours": 30.0
+        },
+        {
+            "originCountry": "Spain",
+            "erasmusCountry": "Bulgaria",
+            "method": "Plane",
+            "price": 100,
+            "timeHours": 2.5
+        },
+        {
+            "originCountry": "Spain",
+            "erasmusCountry": "Bulgaria",
+            "method": "Train + Bus",
+            "price": 80,
+            "timeHours": 18.0
+        },
+        {
+            "originCountry": "Spain",
+            "erasmusCountry": "Bulgaria",
+            "method": "Bus",
+            "price": 70,
+            "timeHours": 20.0
+        },
+        {
+            "originCountry": "Spain",
+            "erasmusCountry": "Armenia",
+            "method": "Plane",
+            "price": 320,
+            "timeHours": 6.0
+        },
+        {
+            "originCountry": "Spain",
+            "erasmusCountry": "Armenia",
+            "method": "Plane + Train",
+            "price": 300,
+            "timeHours": 12.0
+        },
+        {
+            "originCountry": "Spain",
+            "erasmusCountry": "Armenia",
+            "method": "Bus + Train",
+            "price": 280,
+            "timeHours": 50.0
+        },
+        {
+            "originCountry": "Spain",
+            "erasmusCountry": "Turkey",
+            "method": "Plane",
+            "price": 150,
+            "timeHours": 3.5
+        },
+        {
+            "originCountry": "Spain",
+            "erasmusCountry": "Turkey",
+            "method": "Train + Bus",
+            "price": 120,
+            "timeHours": 22.0
+        },
+        {
+            "originCountry": "Spain",
+            "erasmusCountry": "Turkey",
+            "method": "Bus + Train",
+            "price": 110,
+            "timeHours": 26.0
+        },
+        {
+            "originCountry": "Spain",
+            "erasmusCountry": "Italy",
+            "method": "Plane",
+            "price": 90,
+            "timeHours": 2.0
+        },
+        {
+            "originCountry": "Spain",
+            "erasmusCountry": "Italy",
+            "method": "Train",
+            "price": 70,
+            "timeHours": 8.0
+        },
+        {
+            "originCountry": "Spain",
+            "erasmusCountry": "Italy",
+            "method": "Bus",
+            "price": 60,
+            "timeHours": 10.0
+        },
+        {
+            "originCountry": "Spain",
+            "erasmusCountry": "Austria",
+            "method": "Plane",
+            "price": 110,
+            "timeHours": 2.0
+        },
+        {
+            "originCountry": "Spain",
+            "erasmusCountry": "Austria",
+            "method": "Train",
+            "price": 80,
+            "timeHours": 12.0
+        },
+        {
+            "originCountry": "Spain",
+            "erasmusCountry": "Austria",
+            "method": "Bus",
+            "price": 70,
+            "timeHours": 14.0
+        },
+        {
+            "originCountry": "Spain",
+            "erasmusCountry": "France",
+            "method": "Plane",
+            "price": 70,
+            "timeHours": 1.5
+        },
+        {
+            "originCountry": "Spain",
+            "erasmusCountry": "France",
+            "method": "Train",
+            "price": 50,
+            "timeHours": 5.0
+        },
+        {
+            "originCountry": "Spain",
+            "erasmusCountry": "France",
+            "method": "Bus",
+            "price": 40,
+            "timeHours": 6.0
+        },
+        {
+            "originCountry": "Spain",
+            "erasmusCountry": "Portugal",
+            "method": "Plane",
+            "price": 80,
+            "timeHours": 1.5
+        },
+        {
+            "originCountry": "Spain",
+            "erasmusCountry": "Portugal",
+            "method": "Train",
+            "price": 60,
+            "timeHours": 6.0
+        },
+        {
+            "originCountry": "Spain",
+            "erasmusCountry": "Portugal",
+            "method": "Bus",
+            "price": 50,
+            "timeHours": 8.0
+        },
+        {
+            "originCountry": "Spain",
+            "erasmusCountry": "Poland",
+            "method": "Plane",
+            "price": 120,
+            "timeHours": 3.0
+        },
+        {
+            "originCountry": "Spain",
+            "erasmusCountry": "Poland",
+            "method": "Train",
+            "price": 90,
+            "timeHours": 14.0
+        },
+        {
+            "originCountry": "Spain",
+            "erasmusCountry": "Poland",
+            "method": "Bus",
+            "price": 80,
+            "timeHours": 16.0
+        },
+        {
+            "originCountry": "Spain",
+            "erasmusCountry": "Romania",
+            "method": "Plane",
+            "price": 140,
+            "timeHours": 3.0
+        },
+        {
+            "originCountry": "Spain",
+            "erasmusCountry": "Romania",
+            "method": "Train + Bus",
+            "price": 110,
+            "timeHours": 20.0
+        },
+        {
+            "originCountry": "Spain",
+            "erasmusCountry": "Romania",
+            "method": "Bus",
+            "price": 100,
+            "timeHours": 22.0
+        }
+    ]
+}

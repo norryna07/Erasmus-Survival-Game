@@ -1,0 +1,170 @@
+{
+    "accommodations": [
+        {
+            "name": "Riverside Apartments",
+            "type": "apartment",
+            "space": "small",
+            "privateKitchen": true,
+            "roommates": 0,
+            "distanceToUni": 10,
+            "distanceToCenter": 60,
+            "privateBathroom": true,
+            "price": 250,
+            "warning": "alone"
+        },
+        {
+            "name": "Aurora Dorm",
+            "type": "dorm",
+            "space": "small",
+            "privateKitchen": false,
+            "roommates": 0,
+            "distanceToUni": 10,
+            "distanceToCenter": 60,
+            "privateBathroom": true,
+            "price": 130,
+            "warning": ""
+        },
+        {
+            "name": "Campus Nova",
+            "type": "dorm",
+            "space": "medium",
+            "privateKitchen": false,
+            "roommates": 1,
+            "distanceToUni": 10,
+            "distanceToCenter": 60,
+            "privateBathroom": true,
+            "price": 100,
+            "warning": ""
+        },
+        {
+            "name": "Erasmus Hall",
+            "type": "dorm",
+            "space": "big",
+            "privateKitchen": false,
+            "roommates": 4,
+            "distanceToUni": 30,
+            "distanceToCenter": 30,
+            "privateBathroom": false,
+            "price": 80,
+            "warning": "crowdy"
+        },
+        {
+            "name": "Orion Residence",
+            "type": "apartment",
+            "space": "medium",
+            "privateKitchen": false,
+            "roommates": 1,
+            "distanceToUni": 30,
+            "distanceToCenter": 30,
+            "privateBathroom": false,
+            "price": 200,
+            "warning": ""
+        },
+        {
+            "name": "Central Square Flats",
+            "type": "apartment",
+            "space": "big",
+            "privateKitchen": false,
+            "roommates": 2,
+            "distanceToUni": 60,
+            "distanceToCenter": 10,
+            "privateBathroom": false,
+            "price": 230,
+            "warning": ""
+        },
+        {
+            "name": "Urban Nest",
+            "type": "apartment",
+            "space": "big",
+            "privateKitchen": false,
+            "roommates": 1,
+            "distanceToUni": 10,
+            "distanceToCenter": 60,
+            "privateBathroom": true,
+            "price": 180,
+            "warning": ""
+        }, 
+        {
+            "name": "Maple House",
+            "type": "house",
+            "space": "big",
+            "privateKitchen": true,
+            "roommates": 0,
+            "distanceToUni": 60,
+            "distanceToCenter": 10,
+            "privateBathroom": true,
+            "price": 250,
+            "warning": "intrusive owner"
+        },
+        {
+            "name": "Greenfield Home",
+            "type": "house",
+            "space": "big",
+            "privateKitchen": false,
+            "roommates": 10,
+            "distanceToUni": 60,
+            "distanceToCenter": 10,
+            "privateBathroom": false,
+            "price": 200,
+            "warning": "crazy people"
+        },
+        {
+            "name": "Parkview Apartments",
+            "type": "apartment",
+            "space": "medium",
+            "privateKitchen": true,
+            "roommates": 0,
+            "distanceToUni": 60,
+            "distanceToCenter": 10,
+            "privateBathroom": true,
+            "price": 300,
+            "warning": ""
+        }
+    ],
+    "priceDifferences": [
+        {
+            "name":"Greece",
+            "multiplicationFactor": 1.05
+        },
+        {
+            "name":"Bulgaria",
+            "multiplicationFactor": 0.85
+        },
+        {
+            "name":"Armenia",
+            "multiplicationFactor": 0.8
+        },
+        {
+            "name":"Turkey",
+            "multiplicationFactor": 0.9
+        },
+        {
+            "name":"Spain",
+            "multiplicationFactor": 1.1
+        },
+        {
+            "name":"Italy",
+            "multiplicationFactor": 1.2
+        },
+        {
+            "name":"Austria",
+            "multiplicationFactor": 1.4
+        },
+        {
+            "name":"France",
+            "multiplicationFactor": 1.35
+        },
+        {
+            "name":"Portugal",
+            "multiplicationFactor": 1.05
+        },
+        {
+            "name":"Poland",
+            "multiplicationFactor": 1.00
+        },
+        {
+            "name":"Romania",
+            "multiplicationFactor": 1.30
+        }
+    ]
+}
