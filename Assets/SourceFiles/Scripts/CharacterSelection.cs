@@ -76,6 +76,6 @@ public class CharacterSelection : MonoBehaviour
         Debug.Log("Profile saved to: " + path);
 
         // go to the first scene of the game
-        SceneManager.LoadScene("");
+        SceneManager.LoadScene("BeforeScene");
     }
 }

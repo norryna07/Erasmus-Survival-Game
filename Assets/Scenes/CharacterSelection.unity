@@ -4754,7 +4754,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1578734660}
+      - m_Target: {fileID: 1578734661}
         m_TargetAssemblyTypeName: CharacterSelection, Assembly-CSharp
         m_MethodName: SavePlayer
         m_Mode: 1
@@ -5234,6 +5234,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1443126751}
   - component: {fileID: 1443126750}
+  - component: {fileID: 1443126752}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -5321,6 +5322,35 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!114 &1443126752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1443126749}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.UniversalAdditionalLightData
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_CustomShadowLayers: 0
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
+  m_RenderingLayersMask:
+    serializedVersion: 0
+    m_Bits: 1
+  m_ShadowRenderingLayersMask:
+    serializedVersion: 0
+    m_Bits: 1
+  m_Version: 4
+  m_LightLayerMask: 1
+  m_ShadowLayerMask: 1
+  m_RenderingLayers: 1
+  m_ShadowRenderingLayers: 1
 --- !u!1 &1511528556
 GameObject:
   m_ObjectHideFlags: 0
@@ -5642,6 +5672,7 @@ GameObject:
   - component: {fileID: 1578734657}
   - component: {fileID: 1578734656}
   - component: {fileID: 1578734660}
+  - component: {fileID: 1578734661}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -5754,6 +5785,25 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 996b8e7bebb83d9199fff09f1c01e00b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CharacterSelection
+  nameInput: {fileID: 487953303}
+  surnameInput: {fileID: 1872127237}
+  genderDropdown: {fileID: 1310857275}
+  homeCountryDropdown: {fileID: 844937543}
+  erasmusCountryDropdown: {fileID: 1636932315}
+  majorDropdown: {fileID: 1686377590}
+  errorMessage: {fileID: 1611905948}
+--- !u!114 &1578734661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1578734655}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9837c0056eaa733d5be82db4bf3c4ca6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CharacterSelection
   nameInput: {fileID: 487953303}

@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CharacterSelection.unity
     guid: 4c70397bf6056ab01b8a73f1d80edd06
+  - enabled: 1
+    path: Assets/Scenes/BeforeScene.unity
+    guid: 658fea41545e377b698ea12a38cd9c3b
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 289c1b55c9541489481df5cc06664110, type: 3}
   m_UseUCBPForAssetBundles: 0
