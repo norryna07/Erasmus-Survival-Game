@@ -9,7 +9,8 @@ public class BedInteraction : MonoBehaviour
     public Transform player;          // Assign your player here
     public Transform sitPoint;        // Where the player should go
     public Transform standPoint;
-    public float interactDistance = 10f;
+    public float interactDistance = 2f;
+    public Camera playerCamera;
     public StarterAssetsInputs input;
     public ThirdPersonController controller;
     public CharacterController characterController;
@@ -20,11 +21,23 @@ public class BedInteraction : MonoBehaviour
 
     void Update()
     {
+        Ray ray = new Ray(playerCamera.transform.position, playerCamera.transform.forward);
+        RaycastHit hit;
+        if (Physics.Raycast(ray, out hit, interactDistance))
+        {
+            if (hit.collider.gameObject == gameObject)
+            {
+                if (isNear && input.interact && !controller.IsLyingDown)
+                {
+                    SitOnBed();
+                    input.interact = false;
+                    return;
+                }
+            }
+        }
         if (isNear && input.interact && !controller.IsLyingDown)
         {
-            SitOnBed();
             input.interact = false;
-            return;
         }
         if (!controller.IsLyingDown) return;
         bool isMoving = input.move.x != 0.0f || input.move.y != 0.0f;
@@ -33,7 +46,7 @@ public class BedInteraction : MonoBehaviour
             if (controller.IsLyingDown) StandUp();
             input.interact = false;
         }
-        
+
     }
 
 
