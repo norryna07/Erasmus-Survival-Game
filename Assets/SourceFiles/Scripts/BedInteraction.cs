@@ -14,6 +14,8 @@ public class BedInteraction : MonoBehaviour
     public StarterAssetsInputs input;
     public ThirdPersonController controller;
     public CharacterController characterController;
+    public Material nightSky;
+    public Material daySky;
 
     private bool isNear = false;
 
@@ -56,14 +58,10 @@ public class BedInteraction : MonoBehaviour
         controller.IsLyingDown = true;
         characterController.height = 0.3f;
         characterController.radius = 0.2f;
-        Debug.Log("x" + sitPoint.position.x);
-        Debug.Log("y" + sitPoint.position.y);
-        Debug.Log(sitPoint.rotation);
         player.position = sitPoint.position;
         player.rotation = sitPoint.rotation;
-        Debug.Log("x" + player.position.x);
-        Debug.Log("y" + player.position.y);
-        Debug.Log(player.rotation);
+        RenderSettings.skybox = nightSky;
+        // DynamicGI.UpdateEnvironment();
         Debug.Log("Player is now on the bed!");
     }
 
@@ -74,6 +72,8 @@ public class BedInteraction : MonoBehaviour
         characterController.radius = 0.28f;
         player.rotation = standPoint.rotation;
         player.position = standPoint.position;
+        RenderSettings.skybox = daySky;
+        // DynamicGI.UpdateEnvironment();
     }
 
     // Detect when player is near
