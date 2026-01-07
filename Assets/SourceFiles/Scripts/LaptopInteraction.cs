@@ -1,7 +1,9 @@
+using TMPro;
 using UnityEngine;
 
 public class LaptopInteraction : InteractionInterface
 {
+    public TMP_Text infoText;
     public void Start()
     {
         interactDistance = 100f;
@@ -16,15 +18,15 @@ public class LaptopInteraction : InteractionInterface
     }
     protected override void InteractAction()
     {
-        Debug.Log("Interacting with laptop");
+        infoText.text = "Interacting with laptop";
     }
     protected override void EndingInteractAction()
     {
-        Debug.Log("Ending Interaction with laptop");
+        infoText.text = "Ending Interaction with laptop";
     }
     protected override void OnTriggerEnterAction()
     {
-        Debug.Log("Press E to interact with laptop");
+        infoText.text = "Press E to interact with laptop";
     }
     protected override void OnTriggerExitAction()
     {
