@@ -23,7 +23,6 @@ public class HappinessBar : MonoBehaviour
         minHappiness = gameStatus.GetComponent<GameStatus>().minHappiness;
 
         float fillValue = 100.0f * currentHappiness / (maxHappiness - minHappiness);
-        Debug.Log(fillValue);
         slider.value = fillValue;
 
         happinessText.text = currentHappiness + "/" + maxHappiness;
