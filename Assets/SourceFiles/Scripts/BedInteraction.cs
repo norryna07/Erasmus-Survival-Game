@@ -22,6 +22,8 @@ public class BedInteraction : InteractionInterface
     protected override void DefaultUpdate()
     {
         if (!controller.IsLyingDown) return;
+        Debug.Log(player.position);
+        Debug.Log(input.move);
         bool isMoving = input.move.x != 0.0f || input.move.y != 0.0f;
         if (isNear && (isMoving || input.interact))
         {
@@ -37,9 +39,15 @@ public class BedInteraction : InteractionInterface
         controller.IsLyingDown = true;
         characterController.height = 0.3f;
         characterController.radius = 0.2f;
+        characterController.enabled = false;
         player.position = sitPoint.position;
         player.rotation = sitPoint.rotation;
+        characterController.enabled = true;
         RenderSettings.skybox = nightSky;
+        Debug.Log(sitPoint.position);
+        Debug.Log(sitPoint.rotation);
+        Debug.Log(player.position);
+        Debug.Log(player.rotation);
         // DynamicGI.UpdateEnvironment();
         Debug.Log("Player is now on the bed!");
     }
@@ -49,9 +57,15 @@ public class BedInteraction : InteractionInterface
         controller.IsLyingDown = false;
         characterController.height = 1.8f;
         characterController.radius = 0.28f;
+        characterController.enabled = false;
         player.rotation = standPoint.rotation;
         player.position = standPoint.position;
+        characterController.enabled = true;
         RenderSettings.skybox = daySky;
+        Debug.Log(standPoint.position);
+        Debug.Log(standPoint.rotation);
+        Debug.Log(player.position);
+        Debug.Log(player.rotation);
         // DynamicGI.UpdateEnvironment();
     }
 
