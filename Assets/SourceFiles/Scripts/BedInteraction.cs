@@ -2,6 +2,8 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using StarterAssets;
 using UnityEngine.TextCore.Text;
+using TMPro;
+using UnityEngine.UI;
 
 public class BedInteraction : InteractionInterface
 {
@@ -13,6 +15,7 @@ public class BedInteraction : InteractionInterface
     public CharacterController characterController;
     public Material nightSky;
     public Material daySky;
+    public TMP_Text infoText;
 
     
     protected override bool IsInteracting()
@@ -41,7 +44,8 @@ public class BedInteraction : InteractionInterface
         player.rotation = sitPoint.rotation;
         RenderSettings.skybox = nightSky;
         // DynamicGI.UpdateEnvironment();
-        Debug.Log("Player is now on the bed!");
+        // Debug.Log("Player is now on the bed!");
+        infoText.text = "Good night. Press E to wake up";
     }
 
     protected override void EndingInteractAction()
@@ -53,12 +57,14 @@ public class BedInteraction : InteractionInterface
         player.position = standPoint.position;
         RenderSettings.skybox = daySky;
         // DynamicGI.UpdateEnvironment();
+        infoText.text = "Good morning";
     }
 
     protected override void OnTriggerEnterAction()
     {
         player.GetComponent<CapsuleCollider>().enabled = false;
-        Debug.Log("Press E to interact with bed");
+        // Debug.Log("Press E to interact with bed");
+        infoText.text = "Press E to go to sleep";
     }
 
     protected override void OnTriggerExitAction()
