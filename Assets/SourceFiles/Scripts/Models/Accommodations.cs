@@ -21,8 +21,8 @@ namespace ErasmusGame.Models
     [System.Serializable]
     public class PriceDifference
     {
-        public string name { get; set;}
-        public double multiplicationFactor {get; set;}
+        public string name;
+        public double multiplicationFactor;
     }
 
     [System.Serializable]

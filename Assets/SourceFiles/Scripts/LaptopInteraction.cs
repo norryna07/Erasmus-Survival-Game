@@ -1,9 +1,11 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LaptopInteraction : InteractionInterface
 {
     public TMP_Text infoText;
+    public GameObject gameStatus;
     public void Start()
     {
         interactDistance = 100f;
@@ -19,6 +21,10 @@ public class LaptopInteraction : InteractionInterface
     protected override void InteractAction()
     {
         infoText.text = "Interacting with laptop";
+        gameStatus.GetComponent<GameStatus>().SaveData("BeforeScene");
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+        SceneManager.LoadScene("LaptopScene");
     }
     protected override void EndingInteractAction()
     {

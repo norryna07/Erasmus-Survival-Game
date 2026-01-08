@@ -5,19 +5,19 @@ namespace ErasmusGame.Models
     [System.Serializable]
     public class GameInformation
     {
-        public int day;
-        public int maxHealth;
-        public int minHealth;
-        public int currentHealth;
-        public int maxHappiness;
-        public int minHappiness;
-        public int currentHappiness;
-        public int maxMoney;
-        public int minMoney;
-        public int currentMoney;
-        public int maxUniPoints;
-        public int minUniPoints;
-        public int currentUniPoints;
+        public int day = -10;
+        public int maxHealth = 100;
+        public int minHealth = 0;
+        public int currentHealth = 100;
+        public int maxHappiness = 1000;
+        public int minHappiness = -1000;
+        public int currentHappiness = 1000;
+        public int maxMoney = 3500;
+        public int minMoney = 0;
+        public int currentMoney = 3500;
+        public int maxUniPoints = 30;
+        public int minUniPoints = 0;
+        public int currentUniPoints = 0;
         public string currentScene;
     }
 }

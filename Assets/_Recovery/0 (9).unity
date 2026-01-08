@@ -6402,7 +6402,6 @@ MonoBehaviour:
   playerCamera: {fileID: 165485845}
   input: {fileID: 1742720806}
   infoText: {fileID: 1277215753}
-  gameStatus: {fileID: 1665733894}
 --- !u!65 &2109502887
 BoxCollider:
   m_ObjectHideFlags: 0
