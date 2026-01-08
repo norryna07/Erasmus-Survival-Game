@@ -5291,7 +5291,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2, y: 1.5, z: 2}
+  m_Size: {x: 2, y: 4, z: 2}
   m_Center: {x: 0, y: 0.25, z: 0}
 --- !u!1 &1778051071
 GameObject:
@@ -6402,7 +6402,6 @@ MonoBehaviour:
   playerCamera: {fileID: 165485845}
   input: {fileID: 1742720806}
   infoText: {fileID: 1277215753}
-  gameStatus: {fileID: 1665733894}
 --- !u!65 &2109502887
 BoxCollider:
   m_ObjectHideFlags: 0

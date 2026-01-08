@@ -16,6 +16,7 @@ public class CVSelection : MonoBehaviour
     public Toggle togglePrefab;
     public Button button;
     public TMP_Text titleText;
+    public Canvas mainCanvas, CVCanvas;
     private CVoptionsJSON CVoptions;
     private int currentOptionNumber;
     private PlayerProfile playerProfile;
@@ -102,6 +103,9 @@ public class CVSelection : MonoBehaviour
         {
             Debug.Log(selectedOptions);
             Debug.Log(totalScore);
+            mainCanvas.GameObject().SetActive(true);
+            mainCanvas.GetComponent<LaptopSceneMenu>().MarkCVDone();
+            CVCanvas.GameObject().SetActive(false);
         }
         else
         {   
