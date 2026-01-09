@@ -1,12 +1,13 @@
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using System.Collections;
 
 public class HappinessBar : MonoBehaviour
 {
     private Slider slider;
     public TMP_Text happinessText;
-    public GameObject gameStatus;
+    public GameStatus gameStatus;
 
     private int currentHappiness, minHappiness, maxHappiness;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -15,14 +16,23 @@ public class HappinessBar : MonoBehaviour
         slider = GetComponent<Slider>();
     }
 
+    IEnumerator Start()
+    {
+        // Wait until GameStatus is ready
+        yield return new WaitUntil(() => GameStatus.Instance != null 
+                                    && GameStatus.Instance.IsInitialized);
+        gameStatus = GameStatus.Instance;
+    }
+
     // Update is called once per frame
     void Update()
     {
-        currentHappiness = gameStatus.GetComponent<GameStatus>().currentHappiness;
-        maxHappiness = gameStatus.GetComponent<GameStatus>().maxHappiness;
-        minHappiness = gameStatus.GetComponent<GameStatus>().minHappiness;
+        if (gameStatus == null) return;
+        currentHappiness = gameStatus.currentHappiness;
+        maxHappiness = gameStatus.maxHappiness;
+        minHappiness = gameStatus.minHappiness;
 
-        float fillValue = 100.0f * currentHappiness / (maxHappiness - minHappiness);
+        float fillValue = 100.0f * (currentHappiness - minHappiness) / (maxHappiness - minHappiness);
         slider.value = fillValue;
 
         happinessText.text = currentHappiness + "/" + maxHappiness;
