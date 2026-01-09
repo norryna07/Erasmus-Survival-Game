@@ -22,7 +22,7 @@ public class BeforeSceneUI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        dayText.text = "Day" + gameStatus.GetComponent<GameStatus>().day;
+        dayText.text = "Day " + gameStatus.GetComponent<GameStatus>().day + " " + gameStatus.GetComponent<GameStatus>().GetTimeString();
         if (input.escape && input.cursorInputForLook)
         {
             Cursor.lockState = CursorLockMode.None;

@@ -6,6 +6,8 @@ namespace ErasmusGame.Models
     public class GameInformation
     {
         public int day = -10;
+        public int hour = 8;
+        public int minute = 0;
         public int maxHealth = 100;
         public int minHealth = 0;
         public int currentHealth = 100;

@@ -1,11 +1,21 @@
 using UnityEngine;
 using System.IO;
 using ErasmusGame.Models;
+using System;
 
 public class GameStatus : MonoBehaviour
 {
     public static GameStatus Instance { get; private set;}
+
+    // ----- Time System ------
     public int day;
+    public int hour;
+    public int minute;
+    public float realSecondsPerGameMinute = 0.5f;
+    private float timer;
+    public bool isPaused = false;
+    public event Action OnDayChanged;
+
     
     // ---- Health -----
     public int maxHealth;
@@ -40,10 +50,39 @@ public class GameStatus : MonoBehaviour
         LoadData();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+        if (isPaused) return;
+
+        timer += Time.deltaTime;
+        if (timer >= realSecondsPerGameMinute)
+        {
+            timer = 0f;
+            AdvanceMinute();
+        }
+    }
+
+    void AdvanceMinute()
+    {
+        minute++;
+
+        if (minute >= 60)
+        {
+            minute = 0;
+            hour++;
+        }
+
+        if (hour >= 24)
+        {
+            hour = 0;
+            day++;
+            OnDayChanged?.Invoke();
+        }
+    }
+
+    public string GetTimeString()
+    {
+        return $"{hour:D2}:{minute:D2}";
     }
 
 
@@ -58,7 +97,6 @@ public class GameStatus : MonoBehaviour
         if (!File.Exists(path))
         {
             data = new GameInformation();
-            return;
         } else
         {
             string json = File.ReadAllText(path);
@@ -67,6 +105,8 @@ public class GameStatus : MonoBehaviour
 
         // ---- Apply values ----
         day = data.day;
+        hour = data.hour;
+        minute = data.minute;
 
         maxHealth = data.maxHealth;
         minHealth = data.minHealth;
@@ -91,6 +131,9 @@ public class GameStatus : MonoBehaviour
     {
         GameInformation gameInformation = new GameInformation
         {
+            day = this.day,
+            hour = this.hour,
+            minute = this.minute,
             maxHappiness = this.maxHappiness,
             minHappiness = this.minHappiness,
             currentHappiness = this.currentHappiness,
