@@ -163,4 +163,16 @@ public class GameStatus : MonoBehaviour
 
         Debug.Log("Game status save to: " + path);
     }
+
+    public void SleepForHours(int hours)
+    {
+        hour += hours;
+
+        while (hour >= 24)
+        {
+            hour -= 24;
+            day++;
+            OnDayChanged?.Invoke();
+        }
+    } 
 }

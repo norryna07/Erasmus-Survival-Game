@@ -37,6 +37,7 @@ public class TasksSystem : MonoBehaviour
 
         LoadData();
         IsInitialized = true;
+        GameStatus.Instance.OnDayChanged += EndOfDay;
         DontDestroyOnLoad(gameObject);
     }
 
@@ -45,7 +46,6 @@ public class TasksSystem : MonoBehaviour
     {
         if (!IsInitialized) return;
         UpdateList();
-        Debug.Log(tasks.dailyTasks.Length);
     }
 
     public void SaveData()
@@ -99,7 +99,7 @@ public class TasksSystem : MonoBehaviour
 
     void MakeList()
     {
-        Debug.Log(GameStatus.Instance.day);
+        // Debug.Log(GameStatus.Instance.day);
         toDoList = new ToDoList();
         // add the daily tasks
         foreach (var task in tasks.dailyTasks)
@@ -125,6 +125,34 @@ public class TasksSystem : MonoBehaviour
             }
         }
         toDoList.day = GameStatus.Instance.day;
+        Debug.Log(toDoList.list.Count + " " + toDoList.list[toDoList.list.Count - 1].task.description);
+    }
+
+    void EvaluateList()
+    {
+        foreach (var task in toDoList.list)
+        {
+            if (task.done)
+            {
+                GameStatus.Instance.currentHealth += task.task.health;
+                GameStatus.Instance.currentHappiness += task.task.happiness;
+                GameStatus.Instance.currentMoney += task.task.money;
+                GameStatus.Instance.currentUniPoints += task.task.uniPoints;
+            } else
+            {
+                GameStatus.Instance.currentHealth -= task.task.health;
+                GameStatus.Instance.currentHappiness -= task.task.happiness;
+                GameStatus.Instance.currentMoney -= task.task.money;
+                GameStatus.Instance.currentUniPoints -= task.task.uniPoints;
+            }
+        }
+    }
+
+    void EndOfDay()
+    {
+        EvaluateList();
+        MakeList();
+        Debug.Log("day change");
     }
 
     void UpdateList()
@@ -139,7 +167,7 @@ public class TasksSystem : MonoBehaviour
     {
         foreach (var task in toDoList.list)
         {
-            if (task.task.interaction == interaction)
+            if (task.task.interaction.Equals(interaction) && task.available)
             {
                 task.done = true;
             }
@@ -159,5 +187,10 @@ public class TasksSystem : MonoBehaviour
     public bool IsTaskDone(int id)
     {
         return toDoList.list[id].done;
+    }
+
+    public int GetDay()
+    {
+        return toDoList.day;
     }
 }

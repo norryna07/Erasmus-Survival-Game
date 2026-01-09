@@ -117,5 +117,6 @@ public class AccommodationSelection : MonoBehaviour
         mainCanvas.GetComponent<LaptopSceneMenu>().MarkOLADone();
         mainCanvas.GetComponent<LaptopSceneMenu>().SetAccommodationName(name);
         accommodationCanvas.GameObject().SetActive(false);
+        TasksSystem.Instance.UpdateTasks("laptop_accommodation");
     }
 }

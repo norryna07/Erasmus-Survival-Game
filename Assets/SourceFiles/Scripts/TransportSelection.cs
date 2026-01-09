@@ -100,5 +100,6 @@ public class TransportSelection : MonoBehaviour
         mainCanvas.GameObject().SetActive(true);
         mainCanvas.GetComponent<LaptopSceneMenu>().MarkTransportDone();
         transportCanvas.GameObject().SetActive(false);
+        TasksSystem.Instance.UpdateTasks("laptop_transport");
     }
 }

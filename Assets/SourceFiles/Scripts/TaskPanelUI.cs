@@ -12,6 +12,7 @@ public class TasksPanelUI : MonoBehaviour
     public Toggle togglePrefab;
     private GameStatus gameStatus;
     private bool allSet;
+    private int day;
 
     IEnumerator Start()
     {
@@ -53,6 +54,7 @@ public class TasksPanelUI : MonoBehaviour
     void BuildUI()
     {
         var tasks = TasksSystem.Instance.GetTasks();
+        day = TasksSystem.Instance.GetDay();
 
         for (int i = 0; i < tasks.Count; ++i)
         {
@@ -62,17 +64,31 @@ public class TasksPanelUI : MonoBehaviour
 
     void UpdateUI()
     {
+        if (day != TasksSystem.Instance.GetDay())
+        {
+            CleanScreen();
+            BuildUI();
+        }
         var tasks = TasksSystem.Instance.GetTasks();
 
         foreach (var toggle in parent.GetComponentsInChildren<Toggle>())
         {
             int id = int.Parse(Variables.Object(toggle).Get("id").ToString());
             toggle.interactable = tasks[id].available;
+            toggle.isOn = tasks[id].available && tasks[id].done;
             if (gameStatus.hour > tasks[id].task.maxHour)
             {
                 if (toggle.isOn) toggle.GetComponentInChildren<Text>().color = rightColor;
                 else toggle.GetComponentInChildren<Text>().color = wrongColor;
             }
+        }
+    }
+
+    void CleanScreen()
+    {
+        foreach(Transform child in parent)
+        {
+            Destroy(child.gameObject);
         }
     }
 }
