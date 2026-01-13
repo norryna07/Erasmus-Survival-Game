@@ -14,7 +14,7 @@ public class TransportSelection : MonoBehaviour
     public Transform parent;
     public ToggleGroup group;
     public Toggle togglePrefab;
-    public GameObject gameStatus;
+    private GameStatus gameStatus;
     public TMP_Text instructionText;
     public Canvas mainCanvas, transportCanvas;
     private TravelInfosJSON travelInfos;
@@ -26,6 +26,7 @@ public class TransportSelection : MonoBehaviour
     {
         LoadData();
         AddOptionOnScreen();
+        gameStatus = GameStatus.Instance;
     }
 
     // Update is called once per frame
@@ -94,10 +95,11 @@ public class TransportSelection : MonoBehaviour
         Toggle selected = group.ActiveToggles().FirstOrDefault();
         Debug.Log(selected.GetComponentInChildren<Text>().text);
         int price = (int)Variables.Object(selected).Get("price");
-        gameStatus.GetComponent<GameStatus>().currentMoney -= price;
-        Debug.Log(gameStatus.GetComponent<GameStatus>().currentMoney);
+        gameStatus.currentMoney -= price;
+        Debug.Log(gameStatus.currentMoney);
         mainCanvas.GameObject().SetActive(true);
         mainCanvas.GetComponent<LaptopSceneMenu>().MarkTransportDone();
         transportCanvas.GameObject().SetActive(false);
+        TasksSystem.Instance.UpdateTasks("laptop_transport");
     }
 }

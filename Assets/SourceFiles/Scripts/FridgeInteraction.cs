@@ -19,6 +19,7 @@ public class FridgeInteraction : InteractionInterface
     protected override void InteractAction()
     {
         infoText.text = "Interacting with fridge";
+        TasksSystem.Instance.UpdateTasks("fridge");
     }
     protected override void EndingInteractAction()
     {
