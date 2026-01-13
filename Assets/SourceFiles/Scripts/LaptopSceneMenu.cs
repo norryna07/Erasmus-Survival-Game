@@ -13,7 +13,7 @@ public class LaptopSceneMenu : MonoBehaviour
     public Canvas AccommodationCanvas;
     public Canvas MainCanvas;
     public Button CVButton, OLAButton, TransportButton, AccommodationButton;
-    public GameStatus gameStatus;
+    public GameObject gameStatus;
 
     private LaptopInformation laptopInfo;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -22,7 +22,6 @@ public class LaptopSceneMenu : MonoBehaviour
         LoadData();
         HideAllCanvases();
         UpdateButtons();
-        gameStatus = GameStatus.Instance;
     }
 
     void OnEnable()
@@ -118,7 +117,7 @@ public class LaptopSceneMenu : MonoBehaviour
 
     public void SaveAndExit()
     {
-        gameStatus.SaveData("BeforeScene");
+        gameStatus.GetComponent<GameStatus>().SaveData("BeforeScene");
         SaveData();
         SceneManager.LoadScene("BeforeScene");
     }

@@ -14,7 +14,7 @@ public class AccommodationSelection : MonoBehaviour
     public Transform parent;
     public ToggleGroup group;
     public Toggle togglePrefab;
-    public GameStatus gameStatus;
+    public GameObject gameStatus;
     public TMP_Text instructionText;
     public Canvas mainCanvas, accommodationCanvas;
     private AccommodationsJSON accommodations;
@@ -26,7 +26,6 @@ public class AccommodationSelection : MonoBehaviour
     {
         LoadData();
         AddOptionOnScreen();
-        gameStatus = GameStatus.Instance;
     }
 
     // Update is called once per frame
@@ -111,12 +110,11 @@ public class AccommodationSelection : MonoBehaviour
         Debug.Log(selected.GetComponentInChildren<Text>().text);
         int price = (int)Variables.Object(selected).Get("price");
         string name = (string)Variables.Object(selected).Get("id");
-        gameStatus.currentMoney -= price * 4;
-        Debug.Log(gameStatus.currentMoney);
+        gameStatus.GetComponent<GameStatus>().currentMoney -= price * 4;
+        Debug.Log(gameStatus.GetComponent<GameStatus>().currentMoney);
         mainCanvas.GameObject().SetActive(true);
         mainCanvas.GetComponent<LaptopSceneMenu>().MarkOLADone();
         mainCanvas.GetComponent<LaptopSceneMenu>().SetAccommodationName(name);
         accommodationCanvas.GameObject().SetActive(false);
-        TasksSystem.Instance.UpdateTasks("laptop_accommodation");
     }
 }
