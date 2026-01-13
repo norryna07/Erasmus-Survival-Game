@@ -1,0 +1,98 @@
+{
+    "dailyTasks": [
+        {
+            "taskCategory": "eat",
+            "description": "Eat your first meal of the day",
+            "interaction": "fridge",
+            "minHour": 8,
+            "maxHour": 14,
+            "health": 10,
+            "happiness": 5,
+            "money": 0,
+            "uniPoints": 0
+        },
+        {
+            "taskCategory": "eat",
+            "description": "Eat your second meal of the day",
+            "interaction": "fridge",
+            "minHour": 15,
+            "maxHour": 22,
+            "health": 10,
+            "happiness": 5,
+            "money": 0,
+            "uniPoints": 0
+        },
+        {
+            "taskCategory": "sleep",
+            "description": "Wake up",
+            "interaction": "bed_up",
+            "minHour": 6,
+            "maxHour": 12,
+            "health": 20,
+            "happiness": 20,
+            "money": 0,
+            "uniPoints": 0
+        },
+        {
+            "taskCategory": "sleep",
+            "description": "Go to sleep",
+            "interaction": "bed_down",
+            "minHour": 20,
+            "maxHour": 23,
+            "health": 20,
+            "happiness": 20,
+            "money": 0,
+            "uniPoints": 0
+        }
+    ],
+    "additionalTasks": [
+        {
+            "taskCategory": "uni",
+            "description": "Make your CV",
+            "interaction": "laptop_CV",
+            "minHour": 0,
+            "maxHour": 23,
+            "day": -9,
+            "health": 0,
+            "happiness": 20,
+            "money": 0,
+            "uniPoints": 0
+        },
+        {
+            "taskCategory": "uni",
+            "description": "Complete your OLA",
+            "interaction": "laptop_OLA",
+            "minHour": 0,
+            "maxHour": 23,
+            "day": -5,
+            "health": 0,
+            "happiness": 20,
+            "money": 0,
+            "uniPoints": 0
+        },
+        {
+            "taskCategory": "uni",
+            "description": "Choice your transport method",
+            "interaction": "laptop_transport",
+            "minHour": 0,
+            "maxHour": 23,
+            "day": -3,
+            "health": 0,
+            "happiness": 20,
+            "money": 0,
+            "uniPoints": 0
+        },
+        {
+            "taskCategory": "uni",
+            "description": "Choice your accommodation",
+            "interaction": "laptop_accommodation",
+            "minHour": 0,
+            "maxHour": 23,
+            "day": -2,
+            "health": 20,
+            "happiness": 100,
+            "money": 0,
+            "uniPoints": 0
+        }
+    ]
+}

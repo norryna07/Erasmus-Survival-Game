@@ -6,6 +6,7 @@ using System;
 public class GameStatus : MonoBehaviour
 {
     public static GameStatus Instance { get; private set;}
+    public bool IsInitialized { get; private set; }
 
     // ----- Time System ------
     public int day;
@@ -48,6 +49,8 @@ public class GameStatus : MonoBehaviour
             Instance = this;
         }
         LoadData();
+        IsInitialized = true;
+        DontDestroyOnLoad(gameObject);
     }
 
     void Update()
@@ -160,4 +163,16 @@ public class GameStatus : MonoBehaviour
 
         Debug.Log("Game status save to: " + path);
     }
+
+    public void SleepForHours(int hours)
+    {
+        hour += hours;
+
+        while (hour >= 24)
+        {
+            hour -= 24;
+            day++;
+            OnDayChanged?.Invoke();
+        }
+    } 
 }

@@ -106,6 +106,7 @@ public class CVSelection : MonoBehaviour
             mainCanvas.GameObject().SetActive(true);
             mainCanvas.GetComponent<LaptopSceneMenu>().MarkCVDone();
             CVCanvas.GameObject().SetActive(false);
+            TasksSystem.Instance.UpdateTasks("laptop_CV");
         }
         else
         {   

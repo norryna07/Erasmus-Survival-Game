@@ -140,5 +140,6 @@ public class OLASelection : MonoBehaviour
         mainCanvas.GameObject().SetActive(true);
         mainCanvas.GetComponent<LaptopSceneMenu>().MarkOLADone();
         OLACanvas.GameObject().SetActive(false);
+        TasksSystem.Instance.UpdateTasks("laptop_transport");
     }
 }
