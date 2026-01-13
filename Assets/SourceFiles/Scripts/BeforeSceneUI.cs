@@ -8,7 +8,7 @@ using System.Collections;
 
 public class BeforeSceneUI : MonoBehaviour
 {
-    public GameStatus gameStatus;
+    private GameStatus gameStatus;
     public TMP_Text dayText;
 
     public Button saveButton;

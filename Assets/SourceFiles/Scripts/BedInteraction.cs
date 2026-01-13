@@ -40,8 +40,10 @@ public class BedInteraction : InteractionInterface
         controller.IsLyingDown = true;
         characterController.height = 0.3f;
         characterController.radius = 0.2f;
+        characterController.enabled = false;
         player.position = sitPoint.position;
         player.rotation = sitPoint.rotation;
+        characterController.enabled = true;
         RenderSettings.skybox = nightSky;
         // DynamicGI.UpdateEnvironment();
         // Debug.Log("Player is now on the bed!");
@@ -55,8 +57,10 @@ public class BedInteraction : InteractionInterface
         controller.IsLyingDown = false;
         characterController.height = 1.8f;
         characterController.radius = 0.28f;
+        characterController.enabled = false;
         player.rotation = standPoint.rotation;
         player.position = standPoint.position;
+        characterController.enabled = true;
         RenderSettings.skybox = daySky;
         // DynamicGI.UpdateEnvironment();
         infoText.text = "Good morning";
