@@ -54,7 +54,7 @@
                 {
                     "name": "Escape",
                     "type": "Button",
-                    "id": "1459714d-9419-4d0a-b774-7b5530670344",
+                    "id": "397fb526-ac0e-4d64-b4c6-b589e5a015b1",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -262,8 +262,8 @@
                 },
                 {
                     "name": "",
-                    "id": "db18f0df-44fd-4201-b244-cd7944fd568a",
-                    "path": "<Keyboard>/b",
+                    "id": "6c379d03-5c93-48fe-9815-a2461c9bc99e",
+                    "path": "<Keyboard>/escape",
                     "interactions": "",
                     "processors": "",
                     "groups": ";KeyboardMouse",
@@ -273,11 +273,11 @@
                 },
                 {
                     "name": "",
-                    "id": "a0880c3e-0b67-4889-a2c1-f86787a5ba67",
-                    "path": "<Keyboard>/escape",
+                    "id": "907c1e63-134c-4119-8c36-e144c219b331",
+                    "path": "<Keyboard>/b",
                     "interactions": "",
                     "processors": "",
-                    "groups": ";KeyboardMouse",
+                    "groups": "",
                     "action": "Escape",
                     "isComposite": false,
                     "isPartOfComposite": false

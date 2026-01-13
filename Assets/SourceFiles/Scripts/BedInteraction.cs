@@ -46,8 +46,6 @@ public class BedInteraction : InteractionInterface
         // DynamicGI.UpdateEnvironment();
         // Debug.Log("Player is now on the bed!");
         infoText.text = "Good night. Press E to wake up";
-        TasksSystem.Instance.UpdateTasks("bed_down");
-        GameStatus.Instance.SleepForHours(7);
     }
 
     protected override void EndingInteractAction()
@@ -60,7 +58,6 @@ public class BedInteraction : InteractionInterface
         RenderSettings.skybox = daySky;
         // DynamicGI.UpdateEnvironment();
         infoText.text = "Good morning";
-        TasksSystem.Instance.UpdateTasks("bed_up");
     }
 
     protected override void OnTriggerEnterAction()

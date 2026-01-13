@@ -4,32 +4,25 @@ using ErasmusGame.Models;
 using System.IO;
 using StarterAssets;
 using UnityEngine.UI;
-using System.Collections;
 
 public class BeforeSceneUI : MonoBehaviour
 {
-    public GameStatus gameStatus;
+    public GameObject gameStatus;
     public TMP_Text dayText;
 
     public Button saveButton;
 
     public StarterAssetsInputs input;
-
-    public GameObject ToDoPanel;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    IEnumerator Start()
+    void Start()
     {
-        // Wait until GameStatus is ready
-        yield return new WaitUntil(() => GameStatus.Instance != null 
-                                    && GameStatus.Instance.IsInitialized);
-        gameStatus = GameStatus.Instance;
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (gameStatus == null) return;
-        dayText.text = "Day " + gameStatus.day + " " + gameStatus.GetTimeString();
+        dayText.text = "Day" + gameStatus.GetComponent<GameStatus>().day;
         if (input.escape && input.cursorInputForLook)
         {
             Cursor.lockState = CursorLockMode.None;
@@ -48,19 +41,34 @@ public class BeforeSceneUI : MonoBehaviour
 
     public void SaveAndExit()
     {
-        gameStatus.SaveData("BeforeScene");
-        TasksSystem.Instance.SaveData();
+        GameInformation gameInformation = new GameInformation
+        {
+            maxHappiness = gameStatus.GetComponent<GameStatus>().maxHappiness,
+            minHappiness = gameStatus.GetComponent<GameStatus>().minHappiness,
+            currentHappiness = gameStatus.GetComponent<GameStatus>().currentHappiness,
+            maxMoney = gameStatus.GetComponent<GameStatus>().maxMoney,
+            minMoney = gameStatus.GetComponent<GameStatus>().minMoney,
+            currentMoney = gameStatus.GetComponent<GameStatus>().currentMoney,
+            maxHealth = gameStatus.GetComponent<GameStatus>().maxHealth,
+            minHealth = gameStatus.GetComponent<GameStatus>().minHealth,
+            currentHealth = gameStatus.GetComponent<GameStatus>().currentHealth,
+            maxUniPoints = gameStatus.GetComponent<GameStatus>().maxUniPoints,
+            minUniPoints = gameStatus.GetComponent<GameStatus>().minUniPoints,
+            currentUniPoints = gameStatus.GetComponent<GameStatus>().currentUniPoints,
+            currentScene = "BeforeScene"
+        };
+
+        string json = JsonUtility.ToJson(gameInformation, true);
+
+        string path = Path.Combine(
+            Application.persistentDataPath,
+            "GameInformation.json"
+        );
+
+        File.WriteAllText(path, json);
+
+        Debug.Log("Game status save to: " + path);
 
         Application.Quit();
-    }
-
-    public void OpenToDoList()
-    {
-        ToDoPanel.SetActive(true);
-    }
-
-    public void CloseToDoList()
-    {
-        ToDoPanel.SetActive(false);
     }
 }

@@ -1,13 +1,12 @@
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-using System.Collections;
 
 public class HealthBar : MonoBehaviour
 {
     private Slider slider;
     public TMP_Text healthText;
-    public GameStatus gameStatus;
+    public GameObject gameStatus;
 
     private int currentHealth, minHealth, maxHealth;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -16,23 +15,14 @@ public class HealthBar : MonoBehaviour
         slider = GetComponent<Slider>();
     }
 
-    IEnumerator Start()
-    {
-        // Wait until GameStatus is ready
-        yield return new WaitUntil(() => GameStatus.Instance != null 
-                                    && GameStatus.Instance.IsInitialized);
-        gameStatus = GameStatus.Instance;
-    }
-
     // Update is called once per frame
     void Update()
     {
-        if (gameStatus == null) return;
-        currentHealth = gameStatus.currentHealth;
-        maxHealth = gameStatus.maxHealth;
-        minHealth = gameStatus.minHealth;
+        currentHealth = gameStatus.GetComponent<GameStatus>().currentHealth;
+        maxHealth = gameStatus.GetComponent<GameStatus>().maxHealth;
+        minHealth = gameStatus.GetComponent<GameStatus>().minHealth;
 
-        float fillValue = 100.0f * (currentHealth - minHealth) / (maxHealth - minHealth);
+        float fillValue = 100.0f * currentHealth / (maxHealth - minHealth);
         slider.value = fillValue;
 
         healthText.text = currentHealth + "/" + maxHealth;
