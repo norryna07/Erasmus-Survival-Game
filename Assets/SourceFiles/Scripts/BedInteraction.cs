@@ -2,6 +2,8 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using StarterAssets;
 using UnityEngine.TextCore.Text;
+using TMPro;
+using UnityEngine.UI;
 
 public class BedInteraction : InteractionInterface
 {
@@ -13,6 +15,7 @@ public class BedInteraction : InteractionInterface
     public CharacterController characterController;
     public Material nightSky;
     public Material daySky;
+    public TMP_Text infoText;
 
     
     protected override bool IsInteracting()
@@ -22,8 +25,6 @@ public class BedInteraction : InteractionInterface
     protected override void DefaultUpdate()
     {
         if (!controller.IsLyingDown) return;
-        Debug.Log(player.position);
-        Debug.Log(input.move);
         bool isMoving = input.move.x != 0.0f || input.move.y != 0.0f;
         if (isNear && (isMoving || input.interact))
         {
@@ -39,17 +40,14 @@ public class BedInteraction : InteractionInterface
         controller.IsLyingDown = true;
         characterController.height = 0.3f;
         characterController.radius = 0.2f;
-        characterController.enabled = false;
         player.position = sitPoint.position;
         player.rotation = sitPoint.rotation;
-        characterController.enabled = true;
         RenderSettings.skybox = nightSky;
-        Debug.Log(sitPoint.position);
-        Debug.Log(sitPoint.rotation);
-        Debug.Log(player.position);
-        Debug.Log(player.rotation);
         // DynamicGI.UpdateEnvironment();
-        Debug.Log("Player is now on the bed!");
+        // Debug.Log("Player is now on the bed!");
+        infoText.text = "Good night. Press E to wake up";
+        TasksSystem.Instance.UpdateTasks("bed_down");
+        GameStatus.Instance.SleepForHours(7);
     }
 
     protected override void EndingInteractAction()
@@ -57,22 +55,19 @@ public class BedInteraction : InteractionInterface
         controller.IsLyingDown = false;
         characterController.height = 1.8f;
         characterController.radius = 0.28f;
-        characterController.enabled = false;
         player.rotation = standPoint.rotation;
         player.position = standPoint.position;
-        characterController.enabled = true;
         RenderSettings.skybox = daySky;
-        Debug.Log(standPoint.position);
-        Debug.Log(standPoint.rotation);
-        Debug.Log(player.position);
-        Debug.Log(player.rotation);
         // DynamicGI.UpdateEnvironment();
+        infoText.text = "Good morning";
+        TasksSystem.Instance.UpdateTasks("bed_up");
     }
 
     protected override void OnTriggerEnterAction()
     {
         player.GetComponent<CapsuleCollider>().enabled = false;
-        Debug.Log("Press E to interact with bed");
+        // Debug.Log("Press E to interact with bed");
+        infoText.text = "Press E to go to sleep";
     }
 
     protected override void OnTriggerExitAction()

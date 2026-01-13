@@ -1,7 +1,9 @@
+using TMPro;
 using UnityEngine;
 
 public class FridgeInteraction : InteractionInterface
 {
+    public TMP_Text infoText;
     public void Start()
     {
         interactDistance = 100f;
@@ -16,15 +18,16 @@ public class FridgeInteraction : InteractionInterface
     }
     protected override void InteractAction()
     {
-        Debug.Log("Interacting with fridge");
+        infoText.text = "Interacting with fridge";
+        TasksSystem.Instance.UpdateTasks("fridge");
     }
     protected override void EndingInteractAction()
     {
-        Debug.Log("Ending Interaction with fridge");
+        infoText.text = "Ending Interaction with fridge";
     }
     protected override void OnTriggerEnterAction()
     {
-        Debug.Log("Press E to interact with fridge");
+        infoText.text = "Press E to interact with fridge";
     }
     protected override void OnTriggerExitAction()
     {
