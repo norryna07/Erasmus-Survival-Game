@@ -5,6 +5,7 @@ using System.IO;
 using StarterAssets;
 using UnityEngine.UI;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class BeforeSceneUI : MonoBehaviour
 {
@@ -29,6 +30,11 @@ public class BeforeSceneUI : MonoBehaviour
     void Update()
     {
         if (gameStatus == null) return;
+        if (gameStatus.day == 0)
+        {
+            SceneMessage.message = "To be continue...";
+            SceneManager.LoadScene("EndScene");
+        }
         dayText.text = "Day " + gameStatus.day + " " + gameStatus.GetTimeString();
         if (input.escape && input.cursorInputForLook)
         {

@@ -8,6 +8,7 @@ using System.IO;
 using System.Linq;
 using UnityEngine.SocialPlatforms.Impl;
 using TMPro.Examples;
+using UnityEngine.SceneManagement;
 
 public class CVSelection : MonoBehaviour
 {
@@ -103,6 +104,11 @@ public class CVSelection : MonoBehaviour
         {
             Debug.Log(selectedOptions);
             Debug.Log(totalScore);
+            if (totalScore < 25)
+            {
+                SceneMessage.message = "Your CV is too bad to go in Erasmus";
+                SceneManager.LoadScene("EndScene");
+            }
             mainCanvas.GameObject().SetActive(true);
             mainCanvas.GetComponent<LaptopSceneMenu>().MarkCVDone();
             CVCanvas.GameObject().SetActive(false);

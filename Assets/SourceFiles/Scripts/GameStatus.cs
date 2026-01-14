@@ -2,6 +2,7 @@ using UnityEngine;
 using System.IO;
 using ErasmusGame.Models;
 using System;
+using UnityEngine.SceneManagement;
 
 public class GameStatus : MonoBehaviour
 {
@@ -62,6 +63,17 @@ public class GameStatus : MonoBehaviour
         {
             timer = 0f;
             AdvanceMinute();
+        }
+
+        if (currentHappiness == minHappiness)
+        {
+            SceneMessage.message = "You are too depressed";
+            SceneManager.LoadScene("EndGame");
+        }
+        if (currentHealth == minHealth)
+        {
+            SceneMessage.message = "You kill yourself";
+            SceneManager.LoadScene("EndGame");
         }
     }
 

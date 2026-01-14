@@ -4745,7 +4745,7 @@ MonoBehaviour:
   playerCamera: {fileID: 165485845}
   input: {fileID: 1742720806}
   infoText: {fileID: 1970365975}
-  gameStatus: {fileID: 0}
+  gameStatus: {fileID: 799319684}
 --- !u!65 &1861665768
 BoxCollider:
   m_ObjectHideFlags: 0

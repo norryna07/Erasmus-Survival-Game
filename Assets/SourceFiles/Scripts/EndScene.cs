@@ -4,15 +4,18 @@ using UnityEngine.UI;
 using System.IO;
 using ErasmusGame.Models;
 using TMPro;
+using UnityEditor.VersionControl;
 
-public class MainMenu : MonoBehaviour
+public class EndScene : MonoBehaviour
 {
     public GameObject exitPanel;
-    public Button resumeButton;
+    public TMP_Text messageText;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+        messageText.text = SceneMessage.message;
     }
 
     // Update is called once per frame
@@ -28,6 +31,7 @@ public class MainMenu : MonoBehaviour
 
     public void ConfirmExit()
     {
+        ClearPersistentData();
         Application.Quit();
     }
 
@@ -43,23 +47,6 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene("CharacterSelection");
     }
 
-    public void ResumeGame()
-    {
-        string path = Path.Combine(
-            Application.persistentDataPath,
-            "GameInformation.json"
-        );
-
-        if (!File.Exists(path))
-        {
-            resumeButton.interactable = false;
-            resumeButton.GetComponentInChildren<TextMeshProUGUI>().text = "No game";
-            return;
-        } 
-        string json = File.ReadAllText(path);
-        GameInformation data = JsonUtility.FromJson<GameInformation>(json);
-        SceneManager.LoadScene(data.currentScene);
-    }
 
     public void ClearPersistentData()
 {
