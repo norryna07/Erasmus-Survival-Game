@@ -56,6 +56,7 @@ public class TasksSystem : MonoBehaviour
 
         string path = Path.Combine(
             Application.persistentDataPath,
+            "SaveData",
             "ToDoList.json"
         );
 
@@ -80,6 +81,7 @@ public class TasksSystem : MonoBehaviour
 
         string path = Path.Combine(
             Application.persistentDataPath,
+            "SaveData",
             "ToDoList.json"
         );
 

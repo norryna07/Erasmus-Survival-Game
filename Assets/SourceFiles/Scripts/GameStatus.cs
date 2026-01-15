@@ -105,6 +105,7 @@ public class GameStatus : MonoBehaviour
     {
         string path = Path.Combine(
             Application.persistentDataPath,
+            "SaveData",
             "GameInformation.json"
         );
         GameInformation data;
@@ -168,6 +169,7 @@ public class GameStatus : MonoBehaviour
 
         string path = Path.Combine(
             Application.persistentDataPath,
+            "SaveData",
             "GameInformation.json"
         );
 

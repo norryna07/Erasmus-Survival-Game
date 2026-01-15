@@ -67,6 +67,7 @@ public class TransportSelection : MonoBehaviour
         // load player profile
         string path = Path.Combine(
             Application.persistentDataPath,
+            "SaveData",
             "playerProfile.json"
         );
 

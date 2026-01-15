@@ -67,6 +67,7 @@ public class CharacterSelection : MonoBehaviour
 
         string path = Path.Combine(
             Application.persistentDataPath,
+            "SaveData",
             "playerProfile.json"
         );
 

@@ -68,6 +68,7 @@ public class AccommodationSelection : MonoBehaviour
         // load player profile
         string path = Path.Combine(
             Application.persistentDataPath,
+            "SaveData",
             "playerProfile.json"
         );
 

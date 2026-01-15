@@ -49,7 +49,10 @@ public class EndScene : MonoBehaviour
 
     public void ClearPersistentData()
 {
-    string path = Application.persistentDataPath;
+    string path = Path.Combine(
+        Application.persistentDataPath,
+        "SaveData"
+        );
 
     if (Directory.Exists(path))
     {

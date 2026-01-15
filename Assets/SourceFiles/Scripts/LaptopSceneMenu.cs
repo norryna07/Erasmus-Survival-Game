@@ -89,6 +89,7 @@ public class LaptopSceneMenu : MonoBehaviour
         if (laptopInfo != null) return;
         string path = Path.Combine(
             Application.persistentDataPath,
+            "SaveData",
             "LaptopInformation.json"
         );
         string json;
@@ -109,6 +110,7 @@ public class LaptopSceneMenu : MonoBehaviour
     {
         string path = Path.Combine(
             Application.persistentDataPath,
+            "SaveData",
             "LaptopInformation.json"
         );
         string json = JsonUtility.ToJson(laptopInfo, true);

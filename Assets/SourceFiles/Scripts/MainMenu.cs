@@ -47,6 +47,7 @@ public class MainMenu : MonoBehaviour
     {
         string path = Path.Combine(
             Application.persistentDataPath,
+            "SaveData",
             "GameInformation.json"
         );
 
@@ -63,7 +64,9 @@ public class MainMenu : MonoBehaviour
 
     public void ClearPersistentData()
 {
-    string path = Application.persistentDataPath;
+    string path = Path.Combine( 
+        Application.persistentDataPath,
+        "SaveData");
 
     if (Directory.Exists(path))
     {
