@@ -73,7 +73,9 @@ public class MainMenu : MonoBehaviour
         Directory.Delete(path, true);
         Directory.CreateDirectory(path);
     }
+    else
+            Directory.CreateDirectory(path);
 
-    Debug.Log("Clear data");
+        Debug.Log("Clear data");
 }
 }
