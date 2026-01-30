@@ -35,7 +35,7 @@ public class TasksPanelUI : MonoBehaviour
         UpdateUI();
     }
 
-        void AddToggle(string label, int id)
+    void AddToggle(string label, int id)
     {
         Toggle toggle = Instantiate(togglePrefab, parent);
 

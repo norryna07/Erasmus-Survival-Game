@@ -6,7 +6,7 @@ namespace ErasmusGame.Models
     public class LuggageItem
     {
         public string name;
-        public double weight;
+        public float weight;
     }
 
     [System.Serializable]
